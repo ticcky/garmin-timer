@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+    <string id="AppName">Intervals</string>
+    <string id="ExerciseLabel">Exercise</string>
+    <string id="RestLabel">Rest</string>
+    <string id="RepsLabel">Reps</string>
+    <string id="ReadyPrompt">Press START</string>
+    <string id="ConfigPrompt">MENU to configure</string>
+    <string id="ExercisePhase">EXERCISE</string>
+    <string id="RestPhase">REST</string>
+    <string id="DonePhase">DONE</string>
+    <string id="Seconds">s</string>
+</strings>

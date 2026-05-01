@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
+    <iq:application id="00a5a6f22be6455880aefae810366cd5"
+                    entry="IntervalsApp"
+                    type="watch-app"
+                    name="@Strings.AppName"
+                    launcherIcon="@Drawables.LauncherIcon"
+                    minApiLevel="3.2.0">
+        <iq:products>
+            <iq:product id="fr955"/>
+        </iq:products>
+        <iq:permissions/>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>

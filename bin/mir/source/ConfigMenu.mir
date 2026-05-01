@@ -1,0 +1,353 @@
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; @symbol_importdef<2> = [Storage,1,26,33]; ]
+import Toybox.Application.Storage;
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc"; @line = 5; @symbol_functiondef = [showConfigMenu,5,9,23]; @symbol_param<0> = [parent,5,24,30]; @symbol_param<0>_type<0> = [MainView,5,34,42]; ]
+function showConfigMenu(parent as MainView) as Void {
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_5_52_11_0_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 6 4 ]
+    [ "_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_5_52_11_0_start" "_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_5_52_11_0_stop" ]
+    %menu.1 = local;
+    symbol [ menu %menu.1 6 8 12 ];
+    symbol [ WatchUi %tmp.3 6 19 26 ];
+    %tmp.3 = getm $.Toybox.WatchUi;
+    symbol [ Menu2 %tmp.4 6 27 32 ];
+    %tmp.4 = getv function ? %tmp.3 :Menu2;
+    %tmp.5 = newd 1;
+    %tmp.7 = const :title;
+    symbol [ title %tmp.7 6 35 40 const ];
+    %tmp.8 = "Settings";
+    %tmp.9 = dup %tmp.5;
+    %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+    %tmp.1 = newc %tmp.4 (%tmp.10);
+    lputv %menu.1 %tmp.1;
+    symbol [ menu %menu.1 6 8 12 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 7 4 ]
+    %tmp.11 = lgetv %menu.1;
+    symbol [ menu %tmp.11 7 4 8 ];
+    symbol [ addItem %tmp.12 7 9 16 ];
+    %tmp.12 = getv function %tmp.11 :addItem;
+    %tmp.13 = self;
+    symbol [ buildItem %tmp.14 7 17 26 ];
+    %tmp.14 = getv function %tmp.13 :buildItem;
+    symbol [ Rez %tmp.16 7 27 30 ];
+    %tmp.16 = getv ? :Rez;
+    symbol [ Strings %tmp.17 7 31 38 ];
+    %tmp.17 = getv %tmp.16 :Strings;
+    symbol [ ExerciseLabel %tmp.18 7 39 52 ];
+    %tmp.18 = getv %tmp.17 :ExerciseLabel;
+    %tmp.19 = self;
+    symbol [ getExerciseSec %tmp.20 7 54 68 ];
+    %tmp.20 = getv function %tmp.19 :getExerciseSec;
+    %tmp.21 = invoke %tmp.19 %tmp.20();
+    %tmp.22 = "ex";
+    %tmp.23 = invoke %tmp.13 %tmp.14(%tmp.18, %tmp.21, %tmp.22);
+    invoke %tmp.11 %tmp.12(%tmp.23);
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 8 4 ]
+    %tmp.24 = lgetv %menu.1;
+    symbol [ menu %tmp.24 8 4 8 ];
+    symbol [ addItem %tmp.25 8 9 16 ];
+    %tmp.25 = getv function %tmp.24 :addItem;
+    %tmp.26 = self;
+    symbol [ buildItem %tmp.27 8 17 26 ];
+    %tmp.27 = getv function %tmp.26 :buildItem;
+    symbol [ Rez %tmp.29 8 27 30 ];
+    %tmp.29 = getv ? :Rez;
+    symbol [ Strings %tmp.30 8 31 38 ];
+    %tmp.30 = getv %tmp.29 :Strings;
+    symbol [ RestLabel %tmp.31 8 39 48 ];
+    %tmp.31 = getv %tmp.30 :RestLabel;
+    %tmp.32 = self;
+    symbol [ getRestSec %tmp.33 8 50 60 ];
+    %tmp.33 = getv function %tmp.32 :getRestSec;
+    %tmp.34 = invoke %tmp.32 %tmp.33();
+    %tmp.35 = "rest";
+    %tmp.36 = invoke %tmp.26 %tmp.27(%tmp.31, %tmp.34, %tmp.35);
+    invoke %tmp.24 %tmp.25(%tmp.36);
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 9 4 ]
+    %tmp.37 = lgetv %menu.1;
+    symbol [ menu %tmp.37 9 4 8 ];
+    symbol [ addItem %tmp.38 9 9 16 ];
+    %tmp.38 = getv function %tmp.37 :addItem;
+    %tmp.39 = self;
+    symbol [ buildItem %tmp.40 9 17 26 ];
+    %tmp.40 = getv function %tmp.39 :buildItem;
+    symbol [ Rez %tmp.42 9 27 30 ];
+    %tmp.42 = getv ? :Rez;
+    symbol [ Strings %tmp.43 9 31 38 ];
+    %tmp.43 = getv %tmp.42 :Strings;
+    symbol [ RepsLabel %tmp.44 9 39 48 ];
+    %tmp.44 = getv %tmp.43 :RepsLabel;
+    %tmp.45 = self;
+    symbol [ getReps %tmp.46 9 50 57 ];
+    %tmp.46 = getv function %tmp.45 :getReps;
+    %tmp.47 = invoke %tmp.45 %tmp.46();
+    %tmp.48 = "reps";
+    %tmp.49 = invoke %tmp.39 %tmp.40(%tmp.44, %tmp.47, %tmp.48);
+    invoke %tmp.37 %tmp.38(%tmp.49);
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 10 4 ]
+    symbol [ WatchUi %tmp.50 10 4 11 ];
+    %tmp.50 = getm $.Toybox.WatchUi;
+    symbol [ pushView %tmp.51 10 12 20 ];
+    %tmp.51 = getv function %tmp.50 :pushView;
+    %tmp.52 = lgetv %menu.1;
+    symbol [ menu %tmp.52 10 21 25 ];
+    symbol [ ConfigMenuDelegate %tmp.56 10 31 49 ];
+    %tmp.56 = getv ? :ConfigMenuDelegate;
+    %tmp.57 = lgetv %parent;
+    symbol [ parent %tmp.57 10 50 56 ];
+    %tmp.53 = newc %tmp.56 (%tmp.57);
+    symbol [ WatchUi %tmp.58 10 59 66 ];
+    %tmp.58 = getm $.Toybox.WatchUi;
+    symbol [ SLIDE_LEFT %tmp.59 10 67 77 ];
+    %tmp.59 = getv %tmp.58 :SLIDE_LEFT;
+    invoke %tmp.50 %tmp.51(%tmp.52, %tmp.53, %tmp.59);
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_5_52_11_0_stop:
+}
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc"; @line = 13; @symbol_functiondef = [buildItem,13,9,18]; @symbol_param<0> = [labelRes,13,19,27]; @symbol_param<0>_type<0> = [ResourceId,13,31,41]; @symbol_param<1> = [value,13,43,48]; @symbol_param<1>_type<0> = [Number,13,52,58]; @symbol_param<2> = [id,13,60,62]; @symbol_param<2>_type<0> = [String,13,66,72]; @symbol_return<0> = [WatchUi,13,77,84]; @symbol_return<1> = [MenuItem,13,85,93]; ]
+function buildItem(labelRes as ResourceId, value as Number, id as String) as WatchUi.MenuItem {
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_13_94_19_0_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 14 4 ]
+    symbol [ WatchUi %tmp.3 14 15 22 ];
+    %tmp.3 = getm $.Toybox.WatchUi;
+    symbol [ MenuItem %tmp.4 14 23 31 ];
+    %tmp.4 = getv function ? %tmp.3 :MenuItem;
+    symbol [ WatchUi %tmp.5 15 8 15 ];
+    %tmp.5 = getm $.Toybox.WatchUi;
+    symbol [ loadResource %tmp.6 15 16 28 ];
+    %tmp.6 = getv function %tmp.5 :loadResource;
+    %tmp.7 = lgetv %labelRes;
+    symbol [ labelRes %tmp.7 15 29 37 ];
+    %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+    %tmp.9 = as %tmp.8 String;
+    symbol [ String %tmp.9 15 42 48 ];
+    %tmp.10 = lgetv %value;
+    symbol [ value %tmp.10 16 8 13 ];
+    %tmp.11 = "";
+    %tmp.12 = add %tmp.10 %tmp.11;
+    %tmp.13 = lgetv %id;
+    symbol [ id %tmp.13 17 8 10 ];
+    %tmp.14 = newd 0;
+    %tmp.1 = newc %tmp.4 (%tmp.9, %tmp.12, %tmp.13, %tmp.14);
+    ret %tmp.1;
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_13_94_19_0_stop:
+}
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc"; @line = 21; @symbol_classdef = [ConfigMenuDelegate,21,6,24]; @symbol_extends<0> = [WatchUi,21,33,40]; @symbol_extends<1> = [Menu2InputDelegate,21,41,59]; ]
+class ConfigMenuDelegate extends WatchUi.Menu2InputDelegate {
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc"; @line = 21; ]
+    <init> {
+    }
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc"; @line = 21; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc"; @line = 22; @symbol_functiondef = [initialize,22,13,23]; @symbol_param<0> = [parent,22,24,30]; @symbol_param<0>_type<0> = [MainView,22,34,42]; ]
+    function initialize(parent as MainView) as Void {
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_22_44_24_4_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 23 8 ]
+        symbol [ Menu2InputDelegate %tmp.2 23 8 26 ];
+        %tmp.2 = getv ? :Menu2InputDelegate;
+        symbol [ initialize %tmp.3 23 27 37 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_22_44_24_4_stop:
+    }
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc"; @line = 26; @symbol_functiondef = [onSelect,26,13,21]; @symbol_param<0> = [item,26,22,26]; @symbol_param<0>_type<0> = [WatchUi,26,30,37]; @symbol_param<0>_type<1> = [MenuItem,26,38,46]; ]
+    function onSelect(item as WatchUi.MenuItem) as Void {
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_26_56_52_4_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 27 8 ]
+        [ "_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_26_56_52_4_start" "_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_26_56_52_4_stop" ]
+        %id.1 = local;
+        symbol [ id %id.1 27 12 14 ];
+        %tmp.1 = lgetv %item;
+        symbol [ item %tmp.1 27 17 21 ];
+        symbol [ getId %tmp.2 27 22 27 ];
+        %tmp.2 = getv function %tmp.1 :getId;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = as %tmp.3 String;
+        symbol [ String %tmp.4 27 33 39 ];
+        lputv %id.1 %tmp.4;
+        symbol [ id %id.1 27 12 14 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 28 8 ]
+        [ "_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_26_56_52_4_start" "_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_26_56_52_4_stop" ]
+        %title.2 = local;
+        symbol [ title %title.2 28 12 17 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 29 8 ]
+        [ "_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_26_56_52_4_start" "_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_26_56_52_4_stop" ]
+        %min.3 = local;
+        symbol [ min %min.3 29 12 15 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 30 8 ]
+        [ "_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_26_56_52_4_start" "_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_26_56_52_4_stop" ]
+        %max.4 = local;
+        symbol [ max %max.4 30 12 15 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 31 8 ]
+        [ "_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_26_56_52_4_start" "_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_26_56_52_4_stop" ]
+        %current.5 = local;
+        symbol [ current %current.5 31 12 19 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 32 8 ]
+        [ "_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_26_56_52_4_start" "_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_26_56_52_4_stop" ]
+        %key.6 = local;
+        symbol [ key %key.6 32 12 15 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 34 8 ]
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_34_8_46_8_if_stmt:
+        %tmp.5 = lgetv %id.1;
+        symbol [ id %tmp.5 34 12 14 ];
+        symbol [ equals %tmp.6 34 15 21 ];
+        %tmp.6 = getv function %tmp.5 :equals;
+        %tmp.7 = "ex";
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        bf %tmp.8 @_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_34_8_46_8_if_false;
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_34_8_46_8_if_true:
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_34_29_38_8_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 35 12 ]
+        %tmp.9 = "Exercise (s)";
+        lputv %title.2 %tmp.9;
+        symbol [ title %title.2 35 12 17 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 36 12 ]
+        symbol [ EXERCISE_MIN %tmp.11 36 18 30 ];
+        %tmp.11 = getv ? :EXERCISE_MIN;
+        lputv %min.3 %tmp.11;
+        symbol [ min %min.3 36 12 15 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 36 32 ]
+        symbol [ EXERCISE_MAX %tmp.13 36 38 50 ];
+        %tmp.13 = getv ? :EXERCISE_MAX;
+        lputv %max.4 %tmp.13;
+        symbol [ max %max.4 36 32 35 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 37 12 ]
+        %tmp.14 = self;
+        symbol [ getExerciseSec %tmp.15 37 22 36 ];
+        %tmp.15 = getv function %tmp.14 :getExerciseSec;
+        %tmp.16 = invoke %tmp.14 %tmp.15();
+        lputv %current.5 %tmp.16;
+        symbol [ current %current.5 37 12 19 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 37 40 ]
+        symbol [ KEY_EXERCISE %tmp.18 37 46 58 ];
+        %tmp.18 = getv ? :KEY_EXERCISE;
+        lputv %key.6 %tmp.18;
+        symbol [ key %key.6 37 40 43 ];
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_34_29_38_8_stop:
+        goto @_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_34_8_46_8_if_end;
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_34_8_46_8_if_false:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 38 15 ]
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_38_15_46_8_if_stmt:
+        %tmp.19 = lgetv %id.1;
+        symbol [ id %tmp.19 38 19 21 ];
+        symbol [ equals %tmp.20 38 22 28 ];
+        %tmp.20 = getv function %tmp.19 :equals;
+        %tmp.21 = "rest";
+        %tmp.22 = invoke %tmp.19 %tmp.20(%tmp.21);
+        bf %tmp.22 @_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_38_15_46_8_if_else_false;
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_38_15_46_8_if_true:
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_38_38_42_8_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 39 12 ]
+        %tmp.23 = "Rest (s)";
+        lputv %title.2 %tmp.23;
+        symbol [ title %title.2 39 12 17 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 40 12 ]
+        symbol [ REST_MIN %tmp.25 40 18 26 ];
+        %tmp.25 = getv ? :REST_MIN;
+        lputv %min.3 %tmp.25;
+        symbol [ min %min.3 40 12 15 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 40 28 ]
+        symbol [ REST_MAX %tmp.27 40 34 42 ];
+        %tmp.27 = getv ? :REST_MAX;
+        lputv %max.4 %tmp.27;
+        symbol [ max %max.4 40 28 31 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 41 12 ]
+        %tmp.28 = self;
+        symbol [ getRestSec %tmp.29 41 22 32 ];
+        %tmp.29 = getv function %tmp.28 :getRestSec;
+        %tmp.30 = invoke %tmp.28 %tmp.29();
+        lputv %current.5 %tmp.30;
+        symbol [ current %current.5 41 12 19 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 41 36 ]
+        symbol [ KEY_REST %tmp.32 41 42 50 ];
+        %tmp.32 = getv ? :KEY_REST;
+        lputv %key.6 %tmp.32;
+        symbol [ key %key.6 41 36 39 ];
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_38_38_42_8_stop:
+        goto @_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_38_15_46_8_if_end;
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_38_15_46_8_if_else_false:
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_42_15_46_8_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 43 12 ]
+        %tmp.33 = "Reps";
+        lputv %title.2 %tmp.33;
+        symbol [ title %title.2 43 12 17 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 44 12 ]
+        symbol [ REPS_MIN %tmp.35 44 18 26 ];
+        %tmp.35 = getv ? :REPS_MIN;
+        lputv %min.3 %tmp.35;
+        symbol [ min %min.3 44 12 15 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 44 28 ]
+        symbol [ REPS_MAX %tmp.37 44 34 42 ];
+        %tmp.37 = getv ? :REPS_MAX;
+        lputv %max.4 %tmp.37;
+        symbol [ max %max.4 44 28 31 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 45 12 ]
+        %tmp.38 = self;
+        symbol [ getReps %tmp.39 45 22 29 ];
+        %tmp.39 = getv function %tmp.38 :getReps;
+        %tmp.40 = invoke %tmp.38 %tmp.39();
+        lputv %current.5 %tmp.40;
+        symbol [ current %current.5 45 12 19 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 45 33 ]
+        symbol [ KEY_REPS %tmp.42 45 39 47 ];
+        %tmp.42 = getv ? :KEY_REPS;
+        lputv %key.6 %tmp.42;
+        symbol [ key %key.6 45 33 36 ];
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_42_15_46_8_stop:
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_38_15_46_8_if_end:
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_34_8_46_8_if_end:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 48 8 ]
+        symbol [ WatchUi %tmp.43 48 8 15 ];
+        %tmp.43 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.44 48 16 24 ];
+        %tmp.44 = getv function %tmp.43 :pushView;
+        symbol [ NumberPickerView %tmp.48 49 16 32 ];
+        %tmp.48 = getv ? :NumberPickerView;
+        %tmp.49 = lgetv %title.2;
+        symbol [ title %tmp.49 49 33 38 ];
+        %tmp.50 = lgetv %min.3;
+        symbol [ min %tmp.50 49 40 43 ];
+        %tmp.51 = lgetv %max.4;
+        symbol [ max %tmp.51 49 45 48 ];
+        %tmp.52 = lgetv %current.5;
+        symbol [ current %tmp.52 49 50 57 ];
+        %tmp.45 = newc %tmp.48 (%tmp.49, %tmp.50, %tmp.51, %tmp.52);
+        symbol [ NumberPickerDelegate %tmp.56 50 16 36 ];
+        %tmp.56 = getv ? :NumberPickerDelegate;
+        %tmp.57 = lgetv %key.6;
+        symbol [ key %tmp.57 50 37 40 ];
+        %tmp.58 = lgetv %item;
+        symbol [ item %tmp.58 50 42 46 ];
+        %tmp.53 = newc %tmp.56 (%tmp.57, %tmp.58);
+        symbol [ WatchUi %tmp.59 51 12 19 ];
+        %tmp.59 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_LEFT %tmp.60 51 20 30 ];
+        %tmp.60 = getv %tmp.59 :SLIDE_LEFT;
+        invoke %tmp.43 %tmp.44(%tmp.45, %tmp.53, %tmp.60);
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_26_56_52_4_stop:
+    }
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc"; @line = 54; @symbol_functiondef = [onBack,54,13,19]; ]
+    function onBack() as Void {
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_54_30_57_4_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 55 8 ]
+        symbol [ WatchUi %tmp.1 55 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.2 55 16 29 ];
+        %tmp.2 = getv function %tmp.1 :requestUpdate;
+        invoke %tmp.1 %tmp.2();
+[ "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" 56 8 ]
+        symbol [ Menu2InputDelegate %tmp.4 56 8 26 ];
+        %tmp.4 = getv ? :Menu2InputDelegate;
+        symbol [ onBack %tmp.5 56 27 33 ];
+        %tmp.5 = getv function %tmp.4 :onBack;
+        invoke %tmp.4 %tmp.5();
+_Users_lukaszilka_devel_garmin_intervals_source_ConfigMenu_mc_54_30_57_4_stop:
+    }
+}
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc"; @line = 1; ]
+<init> {
+}

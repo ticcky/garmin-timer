@@ -1,0 +1,64 @@
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc"; @line = 4; @symbol_classdef = [WorkoutDelegate,4,6,21]; @symbol_extends<0> = [WatchUi,4,30,37]; @symbol_extends<1> = [BehaviorDelegate,4,38,54]; ]
+class WorkoutDelegate extends WatchUi.BehaviorDelegate {
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc"; @line = 5; @symbol_functiondef = [initialize,5,13,23]; ]
+    function initialize() as Void {
+_Users_lukaszilka_devel_garmin_intervals_source_WorkoutDelegate_mc_5_26_7_4_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" 6 8 ]
+        symbol [ BehaviorDelegate %tmp.2 6 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 6 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_lukaszilka_devel_garmin_intervals_source_WorkoutDelegate_mc_5_26_7_4_stop:
+    }
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc"; @line = 9; @symbol_functiondef = [onBack,9,13,19]; @symbol_return<0> = [Boolean,9,25,32]; ]
+    function onBack() as Boolean {
+_Users_lukaszilka_devel_garmin_intervals_source_WorkoutDelegate_mc_9_33_12_4_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" 10 8 ]
+        symbol [ WatchUi %tmp.1 10 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.2 10 16 23 ];
+        %tmp.2 = getv function %tmp.1 :popView;
+        symbol [ WatchUi %tmp.3 10 24 31 ];
+        %tmp.3 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.4 10 32 43 ];
+        %tmp.4 = getv %tmp.3 :SLIDE_RIGHT;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+[ "/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" 11 8 ]
+        %tmp.5 = true;
+        ret %tmp.5;
+_Users_lukaszilka_devel_garmin_intervals_source_WorkoutDelegate_mc_9_33_12_4_stop:
+    }
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc"; @line = 14; @symbol_functiondef = [onSelect,14,13,21]; @symbol_return<0> = [Boolean,14,27,34]; ]
+    function onSelect() as Boolean {
+_Users_lukaszilka_devel_garmin_intervals_source_WorkoutDelegate_mc_14_35_17_4_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" 15 8 ]
+        symbol [ WatchUi %tmp.1 15 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.2 15 16 23 ];
+        %tmp.2 = getv function %tmp.1 :popView;
+        symbol [ WatchUi %tmp.3 15 24 31 ];
+        %tmp.3 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.4 15 32 43 ];
+        %tmp.4 = getv %tmp.3 :SLIDE_RIGHT;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+[ "/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" 16 8 ]
+        %tmp.5 = true;
+        ret %tmp.5;
+_Users_lukaszilka_devel_garmin_intervals_source_WorkoutDelegate_mc_14_35_17_4_stop:
+    }
+}
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc"; @line = 1; ]
+<init> {
+}

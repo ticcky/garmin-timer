@@ -1,0 +1,75 @@
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc"; @line = 4; @symbol_classdef = [MainDelegate,4,6,18]; @symbol_extends<0> = [WatchUi,4,27,34]; @symbol_extends<1> = [BehaviorDelegate,4,35,51]; ]
+class MainDelegate extends WatchUi.BehaviorDelegate {
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc"; @line = 5; @position = 16; @symbol_vardef = [_view,5,16,21]; @symbol_type<0> = [MainView,5,25,33]; ]
+    private
+    var _view as MainView;
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; @symbol_param<0> = [view,7,24,28]; @symbol_param<0>_type<0> = [MainView,7,32,40]; ]
+    function initialize(view as MainView) as Void {
+_Users_lukaszilka_devel_garmin_intervals_source_MainDelegate_mc_7_42_10_4_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" 8 8 ]
+        symbol [ BehaviorDelegate %tmp.2 8 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 8 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" 9 8 ]
+        %tmp.4 = lgetv %view;
+        symbol [ view %tmp.4 9 16 20 ];
+        symbol [ _view ? 9 8 13 ];
+        putv self :_view %tmp.4;
+_Users_lukaszilka_devel_garmin_intervals_source_MainDelegate_mc_7_42_10_4_stop:
+    }
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc"; @line = 12; @symbol_functiondef = [onSelect,12,13,21]; @symbol_return<0> = [Boolean,12,27,34]; ]
+    function onSelect() as Boolean {
+_Users_lukaszilka_devel_garmin_intervals_source_MainDelegate_mc_12_35_17_4_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" 13 8 ]
+        symbol [ WatchUi %tmp.1 13 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.2 13 16 24 ];
+        %tmp.2 = getv function %tmp.1 :pushView;
+        symbol [ WorkoutView %tmp.6 13 29 40 ];
+        %tmp.6 = getv ? :WorkoutView;
+        %tmp.3 = newc %tmp.6 ();
+        symbol [ WorkoutDelegate %tmp.10 14 16 31 ];
+        %tmp.10 = getv ? :WorkoutDelegate;
+        %tmp.7 = newc %tmp.10 ();
+        symbol [ WatchUi %tmp.11 15 12 19 ];
+        %tmp.11 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_LEFT %tmp.12 15 20 30 ];
+        %tmp.12 = getv %tmp.11 :SLIDE_LEFT;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.7, %tmp.12);
+[ "/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" 16 8 ]
+        %tmp.13 = true;
+        ret %tmp.13;
+_Users_lukaszilka_devel_garmin_intervals_source_MainDelegate_mc_12_35_17_4_stop:
+    }
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc"; @line = 19; @symbol_functiondef = [onMenu,19,13,19]; @symbol_return<0> = [Boolean,19,25,32]; ]
+    function onMenu() as Boolean {
+_Users_lukaszilka_devel_garmin_intervals_source_MainDelegate_mc_19_33_22_4_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" 20 8 ]
+        %tmp.1 = self;
+        symbol [ showConfigMenu %tmp.2 20 8 22 ];
+        %tmp.2 = getv function %tmp.1 :showConfigMenu;
+        symbol [ _view %tmp.4 20 23 28 ];
+        %tmp.4 = getv ? :_view;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+[ "/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" 21 8 ]
+        %tmp.5 = true;
+        ret %tmp.5;
+_Users_lukaszilka_devel_garmin_intervals_source_MainDelegate_mc_19_33_22_4_stop:
+    }
+}
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc"; @line = 1; ]
+<init> {
+}
