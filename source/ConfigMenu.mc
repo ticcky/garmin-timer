@@ -7,6 +7,7 @@ function showConfigMenu(parent as MainView) as Void {
     menu.addItem(buildItem(Rez.Strings.ExerciseLabel, getExerciseSec(), "ex"));
     menu.addItem(buildItem(Rez.Strings.RestLabel, getRestSec(), "rest"));
     menu.addItem(buildItem(Rez.Strings.RepsLabel, getReps(), "reps"));
+    menu.addItem(new WatchUi.ToggleMenuItem("Sounds", null, "sounds", getSoundsEnabled(), {}));
     menu.addItem(new WatchUi.MenuItem("Load preset", null, "load", {}));
     menu.addItem(new WatchUi.MenuItem("Save preset", null, "save", {}));
     menu.addItem(new WatchUi.MenuItem("Delete preset", null, "delete", {}));
@@ -31,6 +32,12 @@ class ConfigMenuDelegate extends WatchUi.Menu2InputDelegate {
 
         if (id.equals("ex") || id.equals("rest") || id.equals("reps")) {
             openNumberPicker(id, item);
+            return;
+        }
+
+        if (id.equals("sounds")) {
+            var toggle = item as WatchUi.ToggleMenuItem;
+            setSoundsEnabled(toggle.isEnabled());
             return;
         }
 

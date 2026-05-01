@@ -1,4 +1,5 @@
 import Toybox.Activity;
+import Toybox.ActivityRecording;
 import Toybox.Attention;
 import Toybox.Graphics;
 import Toybox.Lang;
@@ -21,6 +22,7 @@ class WorkoutView extends WatchUi.View {
     private var _exerciseSec as Number = 30;
     private var _restSec as Number = 10;
     private var _paused as Boolean = false;
+    private var _session as ActivityRecording.Session?;
 
     function initialize() {
         View.initialize();
@@ -37,6 +39,13 @@ class WorkoutView extends WatchUi.View {
 
     function onHide() as Void {
         stopTimer();
+        if (_session != null) {
+            if (_session.isRecording()) {
+                _session.stop();
+            }
+            _session.discard();
+            _session = null;
+        }
     }
 
     function startWorkout() as Void {
@@ -44,6 +53,19 @@ class WorkoutView extends WatchUi.View {
         _paused = false;
         beginExercise();
         startTimer();
+        startSession();
+    }
+
+    function startSession() as Void {
+        if (_session != null) {
+            return;
+        }
+        _session = ActivityRecording.createSession({
+            :name => "Intervals",
+            :sport => Activity.SPORT_TRAINING,
+            :subSport => Activity.SUB_SPORT_CARDIO_TRAINING
+        });
+        _session.start();
     }
 
     function startTimer() as Void {
@@ -80,9 +102,15 @@ class WorkoutView extends WatchUi.View {
         if (_paused) {
             _paused = false;
             startTimer();
+            if (_session != null && !_session.isRecording()) {
+                _session.start();
+            }
         } else {
             _paused = true;
             stopTimer();
+            if (_session != null && _session.isRecording()) {
+                _session.stop();
+            }
         }
         WatchUi.requestUpdate();
     }
@@ -100,7 +128,14 @@ class WorkoutView extends WatchUi.View {
     function finish() as Void {
         _phase = PHASE_DONE;
         stopTimer();
-        if (Attention has :playTone) {
+        if (_session != null) {
+            if (_session.isRecording()) {
+                _session.stop();
+            }
+            _session.save();
+            _session = null;
+        }
+        if (getSoundsEnabled() && Attention has :playTone) {
             Attention.playTone(Attention.TONE_SUCCESS);
         }
     }
@@ -138,7 +173,7 @@ class WorkoutView extends WatchUi.View {
     }
 
     function playEndSignal(endingPhase as Number) as Void {
-        if (Attention has :playTone) {
+        if (getSoundsEnabled() && Attention has :playTone) {
             var tone = (endingPhase == PHASE_EXERCISE)
                 ? Attention.TONE_STOP
                 : Attention.TONE_START;
@@ -161,7 +196,7 @@ class WorkoutView extends WatchUi.View {
     }
 
     function playCountdownBeep() as Void {
-        if (Attention has :playTone) {
+        if (getSoundsEnabled() && Attention has :playTone) {
             Attention.playTone(Attention.TONE_LOUD_BEEP);
         }
     }

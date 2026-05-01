@@ -14,600 +14,656 @@ const KEY_REST = "rest_sec";
 const KEY_REPS = "reps";
 [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 9; @position = 6; @symbol_constdef = [KEY_PRESETS,9,6,17]; ]
 const KEY_PRESETS = "presets";
-[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 11; @position = 6; @symbol_constdef = [DEFAULT_EXERCISE,11,6,22]; ]
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 10; @position = 6; @symbol_constdef = [KEY_SOUNDS,10,6,16]; ]
+const KEY_SOUNDS = "sounds_enabled";
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 12; @position = 6; @symbol_constdef = [DEFAULT_EXERCISE,12,6,22]; ]
 const DEFAULT_EXERCISE = 30;
-[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 12; @position = 6; @symbol_constdef = [DEFAULT_REST,12,6,18]; ]
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 13; @position = 6; @symbol_constdef = [DEFAULT_REST,13,6,18]; ]
 const DEFAULT_REST = 10;
-[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 13; @position = 6; @symbol_constdef = [DEFAULT_REPS,13,6,18]; ]
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 14; @position = 6; @symbol_constdef = [DEFAULT_REPS,14,6,18]; ]
 const DEFAULT_REPS = 5;
-[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 15; @position = 6; @symbol_constdef = [EXERCISE_MIN,15,6,18]; ]
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 16; @position = 6; @symbol_constdef = [EXERCISE_MIN,16,6,18]; ]
 const EXERCISE_MIN = 10;
-[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 16; @position = 6; @symbol_constdef = [EXERCISE_MAX,16,6,18]; ]
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 17; @position = 6; @symbol_constdef = [EXERCISE_MAX,17,6,18]; ]
 const EXERCISE_MAX = 60;
-[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 17; @position = 6; @symbol_constdef = [REST_MIN,17,6,14]; ]
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 18; @position = 6; @symbol_constdef = [REST_MIN,18,6,14]; ]
 const REST_MIN = 2;
-[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 18; @position = 6; @symbol_constdef = [REST_MAX,18,6,14]; ]
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 19; @position = 6; @symbol_constdef = [REST_MAX,19,6,14]; ]
 const REST_MAX = 15;
-[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 19; @position = 6; @symbol_constdef = [REPS_MIN,19,6,14]; ]
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 20; @position = 6; @symbol_constdef = [REPS_MIN,20,6,14]; ]
 const REPS_MIN = 1;
-[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 20; @position = 6; @symbol_constdef = [REPS_MAX,20,6,14]; ]
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 21; @position = 6; @symbol_constdef = [REPS_MAX,21,6,14]; ]
 const REPS_MAX = 10;
-[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 22; @symbol_functiondef = [getExerciseSec,22,9,23]; @symbol_return<0> = [Number,22,29,35]; ]
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 23; @symbol_functiondef = [getExerciseSec,23,9,23]; @symbol_return<0> = [Number,23,29,35]; ]
 function getExerciseSec() as Number {
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_22_36_25_0_start:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 23 4 ]
-    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_22_36_25_0_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_22_36_25_0_stop" ]
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_23_36_26_0_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 24 4 ]
+    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_23_36_26_0_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_23_36_26_0_stop" ]
     %v.1 = local;
-    symbol [ v %v.1 23 8 9 ];
-    symbol [ Storage %tmp.1 23 12 19 ];
+    symbol [ v %v.1 24 8 9 ];
+    symbol [ Storage %tmp.1 24 12 19 ];
     %tmp.1 = getm $.Toybox.Application.Storage;
-    symbol [ getValue %tmp.2 23 20 28 ];
+    symbol [ getValue %tmp.2 24 20 28 ];
     %tmp.2 = getv function %tmp.1 :getValue;
-    symbol [ KEY_EXERCISE %tmp.4 23 29 41 ];
+    symbol [ KEY_EXERCISE %tmp.4 24 29 41 ];
     %tmp.4 = getv ? :KEY_EXERCISE;
     %tmp.5 = invoke %tmp.1 %tmp.2(%tmp.4);
     lputv %v.1 %tmp.5;
-    symbol [ v %v.1 23 8 9 ];
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 24 4 ]
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_24_11_24_49_begin:
+    symbol [ v %v.1 24 8 9 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 25 4 ]
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_25_11_25_49_begin:
     %tmp.6 = lgetv %v.1;
-    symbol [ v %tmp.6 24 12 13 ];
+    symbol [ v %tmp.6 25 12 13 ];
     %tmp.7 = null;
     %tmp.8 = eq %tmp.6 %tmp.7;
-    bf %tmp.8 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_24_11_24_49_else_false;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_24_11_24_49_true:
-    symbol [ DEFAULT_EXERCISE %tmp.10 24 25 41 ];
+    bf %tmp.8 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_25_11_25_49_else_false;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_25_11_25_49_true:
+    symbol [ DEFAULT_EXERCISE %tmp.10 25 25 41 ];
     %tmp.10 = getv ? :DEFAULT_EXERCISE;
     push %tmp.10;
-    goto @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_24_11_24_49_end;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_24_11_24_49_else_false:
+    goto @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_25_11_25_49_end;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_25_11_25_49_else_false:
     %tmp.11 = lgetv %v.1;
-    symbol [ v %tmp.11 24 44 45 ];
+    symbol [ v %tmp.11 25 44 45 ];
     %tmp.12 = as %tmp.11 { (!Null) };
     %tmp.13 = as %tmp.12 Number;
-    symbol [ Number %tmp.13 24 49 55 ];
+    symbol [ Number %tmp.13 25 49 55 ];
     push %tmp.13;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_24_11_24_49_end:
-    %tmp.14 = phi [%tmp.8 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_24_11_24_49_begin] [%tmp.10 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_24_11_24_49_true] [%tmp.13 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_24_11_24_49_else_false] [%tmp.14 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_24_11_24_49_end];
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_25_11_25_49_end:
+    %tmp.14 = phi [%tmp.8 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_25_11_25_49_begin] [%tmp.10 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_25_11_25_49_true] [%tmp.13 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_25_11_25_49_else_false] [%tmp.14 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_25_11_25_49_end];
     ret %tmp.14;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_22_36_25_0_stop:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_23_36_26_0_stop:
 }
-[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 27; @symbol_functiondef = [getRestSec,27,9,19]; @symbol_return<0> = [Number,27,25,31]; ]
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 28; @symbol_functiondef = [getRestSec,28,9,19]; @symbol_return<0> = [Number,28,25,31]; ]
 function getRestSec() as Number {
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_27_32_30_0_start:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 28 4 ]
-    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_27_32_30_0_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_27_32_30_0_stop" ]
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_28_32_31_0_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 29 4 ]
+    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_28_32_31_0_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_28_32_31_0_stop" ]
     %v.1 = local;
-    symbol [ v %v.1 28 8 9 ];
-    symbol [ Storage %tmp.1 28 12 19 ];
+    symbol [ v %v.1 29 8 9 ];
+    symbol [ Storage %tmp.1 29 12 19 ];
     %tmp.1 = getm $.Toybox.Application.Storage;
-    symbol [ getValue %tmp.2 28 20 28 ];
+    symbol [ getValue %tmp.2 29 20 28 ];
     %tmp.2 = getv function %tmp.1 :getValue;
-    symbol [ KEY_REST %tmp.4 28 29 37 ];
+    symbol [ KEY_REST %tmp.4 29 29 37 ];
     %tmp.4 = getv ? :KEY_REST;
     %tmp.5 = invoke %tmp.1 %tmp.2(%tmp.4);
     lputv %v.1 %tmp.5;
-    symbol [ v %v.1 28 8 9 ];
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 29 4 ]
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_29_11_29_45_begin:
+    symbol [ v %v.1 29 8 9 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 30 4 ]
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_30_11_30_45_begin:
     %tmp.6 = lgetv %v.1;
-    symbol [ v %tmp.6 29 12 13 ];
+    symbol [ v %tmp.6 30 12 13 ];
     %tmp.7 = null;
     %tmp.8 = eq %tmp.6 %tmp.7;
-    bf %tmp.8 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_29_11_29_45_else_false;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_29_11_29_45_true:
-    symbol [ DEFAULT_REST %tmp.10 29 25 37 ];
+    bf %tmp.8 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_30_11_30_45_else_false;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_30_11_30_45_true:
+    symbol [ DEFAULT_REST %tmp.10 30 25 37 ];
     %tmp.10 = getv ? :DEFAULT_REST;
     push %tmp.10;
-    goto @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_29_11_29_45_end;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_29_11_29_45_else_false:
+    goto @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_30_11_30_45_end;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_30_11_30_45_else_false:
     %tmp.11 = lgetv %v.1;
-    symbol [ v %tmp.11 29 40 41 ];
+    symbol [ v %tmp.11 30 40 41 ];
     %tmp.12 = as %tmp.11 { (!Null) };
     %tmp.13 = as %tmp.12 Number;
-    symbol [ Number %tmp.13 29 45 51 ];
+    symbol [ Number %tmp.13 30 45 51 ];
     push %tmp.13;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_29_11_29_45_end:
-    %tmp.14 = phi [%tmp.8 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_29_11_29_45_begin] [%tmp.10 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_29_11_29_45_true] [%tmp.13 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_29_11_29_45_else_false] [%tmp.14 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_29_11_29_45_end];
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_30_11_30_45_end:
+    %tmp.14 = phi [%tmp.8 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_30_11_30_45_begin] [%tmp.10 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_30_11_30_45_true] [%tmp.13 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_30_11_30_45_else_false] [%tmp.14 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_30_11_30_45_end];
     ret %tmp.14;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_27_32_30_0_stop:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_28_32_31_0_stop:
 }
-[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 32; @symbol_functiondef = [getReps,32,9,16]; @symbol_return<0> = [Number,32,22,28]; ]
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 33; @symbol_functiondef = [getReps,33,9,16]; @symbol_return<0> = [Number,33,22,28]; ]
 function getReps() as Number {
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_32_29_35_0_start:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 33 4 ]
-    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_32_29_35_0_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_32_29_35_0_stop" ]
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_33_29_36_0_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 34 4 ]
+    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_33_29_36_0_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_33_29_36_0_stop" ]
     %v.1 = local;
-    symbol [ v %v.1 33 8 9 ];
-    symbol [ Storage %tmp.1 33 12 19 ];
+    symbol [ v %v.1 34 8 9 ];
+    symbol [ Storage %tmp.1 34 12 19 ];
     %tmp.1 = getm $.Toybox.Application.Storage;
-    symbol [ getValue %tmp.2 33 20 28 ];
+    symbol [ getValue %tmp.2 34 20 28 ];
     %tmp.2 = getv function %tmp.1 :getValue;
-    symbol [ KEY_REPS %tmp.4 33 29 37 ];
+    symbol [ KEY_REPS %tmp.4 34 29 37 ];
     %tmp.4 = getv ? :KEY_REPS;
     %tmp.5 = invoke %tmp.1 %tmp.2(%tmp.4);
     lputv %v.1 %tmp.5;
-    symbol [ v %v.1 33 8 9 ];
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 34 4 ]
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_34_11_34_45_begin:
+    symbol [ v %v.1 34 8 9 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 35 4 ]
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_35_11_35_45_begin:
     %tmp.6 = lgetv %v.1;
-    symbol [ v %tmp.6 34 12 13 ];
+    symbol [ v %tmp.6 35 12 13 ];
     %tmp.7 = null;
     %tmp.8 = eq %tmp.6 %tmp.7;
-    bf %tmp.8 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_34_11_34_45_else_false;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_34_11_34_45_true:
-    symbol [ DEFAULT_REPS %tmp.10 34 25 37 ];
+    bf %tmp.8 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_35_11_35_45_else_false;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_35_11_35_45_true:
+    symbol [ DEFAULT_REPS %tmp.10 35 25 37 ];
     %tmp.10 = getv ? :DEFAULT_REPS;
     push %tmp.10;
-    goto @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_34_11_34_45_end;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_34_11_34_45_else_false:
+    goto @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_35_11_35_45_end;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_35_11_35_45_else_false:
     %tmp.11 = lgetv %v.1;
-    symbol [ v %tmp.11 34 40 41 ];
+    symbol [ v %tmp.11 35 40 41 ];
     %tmp.12 = as %tmp.11 { (!Null) };
     %tmp.13 = as %tmp.12 Number;
-    symbol [ Number %tmp.13 34 45 51 ];
+    symbol [ Number %tmp.13 35 45 51 ];
     push %tmp.13;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_34_11_34_45_end:
-    %tmp.14 = phi [%tmp.8 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_34_11_34_45_begin] [%tmp.10 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_34_11_34_45_true] [%tmp.13 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_34_11_34_45_else_false] [%tmp.14 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_34_11_34_45_end];
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_35_11_35_45_end:
+    %tmp.14 = phi [%tmp.8 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_35_11_35_45_begin] [%tmp.10 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_35_11_35_45_true] [%tmp.13 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_35_11_35_45_else_false] [%tmp.14 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_35_11_35_45_end];
     ret %tmp.14;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_32_29_35_0_stop:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_33_29_36_0_stop:
 }
-[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 37; @symbol_functiondef = [getPresets,37,9,19]; @symbol_return<0> = [Array,37,25,30]; @symbol_return<1> = [Dictionary,37,31,41]; ]
-function getPresets() as Array<Dictionary> {
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_37_43_41_0_start:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 38 4 ]
-    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_37_43_41_0_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_37_43_41_0_stop" ]
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 38; @symbol_functiondef = [getSoundsEnabled,38,9,25]; @symbol_return<0> = [Boolean,38,31,38]; ]
+function getSoundsEnabled() as Boolean {
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_38_39_41_0_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 39 4 ]
+    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_38_39_41_0_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_38_39_41_0_stop" ]
     %v.1 = local;
-    symbol [ v %v.1 38 8 9 ];
-    symbol [ Storage %tmp.1 38 12 19 ];
+    symbol [ v %v.1 39 8 9 ];
+    symbol [ Storage %tmp.1 39 12 19 ];
     %tmp.1 = getm $.Toybox.Application.Storage;
-    symbol [ getValue %tmp.2 38 20 28 ];
+    symbol [ getValue %tmp.2 39 20 28 ];
     %tmp.2 = getv function %tmp.1 :getValue;
-    symbol [ KEY_PRESETS %tmp.4 38 29 40 ];
+    symbol [ KEY_SOUNDS %tmp.4 39 29 39 ];
+    %tmp.4 = getv ? :KEY_SOUNDS;
+    %tmp.5 = invoke %tmp.1 %tmp.2(%tmp.4);
+    lputv %v.1 %tmp.5;
+    symbol [ v %v.1 39 8 9 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 40 4 ]
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_40_11_40_37_begin:
+    %tmp.6 = lgetv %v.1;
+    symbol [ v %tmp.6 40 12 13 ];
+    %tmp.7 = null;
+    %tmp.8 = eq %tmp.6 %tmp.7;
+    bf %tmp.8 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_40_11_40_37_else_false;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_40_11_40_37_true:
+    %tmp.9 = true;
+    push %tmp.9;
+    goto @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_40_11_40_37_end;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_40_11_40_37_else_false:
+    %tmp.10 = lgetv %v.1;
+    symbol [ v %tmp.10 40 32 33 ];
+    %tmp.11 = as %tmp.10 { (!Null) };
+    %tmp.12 = as %tmp.11 Boolean;
+    symbol [ Boolean %tmp.12 40 37 44 ];
+    push %tmp.12;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_40_11_40_37_end:
+    %tmp.13 = phi [%tmp.8 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_40_11_40_37_begin] [%tmp.9 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_40_11_40_37_true] [%tmp.12 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_40_11_40_37_else_false] [%tmp.13 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_40_11_40_37_end];
+    ret %tmp.13;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_38_39_41_0_stop:
+}
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 43; @symbol_functiondef = [setSoundsEnabled,43,9,25]; @symbol_param<0> = [enabled,43,26,33]; @symbol_param<0>_type<0> = [Boolean,43,37,44]; ]
+function setSoundsEnabled(enabled as Boolean) as Void {
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_43_54_45_0_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 44 4 ]
+    symbol [ Storage %tmp.1 44 4 11 ];
+    %tmp.1 = getm $.Toybox.Application.Storage;
+    symbol [ setValue %tmp.2 44 12 20 ];
+    %tmp.2 = getv function %tmp.1 :setValue;
+    symbol [ KEY_SOUNDS %tmp.4 44 21 31 ];
+    %tmp.4 = getv ? :KEY_SOUNDS;
+    %tmp.5 = lgetv %enabled;
+    symbol [ enabled %tmp.5 44 33 40 ];
+    invoke %tmp.1 %tmp.2(%tmp.4, %tmp.5);
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_43_54_45_0_stop:
+}
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 47; @symbol_functiondef = [getPresets,47,9,19]; @symbol_return<0> = [Array,47,25,30]; @symbol_return<1> = [Dictionary,47,31,41]; ]
+function getPresets() as Array<Dictionary> {
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_47_43_51_0_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 48 4 ]
+    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_47_43_51_0_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_47_43_51_0_stop" ]
+    %v.1 = local;
+    symbol [ v %v.1 48 8 9 ];
+    symbol [ Storage %tmp.1 48 12 19 ];
+    %tmp.1 = getm $.Toybox.Application.Storage;
+    symbol [ getValue %tmp.2 48 20 28 ];
+    %tmp.2 = getv function %tmp.1 :getValue;
+    symbol [ KEY_PRESETS %tmp.4 48 29 40 ];
     %tmp.4 = getv ? :KEY_PRESETS;
     %tmp.5 = invoke %tmp.1 %tmp.2(%tmp.4);
     lputv %v.1 %tmp.5;
-    symbol [ v %v.1 38 8 9 ];
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 39 4 ]
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_39_4_39_53_if_stmt:
+    symbol [ v %v.1 48 8 9 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 49 4 ]
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_49_4_49_53_if_stmt:
     %tmp.6 = lgetv %v.1;
-    symbol [ v %tmp.6 39 8 9 ];
+    symbol [ v %tmp.6 49 8 9 ];
     %tmp.7 = null;
     %tmp.8 = eq %tmp.6 %tmp.7;
-    bf %tmp.8 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_39_4_39_53_if_end;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_39_4_39_53_if_true:
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_39_19_39_53_start:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 39 21 ]
+    bf %tmp.8 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_49_4_49_53_if_end;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_49_4_49_53_if_true:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_49_19_49_53_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 49 21 ]
     %tmp.9 = newa 0 Array<Dictionary>;
-    symbol [ Array %tmp.9 39 34 39 ];
-    symbol [ Dictionary %tmp.9 39 40 50 ];
+    symbol [ Array %tmp.9 49 34 39 ];
+    symbol [ Dictionary %tmp.9 49 40 50 ];
     ret %tmp.9;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_39_19_39_53_stop:
-    goto @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_39_4_39_53_if_end;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_39_4_39_53_if_end:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 40 4 ]
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_49_19_49_53_stop:
+    goto @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_49_4_49_53_if_end;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_49_4_49_53_if_end:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 50 4 ]
     %tmp.10 = lgetv %v.1;
-    symbol [ v %tmp.10 40 11 12 ];
+    symbol [ v %tmp.10 50 11 12 ];
     %tmp.11 = as %tmp.10 Array<Dictionary>;
-    symbol [ Array %tmp.11 40 16 21 ];
-    symbol [ Dictionary %tmp.11 40 22 32 ];
+    symbol [ Array %tmp.11 50 16 21 ];
+    symbol [ Dictionary %tmp.11 50 22 32 ];
     ret %tmp.11;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_37_43_41_0_stop:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_47_43_51_0_stop:
 }
-[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 43; @symbol_functiondef = [savePreset,43,9,19]; @symbol_param<0> = [name,43,20,24]; @symbol_param<0>_type<0> = [String,43,28,34]; ]
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 53; @symbol_functiondef = [savePreset,53,9,19]; @symbol_param<0> = [name,53,20,24]; @symbol_param<0>_type<0> = [String,53,28,34]; ]
 function savePreset(name as String) as Void {
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_43_44_60_0_start:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 44 4 ]
-    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_43_44_60_0_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_43_44_60_0_stop" ]
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_53_44_70_0_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 54 4 ]
+    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_53_44_70_0_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_53_44_70_0_stop" ]
     %list.1 = local;
-    symbol [ list %list.1 44 8 12 ];
+    symbol [ list %list.1 54 8 12 ];
     %tmp.1 = self;
-    symbol [ getPresets %tmp.2 44 15 25 ];
+    symbol [ getPresets %tmp.2 54 15 25 ];
     %tmp.2 = getv function %tmp.1 :getPresets;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     lputv %list.1 %tmp.3;
-    symbol [ list %list.1 44 8 12 ];
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 45 4 ]
-    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_43_44_60_0_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_43_44_60_0_stop" ]
+    symbol [ list %list.1 54 8 12 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 55 4 ]
+    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_53_44_70_0_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_53_44_70_0_stop" ]
     %preset.2 = local;
-    symbol [ preset %preset.2 45 8 14 ];
+    symbol [ preset %preset.2 55 8 14 ];
     %tmp.4 = newd 4;
     %tmp.5 = "name";
     %tmp.6 = lgetv %name;
-    symbol [ name %tmp.6 46 18 22 ];
+    symbol [ name %tmp.6 56 18 22 ];
     %tmp.7 = dup %tmp.4;
     %tmp.8 = aputv %tmp.7 %tmp.5 %tmp.6;
     %tmp.9 = "ex";
     %tmp.10 = self;
-    symbol [ getExerciseSec %tmp.11 47 16 30 ];
+    symbol [ getExerciseSec %tmp.11 57 16 30 ];
     %tmp.11 = getv function %tmp.10 :getExerciseSec;
     %tmp.12 = invoke %tmp.10 %tmp.11();
     %tmp.13 = dup %tmp.8;
     %tmp.14 = aputv %tmp.13 %tmp.9 %tmp.12;
     %tmp.15 = "rest";
     %tmp.16 = self;
-    symbol [ getRestSec %tmp.17 48 18 28 ];
+    symbol [ getRestSec %tmp.17 58 18 28 ];
     %tmp.17 = getv function %tmp.16 :getRestSec;
     %tmp.18 = invoke %tmp.16 %tmp.17();
     %tmp.19 = dup %tmp.14;
     %tmp.20 = aputv %tmp.19 %tmp.15 %tmp.18;
     %tmp.21 = "reps";
     %tmp.22 = self;
-    symbol [ getReps %tmp.23 49 18 25 ];
+    symbol [ getReps %tmp.23 59 18 25 ];
     %tmp.23 = getv function %tmp.22 :getReps;
     %tmp.24 = invoke %tmp.22 %tmp.23();
     %tmp.25 = dup %tmp.20;
     %tmp.26 = aputv %tmp.25 %tmp.21 %tmp.24;
     lputv %preset.2 %tmp.26;
-    symbol [ preset %preset.2 45 8 14 ];
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 51 4 ]
-    for @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_51_4_57_4_for_test @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_51_4_57_4_for_incr @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_51_4_57_4_for_end;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_51_4_57_4_for_init:
-    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_51_4_57_4_for_begin" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_51_4_57_4_for_end" ]
+    symbol [ preset %preset.2 55 8 14 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 61 4 ]
+    for @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_61_4_67_4_for_test @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_61_4_67_4_for_incr @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_61_4_67_4_for_end;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_61_4_67_4_for_init:
+    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_61_4_67_4_for_begin" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_61_4_67_4_for_end" ]
     %i.3 = local;
-    symbol [ i %i.3 51 13 14 ];
+    symbol [ i %i.3 61 13 14 ];
     %tmp.27 = 0;
     lputv %i.3 %tmp.27;
-    symbol [ i %i.3 51 13 14 ];
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_51_4_57_4_for_test:
+    symbol [ i %i.3 61 13 14 ];
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_61_4_67_4_for_test:
     %tmp.28 = lgetv %i.3;
-    symbol [ i %tmp.28 51 20 21 ];
+    symbol [ i %tmp.28 61 20 21 ];
     %tmp.29 = lgetv %list.1;
-    symbol [ list %tmp.29 51 24 28 ];
-    symbol [ size %tmp.30 51 29 33 ];
+    symbol [ list %tmp.29 61 24 28 ];
+    symbol [ size %tmp.30 61 29 33 ];
     %tmp.30 = getv function %tmp.29 :size;
     %tmp.31 = invoke %tmp.29 %tmp.30();
     %tmp.32 = lt %tmp.28 %tmp.31;
-    bf %tmp.32 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_51_4_57_4_for_end;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_51_4_57_4_for_begin:
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_51_42_57_4_start:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 52 8 ]
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_52_8_56_8_if_stmt:
+    bf %tmp.32 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_61_4_67_4_for_end;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_61_4_67_4_for_begin:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_61_42_67_4_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 62 8 ]
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_62_8_66_8_if_stmt:
     %tmp.33 = lgetv %list.1;
-    symbol [ list %tmp.33 52 13 17 ];
+    symbol [ list %tmp.33 62 13 17 ];
     %tmp.34 = lgetv %i.3;
-    symbol [ i %tmp.34 52 18 19 ];
+    symbol [ i %tmp.34 62 18 19 ];
     %tmp.35 = agetv %tmp.33 %tmp.34;
     %tmp.36 = "name";
     %tmp.37 = agetv %tmp.35 %tmp.36;
     %tmp.38 = as %tmp.37 String;
-    symbol [ String %tmp.38 52 32 38 ];
-    symbol [ equals %tmp.39 52 40 46 ];
+    symbol [ String %tmp.38 62 32 38 ];
+    symbol [ equals %tmp.39 62 40 46 ];
     %tmp.39 = getv function %tmp.38 :equals;
     %tmp.40 = lgetv %name;
-    symbol [ name %tmp.40 52 47 51 ];
+    symbol [ name %tmp.40 62 47 51 ];
     %tmp.41 = invoke %tmp.38 %tmp.39(%tmp.40);
-    bf %tmp.41 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_52_8_56_8_if_end;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_52_8_56_8_if_true:
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_52_54_56_8_start:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 53 12 ]
+    bf %tmp.41 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_62_8_66_8_if_end;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_62_8_66_8_if_true:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_62_54_66_8_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 63 12 ]
     %tmp.42 = lgetv %list.1;
-    symbol [ list %tmp.42 53 12 16 ];
+    symbol [ list %tmp.42 63 12 16 ];
     %tmp.43 = lgetv %preset.2;
-    symbol [ preset %tmp.43 53 22 28 ];
+    symbol [ preset %tmp.43 63 22 28 ];
     %tmp.44 = lgetv %i.3;
-    symbol [ i %tmp.44 53 17 18 ];
+    symbol [ i %tmp.44 63 17 18 ];
     aputv %tmp.42 %tmp.44 %tmp.43;
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 54 12 ]
-    symbol [ Storage %tmp.45 54 12 19 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 64 12 ]
+    symbol [ Storage %tmp.45 64 12 19 ];
     %tmp.45 = getm $.Toybox.Application.Storage;
-    symbol [ setValue %tmp.46 54 20 28 ];
+    symbol [ setValue %tmp.46 64 20 28 ];
     %tmp.46 = getv function %tmp.45 :setValue;
-    symbol [ KEY_PRESETS %tmp.48 54 29 40 ];
+    symbol [ KEY_PRESETS %tmp.48 64 29 40 ];
     %tmp.48 = getv ? :KEY_PRESETS;
     %tmp.49 = lgetv %list.1;
-    symbol [ list %tmp.49 54 42 46 ];
+    symbol [ list %tmp.49 64 42 46 ];
     invoke %tmp.45 %tmp.46(%tmp.48, %tmp.49);
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 55 12 ]
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 65 12 ]
     ret ?;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_52_54_56_8_stop:
-    goto @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_52_8_56_8_if_end;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_52_8_56_8_if_end:
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_51_42_57_4_stop:
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_51_4_57_4_for_incr:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 51 ]
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_62_54_66_8_stop:
+    goto @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_62_8_66_8_if_end;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_62_8_66_8_if_end:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_61_42_67_4_stop:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_61_4_67_4_for_incr:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 61 ]
     %tmp.52 = lgetv %i.3;
-    symbol [ i %tmp.52 51 37 38 ];
+    symbol [ i %tmp.52 61 37 38 ];
     %tmp.53 = add %tmp.52 1;
     lputv %i.3 %tmp.53;
-    symbol [ i %i.3 51 37 38 ];
-    goto @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_51_4_57_4_for_test;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_51_4_57_4_for_end:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 58 4 ]
+    symbol [ i %i.3 61 37 38 ];
+    goto @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_61_4_67_4_for_test;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_61_4_67_4_for_end:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 68 4 ]
     %tmp.54 = lgetv %list.1;
-    symbol [ list %tmp.54 58 4 8 ];
-    symbol [ add %tmp.55 58 9 12 ];
+    symbol [ list %tmp.54 68 4 8 ];
+    symbol [ add %tmp.55 68 9 12 ];
     %tmp.55 = getv function %tmp.54 :add;
     %tmp.56 = lgetv %preset.2;
-    symbol [ preset %tmp.56 58 13 19 ];
+    symbol [ preset %tmp.56 68 13 19 ];
     invoke %tmp.54 %tmp.55(%tmp.56);
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 59 4 ]
-    symbol [ Storage %tmp.57 59 4 11 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 69 4 ]
+    symbol [ Storage %tmp.57 69 4 11 ];
     %tmp.57 = getm $.Toybox.Application.Storage;
-    symbol [ setValue %tmp.58 59 12 20 ];
+    symbol [ setValue %tmp.58 69 12 20 ];
     %tmp.58 = getv function %tmp.57 :setValue;
-    symbol [ KEY_PRESETS %tmp.60 59 21 32 ];
+    symbol [ KEY_PRESETS %tmp.60 69 21 32 ];
     %tmp.60 = getv ? :KEY_PRESETS;
     %tmp.61 = lgetv %list.1;
-    symbol [ list %tmp.61 59 34 38 ];
+    symbol [ list %tmp.61 69 34 38 ];
     invoke %tmp.57 %tmp.58(%tmp.60, %tmp.61);
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_43_44_60_0_stop:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_53_44_70_0_stop:
 }
-[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 62; @symbol_functiondef = [deletePreset,62,9,21]; @symbol_param<0> = [name,62,22,26]; @symbol_param<0>_type<0> = [String,62,30,36]; ]
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 72; @symbol_functiondef = [deletePreset,72,9,21]; @symbol_param<0> = [name,72,22,26]; @symbol_param<0>_type<0> = [String,72,30,36]; ]
 function deletePreset(name as String) as Void {
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_62_46_71_0_start:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 63 4 ]
-    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_62_46_71_0_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_62_46_71_0_stop" ]
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_72_46_81_0_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 73 4 ]
+    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_72_46_81_0_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_72_46_81_0_stop" ]
     %list.1 = local;
-    symbol [ list %list.1 63 8 12 ];
+    symbol [ list %list.1 73 8 12 ];
     %tmp.1 = self;
-    symbol [ getPresets %tmp.2 63 15 25 ];
+    symbol [ getPresets %tmp.2 73 15 25 ];
     %tmp.2 = getv function %tmp.1 :getPresets;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     lputv %list.1 %tmp.3;
-    symbol [ list %list.1 63 8 12 ];
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 64 4 ]
-    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_62_46_71_0_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_62_46_71_0_stop" ]
+    symbol [ list %list.1 73 8 12 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 74 4 ]
+    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_72_46_81_0_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_72_46_81_0_stop" ]
     %newList.2 = local;
-    symbol [ newList %newList.2 64 8 15 ];
+    symbol [ newList %newList.2 74 8 15 ];
     %tmp.4 = newa 0 Array<Dictionary>;
-    symbol [ Array %tmp.4 64 24 29 ];
-    symbol [ Dictionary %tmp.4 64 30 40 ];
+    symbol [ Array %tmp.4 74 24 29 ];
+    symbol [ Dictionary %tmp.4 74 30 40 ];
     lputv %newList.2 %tmp.4;
-    symbol [ newList %newList.2 64 8 15 ];
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 65 4 ]
-    for @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_65_4_69_4_for_test @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_65_4_69_4_for_incr @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_65_4_69_4_for_end;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_65_4_69_4_for_init:
-    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_65_4_69_4_for_begin" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_65_4_69_4_for_end" ]
+    symbol [ newList %newList.2 74 8 15 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 75 4 ]
+    for @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_79_4_for_test @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_79_4_for_incr @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_79_4_for_end;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_79_4_for_init:
+    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_79_4_for_begin" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_79_4_for_end" ]
     %i.3 = local;
-    symbol [ i %i.3 65 13 14 ];
+    symbol [ i %i.3 75 13 14 ];
     %tmp.5 = 0;
     lputv %i.3 %tmp.5;
-    symbol [ i %i.3 65 13 14 ];
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_65_4_69_4_for_test:
+    symbol [ i %i.3 75 13 14 ];
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_79_4_for_test:
     %tmp.6 = lgetv %i.3;
-    symbol [ i %tmp.6 65 20 21 ];
+    symbol [ i %tmp.6 75 20 21 ];
     %tmp.7 = lgetv %list.1;
-    symbol [ list %tmp.7 65 24 28 ];
-    symbol [ size %tmp.8 65 29 33 ];
+    symbol [ list %tmp.7 75 24 28 ];
+    symbol [ size %tmp.8 75 29 33 ];
     %tmp.8 = getv function %tmp.7 :size;
     %tmp.9 = invoke %tmp.7 %tmp.8();
     %tmp.10 = lt %tmp.6 %tmp.9;
-    bf %tmp.10 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_65_4_69_4_for_end;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_65_4_69_4_for_begin:
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_65_42_69_4_start:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 66 8 ]
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_66_8_68_8_if_stmt:
+    bf %tmp.10 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_79_4_for_end;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_79_4_for_begin:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_42_79_4_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 76 8 ]
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_76_8_78_8_if_stmt:
     %tmp.11 = lgetv %list.1;
-    symbol [ list %tmp.11 66 14 18 ];
+    symbol [ list %tmp.11 76 14 18 ];
     %tmp.12 = lgetv %i.3;
-    symbol [ i %tmp.12 66 19 20 ];
+    symbol [ i %tmp.12 76 19 20 ];
     %tmp.13 = agetv %tmp.11 %tmp.12;
     %tmp.14 = "name";
     %tmp.15 = agetv %tmp.13 %tmp.14;
     %tmp.16 = as %tmp.15 String;
-    symbol [ String %tmp.16 66 33 39 ];
-    symbol [ equals %tmp.17 66 41 47 ];
+    symbol [ String %tmp.16 76 33 39 ];
+    symbol [ equals %tmp.17 76 41 47 ];
     %tmp.17 = getv function %tmp.16 :equals;
     %tmp.18 = lgetv %name;
-    symbol [ name %tmp.18 66 48 52 ];
+    symbol [ name %tmp.18 76 48 52 ];
     %tmp.19 = invoke %tmp.16 %tmp.17(%tmp.18);
     %tmp.20 = not %tmp.19;
-    bf %tmp.20 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_66_8_68_8_if_end;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_66_8_68_8_if_true:
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_66_55_68_8_start:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 67 12 ]
+    bf %tmp.20 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_76_8_78_8_if_end;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_76_8_78_8_if_true:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_76_55_78_8_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 77 12 ]
     %tmp.21 = lgetv %newList.2;
-    symbol [ newList %tmp.21 67 12 19 ];
-    symbol [ add %tmp.22 67 20 23 ];
+    symbol [ newList %tmp.21 77 12 19 ];
+    symbol [ add %tmp.22 77 20 23 ];
     %tmp.22 = getv function %tmp.21 :add;
     %tmp.23 = lgetv %list.1;
-    symbol [ list %tmp.23 67 24 28 ];
+    symbol [ list %tmp.23 77 24 28 ];
     %tmp.24 = lgetv %i.3;
-    symbol [ i %tmp.24 67 29 30 ];
+    symbol [ i %tmp.24 77 29 30 ];
     %tmp.25 = agetv %tmp.23 %tmp.24;
     invoke %tmp.21 %tmp.22(%tmp.25);
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_66_55_68_8_stop:
-    goto @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_66_8_68_8_if_end;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_66_8_68_8_if_end:
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_65_42_69_4_stop:
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_65_4_69_4_for_incr:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 65 ]
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_76_55_78_8_stop:
+    goto @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_76_8_78_8_if_end;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_76_8_78_8_if_end:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_42_79_4_stop:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_79_4_for_incr:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 75 ]
     %tmp.28 = lgetv %i.3;
-    symbol [ i %tmp.28 65 37 38 ];
+    symbol [ i %tmp.28 75 37 38 ];
     %tmp.29 = add %tmp.28 1;
     lputv %i.3 %tmp.29;
-    symbol [ i %i.3 65 37 38 ];
-    goto @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_65_4_69_4_for_test;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_65_4_69_4_for_end:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 70 4 ]
-    symbol [ Storage %tmp.30 70 4 11 ];
+    symbol [ i %i.3 75 37 38 ];
+    goto @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_79_4_for_test;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_79_4_for_end:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 80 4 ]
+    symbol [ Storage %tmp.30 80 4 11 ];
     %tmp.30 = getm $.Toybox.Application.Storage;
-    symbol [ setValue %tmp.31 70 12 20 ];
+    symbol [ setValue %tmp.31 80 12 20 ];
     %tmp.31 = getv function %tmp.30 :setValue;
-    symbol [ KEY_PRESETS %tmp.33 70 21 32 ];
+    symbol [ KEY_PRESETS %tmp.33 80 21 32 ];
     %tmp.33 = getv ? :KEY_PRESETS;
     %tmp.34 = lgetv %newList.2;
-    symbol [ newList %tmp.34 70 34 41 ];
+    symbol [ newList %tmp.34 80 34 41 ];
     invoke %tmp.30 %tmp.31(%tmp.33, %tmp.34);
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_62_46_71_0_stop:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_72_46_81_0_stop:
 }
-[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 73; @symbol_functiondef = [loadPreset,73,9,19]; @symbol_param<0> = [name,73,20,24]; @symbol_param<0>_type<0> = [String,73,28,34]; ]
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 83; @symbol_functiondef = [loadPreset,83,9,19]; @symbol_param<0> = [name,83,20,24]; @symbol_param<0>_type<0> = [String,83,28,34]; ]
 function loadPreset(name as String) as Void {
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_73_44_83_0_start:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 74 4 ]
-    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_73_44_83_0_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_73_44_83_0_stop" ]
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_83_44_93_0_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 84 4 ]
+    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_83_44_93_0_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_83_44_93_0_stop" ]
     %list.1 = local;
-    symbol [ list %list.1 74 8 12 ];
+    symbol [ list %list.1 84 8 12 ];
     %tmp.1 = self;
-    symbol [ getPresets %tmp.2 74 15 25 ];
+    symbol [ getPresets %tmp.2 84 15 25 ];
     %tmp.2 = getv function %tmp.1 :getPresets;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     lputv %list.1 %tmp.3;
-    symbol [ list %list.1 74 8 12 ];
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 75 4 ]
-    for @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_82_4_for_test @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_82_4_for_incr @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_82_4_for_end;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_82_4_for_init:
-    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_82_4_for_begin" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_82_4_for_end" ]
+    symbol [ list %list.1 84 8 12 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 85 4 ]
+    for @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_85_4_92_4_for_test @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_85_4_92_4_for_incr @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_85_4_92_4_for_end;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_85_4_92_4_for_init:
+    [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_85_4_92_4_for_begin" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_85_4_92_4_for_end" ]
     %i.2 = local;
-    symbol [ i %i.2 75 13 14 ];
+    symbol [ i %i.2 85 13 14 ];
     %tmp.4 = 0;
     lputv %i.2 %tmp.4;
-    symbol [ i %i.2 75 13 14 ];
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_82_4_for_test:
+    symbol [ i %i.2 85 13 14 ];
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_85_4_92_4_for_test:
     %tmp.5 = lgetv %i.2;
-    symbol [ i %tmp.5 75 20 21 ];
+    symbol [ i %tmp.5 85 20 21 ];
     %tmp.6 = lgetv %list.1;
-    symbol [ list %tmp.6 75 24 28 ];
-    symbol [ size %tmp.7 75 29 33 ];
+    symbol [ list %tmp.6 85 24 28 ];
+    symbol [ size %tmp.7 85 29 33 ];
     %tmp.7 = getv function %tmp.6 :size;
     %tmp.8 = invoke %tmp.6 %tmp.7();
     %tmp.9 = lt %tmp.5 %tmp.8;
-    bf %tmp.9 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_82_4_for_end;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_82_4_for_begin:
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_42_82_4_start:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 76 8 ]
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_76_8_81_8_if_stmt:
+    bf %tmp.9 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_85_4_92_4_for_end;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_85_4_92_4_for_begin:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_85_42_92_4_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 86 8 ]
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_86_8_91_8_if_stmt:
     %tmp.10 = lgetv %list.1;
-    symbol [ list %tmp.10 76 13 17 ];
+    symbol [ list %tmp.10 86 13 17 ];
     %tmp.11 = lgetv %i.2;
-    symbol [ i %tmp.11 76 18 19 ];
+    symbol [ i %tmp.11 86 18 19 ];
     %tmp.12 = agetv %tmp.10 %tmp.11;
     %tmp.13 = "name";
     %tmp.14 = agetv %tmp.12 %tmp.13;
     %tmp.15 = as %tmp.14 String;
-    symbol [ String %tmp.15 76 32 38 ];
-    symbol [ equals %tmp.16 76 40 46 ];
+    symbol [ String %tmp.15 86 32 38 ];
+    symbol [ equals %tmp.16 86 40 46 ];
     %tmp.16 = getv function %tmp.15 :equals;
     %tmp.17 = lgetv %name;
-    symbol [ name %tmp.17 76 47 51 ];
+    symbol [ name %tmp.17 86 47 51 ];
     %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
-    bf %tmp.18 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_76_8_81_8_if_end;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_76_8_81_8_if_true:
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_76_54_81_8_start:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 77 12 ]
-    symbol [ Storage %tmp.19 77 12 19 ];
+    bf %tmp.18 @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_86_8_91_8_if_end;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_86_8_91_8_if_true:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_86_54_91_8_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 87 12 ]
+    symbol [ Storage %tmp.19 87 12 19 ];
     %tmp.19 = getm $.Toybox.Application.Storage;
-    symbol [ setValue %tmp.20 77 20 28 ];
+    symbol [ setValue %tmp.20 87 20 28 ];
     %tmp.20 = getv function %tmp.19 :setValue;
-    symbol [ KEY_EXERCISE %tmp.22 77 29 41 ];
+    symbol [ KEY_EXERCISE %tmp.22 87 29 41 ];
     %tmp.22 = getv ? :KEY_EXERCISE;
     %tmp.23 = lgetv %list.1;
-    symbol [ list %tmp.23 77 43 47 ];
+    symbol [ list %tmp.23 87 43 47 ];
     %tmp.24 = lgetv %i.2;
-    symbol [ i %tmp.24 77 48 49 ];
+    symbol [ i %tmp.24 87 48 49 ];
     %tmp.25 = agetv %tmp.23 %tmp.24;
     %tmp.26 = "ex";
     %tmp.27 = agetv %tmp.25 %tmp.26;
     invoke %tmp.19 %tmp.20(%tmp.22, %tmp.27);
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 78 12 ]
-    symbol [ Storage %tmp.28 78 12 19 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 88 12 ]
+    symbol [ Storage %tmp.28 88 12 19 ];
     %tmp.28 = getm $.Toybox.Application.Storage;
-    symbol [ setValue %tmp.29 78 20 28 ];
+    symbol [ setValue %tmp.29 88 20 28 ];
     %tmp.29 = getv function %tmp.28 :setValue;
-    symbol [ KEY_REST %tmp.31 78 29 37 ];
+    symbol [ KEY_REST %tmp.31 88 29 37 ];
     %tmp.31 = getv ? :KEY_REST;
     %tmp.32 = lgetv %list.1;
-    symbol [ list %tmp.32 78 39 43 ];
+    symbol [ list %tmp.32 88 39 43 ];
     %tmp.33 = lgetv %i.2;
-    symbol [ i %tmp.33 78 44 45 ];
+    symbol [ i %tmp.33 88 44 45 ];
     %tmp.34 = agetv %tmp.32 %tmp.33;
     %tmp.35 = "rest";
     %tmp.36 = agetv %tmp.34 %tmp.35;
     invoke %tmp.28 %tmp.29(%tmp.31, %tmp.36);
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 79 12 ]
-    symbol [ Storage %tmp.37 79 12 19 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 89 12 ]
+    symbol [ Storage %tmp.37 89 12 19 ];
     %tmp.37 = getm $.Toybox.Application.Storage;
-    symbol [ setValue %tmp.38 79 20 28 ];
+    symbol [ setValue %tmp.38 89 20 28 ];
     %tmp.38 = getv function %tmp.37 :setValue;
-    symbol [ KEY_REPS %tmp.40 79 29 37 ];
+    symbol [ KEY_REPS %tmp.40 89 29 37 ];
     %tmp.40 = getv ? :KEY_REPS;
     %tmp.41 = lgetv %list.1;
-    symbol [ list %tmp.41 79 39 43 ];
+    symbol [ list %tmp.41 89 39 43 ];
     %tmp.42 = lgetv %i.2;
-    symbol [ i %tmp.42 79 44 45 ];
+    symbol [ i %tmp.42 89 44 45 ];
     %tmp.43 = agetv %tmp.41 %tmp.42;
     %tmp.44 = "reps";
     %tmp.45 = agetv %tmp.43 %tmp.44;
     invoke %tmp.37 %tmp.38(%tmp.40, %tmp.45);
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 80 12 ]
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 90 12 ]
     ret ?;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_76_54_81_8_stop:
-    goto @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_76_8_81_8_if_end;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_76_8_81_8_if_end:
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_42_82_4_stop:
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_82_4_for_incr:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 75 ]
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_86_54_91_8_stop:
+    goto @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_86_8_91_8_if_end;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_86_8_91_8_if_end:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_85_42_92_4_stop:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_85_4_92_4_for_incr:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 85 ]
     %tmp.48 = lgetv %i.2;
-    symbol [ i %tmp.48 75 37 38 ];
+    symbol [ i %tmp.48 85 37 38 ];
     %tmp.49 = add %tmp.48 1;
     lputv %i.2 %tmp.49;
-    symbol [ i %i.2 75 37 38 ];
-    goto @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_82_4_for_test;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_75_4_82_4_for_end:
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_73_44_83_0_stop:
+    symbol [ i %i.2 85 37 38 ];
+    goto @_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_85_4_92_4_for_test;
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_85_4_92_4_for_end:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_83_44_93_0_stop:
 }
-[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 85; @symbol_classdef = [IntervalsApp,85,6,18]; @symbol_extends<0> = [Application,85,27,38]; @symbol_extends<1> = [AppBase,85,39,46]; ]
+[ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 95; @symbol_classdef = [IntervalsApp,95,6,18]; @symbol_extends<0> = [Application,95,27,38]; @symbol_extends<1> = [AppBase,95,39,46]; ]
 class IntervalsApp extends Application.AppBase {
-    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 85; ]
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 95; ]
     <init> {
     }
-    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 85; ]
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 95; ]
     static
     <init> {
     }
-    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 86; @symbol_functiondef = [initialize,86,13,23]; ]
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 96; @symbol_functiondef = [initialize,96,13,23]; ]
     function initialize() as Void {
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_86_26_88_4_start:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 87 8 ]
-        symbol [ AppBase %tmp.2 87 8 15 ];
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_96_26_98_4_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 97 8 ]
+        symbol [ AppBase %tmp.2 97 8 15 ];
         %tmp.2 = getv ? :AppBase;
-        symbol [ initialize %tmp.3 87 16 26 ];
+        symbol [ initialize %tmp.3 97 16 26 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_86_26_88_4_stop:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_96_26_98_4_stop:
     }
-    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 90; @symbol_functiondef = [onStart,90,13,20]; @symbol_param<0> = [state,90,21,26]; @symbol_param<0>_type<0> = [Dictionary,90,30,40]; ]
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 100; @symbol_functiondef = [onStart,100,13,20]; @symbol_param<0> = [state,100,21,26]; @symbol_param<0>_type<0> = [Dictionary,100,30,40]; ]
     function onStart(state as Dictionary or Null) as Void {
     }
-    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 91; @symbol_functiondef = [onStop,91,13,19]; @symbol_param<0> = [state,91,20,25]; @symbol_param<0>_type<0> = [Dictionary,91,29,39]; ]
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 101; @symbol_functiondef = [onStop,101,13,19]; @symbol_param<0> = [state,101,20,25]; @symbol_param<0>_type<0> = [Dictionary,101,29,39]; ]
     function onStop(state as Dictionary or Null) as Void {
     }
-    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 93; @symbol_functiondef = [getInitialView,93,13,27]; @symbol_return<0> = [Views,93,34,39]; @symbol_return<1> = [Views,93,45,50]; @symbol_return<2> = [InputDelegates,93,52,66]; ]
+    [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 103; @symbol_functiondef = [getInitialView,103,13,27]; @symbol_return<0> = [Views,103,34,39]; @symbol_return<1> = [Views,103,45,50]; @symbol_return<2> = [InputDelegates,103,52,66]; ]
     function getInitialView() as [Views] or [Views, InputDelegates] {
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_93_68_97_4_start:
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 94 8 ]
-        [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_93_68_97_4_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_93_68_97_4_stop" ]
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_103_68_107_4_start:
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 104 8 ]
+        [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_103_68_107_4_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_103_68_107_4_stop" ]
         %view.1 = local;
-        symbol [ view %view.1 94 12 16 ];
-        symbol [ MainView %tmp.4 94 23 31 ];
+        symbol [ view %view.1 104 12 16 ];
+        symbol [ MainView %tmp.4 104 23 31 ];
         %tmp.4 = getv ? :MainView;
         %tmp.1 = newc %tmp.4 ();
         lputv %view.1 %tmp.1;
-        symbol [ view %view.1 94 12 16 ];
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 95 8 ]
-        [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_93_68_97_4_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_93_68_97_4_stop" ]
+        symbol [ view %view.1 104 12 16 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 105 8 ]
+        [ "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_103_68_107_4_start" "_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_103_68_107_4_stop" ]
         %delegate.2 = local;
-        symbol [ delegate %delegate.2 95 12 20 ];
-        symbol [ MainDelegate %tmp.8 95 27 39 ];
+        symbol [ delegate %delegate.2 105 12 20 ];
+        symbol [ MainDelegate %tmp.8 105 27 39 ];
         %tmp.8 = getv ? :MainDelegate;
         %tmp.9 = lgetv %view.1;
-        symbol [ view %tmp.9 95 40 44 ];
+        symbol [ view %tmp.9 105 40 44 ];
         %tmp.5 = newc %tmp.8 (%tmp.9);
         lputv %delegate.2 %tmp.5;
-        symbol [ delegate %delegate.2 95 12 20 ];
-[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 96 8 ]
+        symbol [ delegate %delegate.2 105 12 20 ];
+[ "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" 106 8 ]
         %tmp.10 = newa 2;
         %tmp.11 = lgetv %view.1;
-        symbol [ view %tmp.11 96 16 20 ];
+        symbol [ view %tmp.11 106 16 20 ];
         %tmp.12 = dup %tmp.10;
         %tmp.13 = aputv %tmp.12 0 %tmp.11;
         %tmp.14 = lgetv %delegate.2;
-        symbol [ delegate %tmp.14 96 22 30 ];
+        symbol [ delegate %tmp.14 106 22 30 ];
         %tmp.15 = dup %tmp.13;
         %tmp.16 = aputv %tmp.15 1 %tmp.14;
         ret %tmp.16;
-_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_93_68_97_4_stop:
+_Users_lukaszilka_devel_garmin_intervals_source_IntervalsApp_mc_103_68_107_4_stop:
     }
 }
 [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc"; @line = 1; ]

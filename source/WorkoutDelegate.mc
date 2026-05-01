@@ -18,7 +18,6 @@ class WorkoutDelegate extends WatchUi.BehaviorDelegate {
     function onSelect() as Boolean {
         if (_view.isDone()) {
             System.exit();
-            return true;
         }
         _view.togglePause();
         return true;

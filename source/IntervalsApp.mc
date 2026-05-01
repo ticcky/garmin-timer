@@ -7,6 +7,7 @@ const KEY_EXERCISE = "exercise_sec";
 const KEY_REST = "rest_sec";
 const KEY_REPS = "reps";
 const KEY_PRESETS = "presets";
+const KEY_SOUNDS = "sounds_enabled";
 
 const DEFAULT_EXERCISE = 30;
 const DEFAULT_REST = 10;
@@ -32,6 +33,15 @@ function getRestSec() as Number {
 function getReps() as Number {
     var v = Storage.getValue(KEY_REPS);
     return (v == null) ? DEFAULT_REPS : v as Number;
+}
+
+function getSoundsEnabled() as Boolean {
+    var v = Storage.getValue(KEY_SOUNDS);
+    return (v == null) ? true : v as Boolean;
+}
+
+function setSoundsEnabled(enabled as Boolean) as Void {
+    Storage.setValue(KEY_SOUNDS, enabled);
 }
 
 function getPresets() as Array<Dictionary> {
