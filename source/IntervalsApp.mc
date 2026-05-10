@@ -8,17 +8,19 @@ const KEY_REST = "rest_sec";
 const KEY_REPS = "reps";
 const KEY_PRESETS = "presets";
 const KEY_SOUNDS = "sounds_enabled";
+const KEY_RECORD = "record_activity";
+const KEY_LOADED_PRESET = "loaded_preset";
 
 const DEFAULT_EXERCISE = 30;
 const DEFAULT_REST = 10;
 const DEFAULT_REPS = 5;
 
-const EXERCISE_MIN = 10;
-const EXERCISE_MAX = 60;
-const REST_MIN = 2;
-const REST_MAX = 15;
+const EXERCISE_MIN = 1;
+const EXERCISE_MAX = 99;
+const REST_MIN = 1;
+const REST_MAX = 99;
 const REPS_MIN = 1;
-const REPS_MAX = 10;
+const REPS_MAX = 99;
 
 function getExerciseSec() as Number {
     var v = Storage.getValue(KEY_EXERCISE);
@@ -44,6 +46,27 @@ function setSoundsEnabled(enabled as Boolean) as Void {
     Storage.setValue(KEY_SOUNDS, enabled);
 }
 
+function getRecordEnabled() as Boolean {
+    var v = Storage.getValue(KEY_RECORD);
+    return (v == null) ? true : v as Boolean;
+}
+
+function setRecordEnabled(enabled as Boolean) as Void {
+    Storage.setValue(KEY_RECORD, enabled);
+}
+
+function getLoadedPresetName() as String? {
+    return Storage.getValue(KEY_LOADED_PRESET) as String?;
+}
+
+function setLoadedPresetName(name as String?) as Void {
+    if (name == null) {
+        Storage.deleteValue(KEY_LOADED_PRESET);
+    } else {
+        Storage.setValue(KEY_LOADED_PRESET, name);
+    }
+}
+
 function getPresets() as Array<Dictionary> {
     var v = Storage.getValue(KEY_PRESETS);
     if (v == null) { return [] as Array<Dictionary>; }
@@ -62,11 +85,13 @@ function savePreset(name as String) as Void {
         if ((list[i]["name"] as String).equals(name)) {
             list[i] = preset;
             Storage.setValue(KEY_PRESETS, list);
+            setLoadedPresetName(name);
             return;
         }
     }
     list.add(preset);
     Storage.setValue(KEY_PRESETS, list);
+    setLoadedPresetName(name);
 }
 
 function deletePreset(name as String) as Void {
@@ -78,6 +103,28 @@ function deletePreset(name as String) as Void {
         }
     }
     Storage.setValue(KEY_PRESETS, newList);
+    var loaded = getLoadedPresetName();
+    if (loaded != null && loaded.equals(name)) {
+        setLoadedPresetName(null);
+    }
+}
+
+function renamePreset(oldName as String, newName as String) as Void {
+    if (newName.length() == 0 || oldName.equals(newName)) {
+        return;
+    }
+    var list = getPresets();
+    for (var i = 0; i < list.size(); i++) {
+        if ((list[i]["name"] as String).equals(oldName)) {
+            list[i]["name"] = newName;
+            Storage.setValue(KEY_PRESETS, list);
+            var loaded = getLoadedPresetName();
+            if (loaded != null && loaded.equals(oldName)) {
+                setLoadedPresetName(newName);
+            }
+            return;
+        }
+    }
 }
 
 function loadPreset(name as String) as Void {
@@ -87,6 +134,7 @@ function loadPreset(name as String) as Void {
             Storage.setValue(KEY_EXERCISE, list[i]["ex"]);
             Storage.setValue(KEY_REST, list[i]["rest"]);
             Storage.setValue(KEY_REPS, list[i]["reps"]);
+            setLoadedPresetName(name);
             return;
         }
     }

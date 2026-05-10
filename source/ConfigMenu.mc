@@ -8,8 +8,14 @@ function showConfigMenu(parent as MainView) as Void {
     menu.addItem(buildItem(Rez.Strings.RestLabel, getRestSec(), "rest"));
     menu.addItem(buildItem(Rez.Strings.RepsLabel, getReps(), "reps"));
     menu.addItem(new WatchUi.ToggleMenuItem("Sounds", null, "sounds", getSoundsEnabled(), {}));
+    menu.addItem(new WatchUi.ToggleMenuItem("Record activity", null, "record", getRecordEnabled(), {}));
     menu.addItem(new WatchUi.MenuItem("Load preset", null, "load", {}));
-    menu.addItem(new WatchUi.MenuItem("Save preset", null, "save", {}));
+    var loaded = getLoadedPresetName();
+    if (loaded != null) {
+        menu.addItem(new WatchUi.MenuItem("Save", loaded, "save_current", {}));
+    }
+    menu.addItem(new WatchUi.MenuItem("Save As", null, "save_as", {}));
+    menu.addItem(new WatchUi.MenuItem("Rename preset", null, "rename", {}));
     menu.addItem(new WatchUi.MenuItem("Delete preset", null, "delete", {}));
     WatchUi.pushView(menu, new ConfigMenuDelegate(parent), WatchUi.SLIDE_LEFT);
 }
@@ -41,7 +47,13 @@ class ConfigMenuDelegate extends WatchUi.Menu2InputDelegate {
             return;
         }
 
-        if (id.equals("save")) {
+        if (id.equals("record")) {
+            var toggle = item as WatchUi.ToggleMenuItem;
+            setRecordEnabled(toggle.isEnabled());
+            return;
+        }
+
+        if (id.equals("save_as")) {
             WatchUi.pushView(
                 new WatchUi.TextPicker(""),
                 new SavePresetDelegate(),
@@ -49,13 +61,17 @@ class ConfigMenuDelegate extends WatchUi.Menu2InputDelegate {
             return;
         }
 
-        if (id.equals("load")) {
-            showPresetListMenu(false);
+        if (id.equals("save_current")) {
+            var loaded = getLoadedPresetName();
+            if (loaded != null) {
+                savePreset(loaded);
+            }
+            WatchUi.popView(WatchUi.SLIDE_RIGHT);
             return;
         }
 
-        if (id.equals("delete")) {
-            showPresetListMenu(true);
+        if (id.equals("load") || id.equals("delete") || id.equals("rename")) {
+            showPresetListMenu(id);
             return;
         }
     }
@@ -93,9 +109,13 @@ class ConfigMenuDelegate extends WatchUi.Menu2InputDelegate {
     }
 }
 
-function showPresetListMenu(isDelete as Boolean) as Void {
+function showPresetListMenu(action as String) as Void {
     var presets = getPresets();
-    var title = isDelete ? "Delete" : "Load";
+    var title;
+    if (action.equals("delete")) { title = "Delete"; }
+    else if (action.equals("rename")) { title = "Rename"; }
+    else { title = "Load"; }
+
     var menu = new WatchUi.Menu2({:title => title});
 
     if (presets.size() == 0) {
@@ -109,15 +129,15 @@ function showPresetListMenu(isDelete as Boolean) as Void {
         }
     }
 
-    WatchUi.pushView(menu, new PresetListDelegate(isDelete), WatchUi.SLIDE_LEFT);
+    WatchUi.pushView(menu, new PresetListDelegate(action), WatchUi.SLIDE_LEFT);
 }
 
 class PresetListDelegate extends WatchUi.Menu2InputDelegate {
-    private var _isDelete as Boolean;
+    private var _action as String;
 
-    function initialize(isDelete as Boolean) {
+    function initialize(action as String) {
         Menu2InputDelegate.initialize();
-        _isDelete = isDelete;
+        _action = action;
     }
 
     function onSelect(item as WatchUi.MenuItem) as Void {
@@ -125,14 +145,40 @@ class PresetListDelegate extends WatchUi.Menu2InputDelegate {
         if (id.equals("_empty")) {
             return;
         }
-        if (_isDelete) {
+        if (_action.equals("delete")) {
             deletePreset(id);
             WatchUi.popView(WatchUi.SLIDE_RIGHT);
+        } else if (_action.equals("rename")) {
+            WatchUi.pushView(
+                new WatchUi.TextPicker(id),
+                new RenamePresetDelegate(id),
+                WatchUi.SLIDE_LEFT);
         } else {
             loadPreset(id);
             WatchUi.popView(WatchUi.SLIDE_RIGHT);
             WatchUi.popView(WatchUi.SLIDE_RIGHT);
         }
+    }
+}
+
+class RenamePresetDelegate extends WatchUi.TextPickerDelegate {
+    private var _oldName as String;
+
+    function initialize(oldName as String) {
+        TextPickerDelegate.initialize();
+        _oldName = oldName;
+    }
+
+    function onTextEntered(text as String, changed as Boolean) as Boolean {
+        if (text != null && text.length() > 0) {
+            renamePreset(_oldName, text);
+        }
+        WatchUi.popView(WatchUi.SLIDE_RIGHT);
+        return true;
+    }
+
+    function onCancel() as Boolean {
+        return true;
     }
 }
 

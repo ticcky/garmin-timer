@@ -19,12 +19,20 @@ class MainView extends WatchUi.View {
             WatchUi.loadResource(Rez.Strings.AppName) as String,
             Graphics.TEXT_JUSTIFY_CENTER);
 
+        var loaded = getLoadedPresetName();
+        if (loaded != null) {
+            dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_BLACK);
+            dc.drawText(cx, h * 0.27, Graphics.FONT_TINY, loaded,
+                Graphics.TEXT_JUSTIFY_CENTER);
+            dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+        }
+
         var ex = getExerciseSec();
         var rest = getRestSec();
         var reps = getReps();
 
         var line = ex + "s / " + rest + "s x " + reps;
-        dc.drawText(cx, h * 0.40, Graphics.FONT_LARGE, line,
+        dc.drawText(cx, h * 0.45, Graphics.FONT_LARGE, line,
             Graphics.TEXT_JUSTIFY_CENTER);
 
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_BLACK);

@@ -2,462 +2,531 @@
 <debugInfo>
     <manifest filename="/Users/lukaszilka/devel/garmin_intervals/manifest.xml"/>
     <pcToLineNum>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="1" lineNum="5" parent="globals/MainView" pc="268435457" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="2" lineNum="42" parent="globals/NumberPickerView" pc="268435469" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/gen/006-B4024-00/source/Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435481" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="4" lineNum="83" parent="globals" pc="268435501" symbol="loadPreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="4" lineNum="84" parent="globals" pc="268435512" symbol="loadPreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="4" lineNum="85" parent="globals" pc="268435520" symbol="loadPreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="4" lineNum="86" parent="globals" pc="268435536" symbol="loadPreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="4" lineNum="87" parent="globals" pc="268435560" symbol="loadPreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="4" lineNum="88" parent="globals" pc="268435589" symbol="loadPreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="4" lineNum="89" parent="globals" pc="268435618" symbol="loadPreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="4" lineNum="90" parent="globals" pc="268435647" symbol="loadPreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="5" lineNum="25" parent="globals/ConfigMenuDelegate" pc="268435659" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="6" lineNum="43" parent="globals" pc="268435671" symbol="setSoundsEnabled"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="6" lineNum="44" parent="globals" pc="268435681" symbol="setSoundsEnabled"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="7" lineNum="5" parent="globals" pc="268435702" symbol="showConfigMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="7" lineNum="6" parent="globals" pc="268435713" symbol="showConfigMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="7" lineNum="7" parent="globals" pc="268435753" symbol="showConfigMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="7" lineNum="8" parent="globals" pc="268435798" symbol="showConfigMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="7" lineNum="9" parent="globals" pc="268435843" symbol="showConfigMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="7" lineNum="10" parent="globals" pc="268435888" symbol="showConfigMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="7" lineNum="11" parent="globals" pc="268435939" symbol="showConfigMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="7" lineNum="12" parent="globals" pc="268435984" symbol="showConfigMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="7" lineNum="13" parent="globals" pc="268436029" symbol="showConfigMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="7" lineNum="14" parent="globals" pc="268436074" symbol="showConfigMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="8" lineNum="28" parent="globals" pc="268436112" symbol="getRestSec"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="8" lineNum="29" parent="globals" pc="268436123" symbol="getRestSec"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="8" lineNum="30" parent="globals" pc="268436142" symbol="getRestSec"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="9" lineNum="115" parent="globals/PresetListDelegate" pc="268436156" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="10" lineNum="95" parent="globals/IntervalsApp" pc="268436168" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="11" lineNum="17" parent="globals" pc="268436180" symbol="buildItem"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="11" lineNum="18" parent="globals" pc="268436190" symbol="buildItem"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="12" lineNum="72" parent="globals" pc="268436239" symbol="deletePreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="12" lineNum="73" parent="globals" pc="268436250" symbol="deletePreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="12" lineNum="74" parent="globals" pc="268436258" symbol="deletePreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="12" lineNum="75" parent="globals" pc="268436262" symbol="deletePreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="12" lineNum="76" parent="globals" pc="268436278" symbol="deletePreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="12" lineNum="77" parent="globals" pc="268436303" symbol="deletePreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="12" lineNum="80" parent="globals" pc="268436328" symbol="deletePreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="13" lineNum="139" parent="globals/SavePresetDelegate" pc="268436349" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="14" lineNum="23" parent="globals" pc="268436361" symbol="getExerciseSec"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="14" lineNum="24" parent="globals" pc="268436372" symbol="getExerciseSec"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="14" lineNum="25" parent="globals" pc="268436391" symbol="getExerciseSec"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="15" lineNum="6" parent="globals/NumberFactory" pc="268436405" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="16" lineNum="5" parent="globals/WorkoutDelegate" pc="268436417" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="17" lineNum="38" parent="globals" pc="268436429" symbol="getSoundsEnabled"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="17" lineNum="39" parent="globals" pc="268436440" symbol="getSoundsEnabled"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="17" lineNum="40" parent="globals" pc="268436459" symbol="getSoundsEnabled"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="18" lineNum="33" parent="globals" pc="268436472" symbol="getReps"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="18" lineNum="34" parent="globals" pc="268436483" symbol="getReps"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="18" lineNum="35" parent="globals" pc="268436502" symbol="getReps"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="19" lineNum="47" parent="globals" pc="268436516" symbol="getPresets"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="19" lineNum="48" parent="globals" pc="268436527" symbol="getPresets"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="19" lineNum="49" parent="globals" pc="268436546" symbol="getPresets"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="19" lineNum="49" parent="globals" pc="268436552" symbol="getPresets"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="19" lineNum="50" parent="globals" pc="268436555" symbol="getPresets"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="20" lineNum="16" parent="globals/WorkoutView" pc="268436558" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="21" lineNum="65" parent="globals/NumberPickerDelegate" pc="268436570" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="22" lineNum="96" parent="globals" pc="268436582" symbol="showPresetListMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="22" lineNum="97" parent="globals" pc="268436593" symbol="showPresetListMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="22" lineNum="98" parent="globals" pc="268436601" symbol="showPresetListMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="22" lineNum="99" parent="globals" pc="268436621" symbol="showPresetListMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="22" lineNum="101" parent="globals" pc="268436658" symbol="showPresetListMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="22" lineNum="102" parent="globals" pc="268436670" symbol="showPresetListMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="22" lineNum="104" parent="globals" pc="268436718" symbol="showPresetListMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="22" lineNum="105" parent="globals" pc="268436734" symbol="showPresetListMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="22" lineNum="106" parent="globals" pc="268436741" symbol="showPresetListMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="22" lineNum="107" parent="globals" pc="268436751" symbol="showPresetListMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="22" lineNum="108" parent="globals" pc="268436791" symbol="showPresetListMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="22" lineNum="112" parent="globals" pc="268436841" symbol="showPresetListMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="23" lineNum="4" parent="globals/MainDelegate" pc="268436879" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="24" lineNum="53" parent="globals" pc="268436891" symbol="savePreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="24" lineNum="54" parent="globals" pc="268436902" symbol="savePreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="24" lineNum="55" parent="globals" pc="268436910" symbol="savePreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="24" lineNum="61" parent="globals" pc="268436961" symbol="savePreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="24" lineNum="62" parent="globals" pc="268436977" symbol="savePreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="24" lineNum="63" parent="globals" pc="268437001" symbol="savePreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="24" lineNum="64" parent="globals" pc="268437008" symbol="savePreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="24" lineNum="65" parent="globals" pc="268437028" symbol="savePreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="24" lineNum="68" parent="globals" pc="268437039" symbol="savePreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="24" lineNum="69" parent="globals" pc="268437051" symbol="savePreset"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="25" lineNum="6" parent="globals/MainView" pc="268437072" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="25" lineNum="7" parent="globals/MainView" pc="268437074" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="26" lineNum="10" parent="globals/MainView" pc="268437087" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="26" lineNum="11" parent="globals/MainView" pc="268437090" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="26" lineNum="12" parent="globals/MainView" pc="268437106" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="26" lineNum="14" parent="globals/MainView" pc="268437114" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="26" lineNum="15" parent="globals/MainView" pc="268437123" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="26" lineNum="16" parent="globals/MainView" pc="268437132" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="26" lineNum="18" parent="globals/MainView" pc="268437139" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="26" lineNum="22" parent="globals/MainView" pc="268437194" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="26" lineNum="23" parent="globals/MainView" pc="268437202" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="26" lineNum="24" parent="globals/MainView" pc="268437210" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="26" lineNum="26" parent="globals/MainView" pc="268437218" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="26" lineNum="27" parent="globals/MainView" pc="268437240" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="26" lineNum="30" parent="globals/MainView" pc="268437266" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="26" lineNum="31" parent="globals/MainView" pc="268437282" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="26" lineNum="34" parent="globals/MainView" pc="268437336" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="27" lineNum="43" parent="globals/NumberPickerView" pc="268437391" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="27" lineNum="44" parent="globals/NumberPickerView" pc="268437394" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="27" lineNum="50" parent="globals/NumberPickerView" pc="268437464" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="27" lineNum="51" parent="globals/NumberPickerView" pc="268437488" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="28" lineNum="58" parent="globals/NumberPickerView" pc="268437555" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="28" lineNum="59" parent="globals/NumberPickerView" pc="268437557" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="28" lineNum="60" parent="globals/NumberPickerView" pc="268437569" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="28" lineNum="61" parent="globals/NumberPickerView" pc="268437577" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="29" lineNum="63" parent="globals/ConfigMenuDelegate" pc="268437594" symbol="onBack"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="29" lineNum="64" parent="globals/ConfigMenuDelegate" pc="268437596" symbol="onBack"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="29" lineNum="65" parent="globals/ConfigMenuDelegate" pc="268437607" symbol="onBack"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="30" lineNum="26" parent="globals/ConfigMenuDelegate" pc="268437620" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="30" lineNum="27" parent="globals/ConfigMenuDelegate" pc="268437622" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="68" parent="globals/ConfigMenuDelegate" pc="268437635" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="75" parent="globals/ConfigMenuDelegate" pc="268437638" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="76" parent="globals/ConfigMenuDelegate" pc="268437655" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="77" parent="globals/ConfigMenuDelegate" pc="268437662" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="77" parent="globals/ConfigMenuDelegate" pc="268437666" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="78" parent="globals/ConfigMenuDelegate" pc="268437670" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="78" parent="globals/ConfigMenuDelegate" pc="268437678" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="79" parent="globals/ConfigMenuDelegate" pc="268437688" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="80" parent="globals/ConfigMenuDelegate" pc="268437705" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="81" parent="globals/ConfigMenuDelegate" pc="268437712" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="81" parent="globals/ConfigMenuDelegate" pc="268437716" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="82" parent="globals/ConfigMenuDelegate" pc="268437720" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="82" parent="globals/ConfigMenuDelegate" pc="268437728" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="84" parent="globals/ConfigMenuDelegate" pc="268437738" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="85" parent="globals/ConfigMenuDelegate" pc="268437745" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="85" parent="globals/ConfigMenuDelegate" pc="268437749" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="86" parent="globals/ConfigMenuDelegate" pc="268437753" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="86" parent="globals/ConfigMenuDelegate" pc="268437761" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="89" parent="globals/ConfigMenuDelegate" pc="268437768" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="30" parent="globals/ConfigMenuDelegate" pc="268437832" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="31" parent="globals/ConfigMenuDelegate" pc="268437835" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="33" parent="globals/ConfigMenuDelegate" pc="268437844" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="34" parent="globals/ConfigMenuDelegate" pc="268437895" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="35" parent="globals/ConfigMenuDelegate" pc="268437908" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="38" parent="globals/ConfigMenuDelegate" pc="268437909" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="39" parent="globals/ConfigMenuDelegate" pc="268437926" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="40" parent="globals/ConfigMenuDelegate" pc="268437930" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="41" parent="globals/ConfigMenuDelegate" pc="268437946" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="44" parent="globals/ConfigMenuDelegate" pc="268437947" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="45" parent="globals/ConfigMenuDelegate" pc="268437964" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="49" parent="globals/ConfigMenuDelegate" pc="268438024" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="52" parent="globals/ConfigMenuDelegate" pc="268438025" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="53" parent="globals/ConfigMenuDelegate" pc="268438042" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="54" parent="globals/ConfigMenuDelegate" pc="268438052" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="57" parent="globals/ConfigMenuDelegate" pc="268438053" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="58" parent="globals/ConfigMenuDelegate" pc="268438070" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="59" parent="globals/ConfigMenuDelegate" pc="268438080" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="33" lineNum="118" parent="globals/PresetListDelegate" pc="268438082" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="33" lineNum="119" parent="globals/PresetListDelegate" pc="268438084" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="33" lineNum="120" parent="globals/PresetListDelegate" pc="268438096" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="34" lineNum="123" parent="globals/PresetListDelegate" pc="268438106" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="34" lineNum="124" parent="globals/PresetListDelegate" pc="268438109" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="34" lineNum="125" parent="globals/PresetListDelegate" pc="268438118" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="34" lineNum="126" parent="globals/PresetListDelegate" pc="268438135" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="34" lineNum="128" parent="globals/PresetListDelegate" pc="268438136" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="34" lineNum="129" parent="globals/PresetListDelegate" pc="268438144" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="34" lineNum="130" parent="globals/PresetListDelegate" pc="268438155" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="34" lineNum="132" parent="globals/PresetListDelegate" pc="268438171" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="34" lineNum="133" parent="globals/PresetListDelegate" pc="268438182" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="34" lineNum="134" parent="globals/PresetListDelegate" pc="268438197" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="36" lineNum="103" parent="globals/IntervalsApp" pc="268438213" symbol="getInitialView"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="36" lineNum="104" parent="globals/IntervalsApp" pc="268438216" symbol="getInitialView"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="36" lineNum="105" parent="globals/IntervalsApp" pc="268438236" symbol="getInitialView"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="36" lineNum="106" parent="globals/IntervalsApp" pc="268438258" symbol="getInitialView"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="37" lineNum="96" parent="globals/IntervalsApp" pc="268438273" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="37" lineNum="97" parent="globals/IntervalsApp" pc="268438275" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="39" lineNum="144" parent="globals/SavePresetDelegate" pc="268438288" symbol="onTextEntered"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="39" lineNum="145" parent="globals/SavePresetDelegate" pc="268438290" symbol="onTextEntered"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="39" lineNum="146" parent="globals/SavePresetDelegate" pc="268438309" symbol="onTextEntered"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="39" lineNum="148" parent="globals/SavePresetDelegate" pc="268438320" symbol="onTextEntered"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="40" lineNum="151" parent="globals/SavePresetDelegate" pc="268438322" symbol="onCancel"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="40" lineNum="152" parent="globals/SavePresetDelegate" pc="268438324" symbol="onCancel"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="41" lineNum="140" parent="globals/SavePresetDelegate" pc="268438326" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="41" lineNum="141" parent="globals/SavePresetDelegate" pc="268438328" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="42" lineNum="20" parent="globals/NumberFactory" pc="268438341" symbol="getValue"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="42" lineNum="21" parent="globals/NumberFactory" pc="268438343" symbol="getValue"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="43" lineNum="16" parent="globals/NumberFactory" pc="268438352" symbol="getSize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="43" lineNum="17" parent="globals/NumberFactory" pc="268438354" symbol="getSize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="44" lineNum="31" parent="globals/NumberFactory" pc="268438369" symbol="getDrawable"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="44" lineNum="32" parent="globals/NumberFactory" pc="268438371" symbol="getDrawable"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="45" lineNum="24" parent="globals/NumberFactory" pc="268438462" symbol="getIndex"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="45" lineNum="25" parent="globals/NumberFactory" pc="268438465" symbol="getIndex"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="45" lineNum="26" parent="globals/NumberFactory" pc="268438475" symbol="getIndex"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="45" lineNum="26" parent="globals/NumberFactory" pc="268438482" symbol="getIndex"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="45" lineNum="27" parent="globals/NumberFactory" pc="268438484" symbol="getIndex"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="45" lineNum="27" parent="globals/NumberFactory" pc="268438496" symbol="getIndex"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="45" lineNum="28" parent="globals/NumberFactory" pc="268438506" symbol="getIndex"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="46" lineNum="10" parent="globals/NumberFactory" pc="268438509" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="46" lineNum="11" parent="globals/NumberFactory" pc="268438511" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="46" lineNum="12" parent="globals/NumberFactory" pc="268438523" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="46" lineNum="13" parent="globals/NumberFactory" pc="268438532" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="47" lineNum="13" parent="globals/WorkoutDelegate" pc="268438542" symbol="onBack"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="47" lineNum="14" parent="globals/WorkoutDelegate" pc="268438544" symbol="onBack"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="47" lineNum="15" parent="globals/WorkoutDelegate" pc="268438559" symbol="onBack"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="48" lineNum="8" parent="globals/WorkoutDelegate" pc="268438561" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="48" lineNum="9" parent="globals/WorkoutDelegate" pc="268438563" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="48" lineNum="10" parent="globals/WorkoutDelegate" pc="268438575" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="49" lineNum="18" parent="globals/WorkoutDelegate" pc="268438585" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="49" lineNum="19" parent="globals/WorkoutDelegate" pc="268438587" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="49" lineNum="20" parent="globals/WorkoutDelegate" pc="268438601" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="49" lineNum="22" parent="globals/WorkoutDelegate" pc="268438612" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="49" lineNum="23" parent="globals/WorkoutDelegate" pc="268438624" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="50" lineNum="26" parent="globals/WorkoutDelegate" pc="268438626" symbol="onNextPage"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="50" lineNum="27" parent="globals/WorkoutDelegate" pc="268438628" symbol="onNextPage"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="50" lineNum="28" parent="globals/WorkoutDelegate" pc="268438640" symbol="onNextPage"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="51" lineNum="143" parent="globals/WorkoutView" pc="268438642" symbol="onTick"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="51" lineNum="144" parent="globals/WorkoutView" pc="268438644" symbol="onTick"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="51" lineNum="145" parent="globals/WorkoutView" pc="268438655" symbol="onTick"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="51" lineNum="148" parent="globals/WorkoutView" pc="268438656" symbol="onTick"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="51" lineNum="150" parent="globals/WorkoutView" pc="268438671" symbol="onTick"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="51" lineNum="151" parent="globals/WorkoutView" pc="268438703" symbol="onTick"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="51" lineNum="154" parent="globals/WorkoutView" pc="268438710" symbol="onTick"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="51" lineNum="155" parent="globals/WorkoutView" pc="268438720" symbol="onTick"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="51" lineNum="156" parent="globals/WorkoutView" pc="268438734" symbol="onTick"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="51" lineNum="159" parent="globals/WorkoutView" pc="268438741" symbol="onTick"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="52" lineNum="204" parent="globals/WorkoutView" pc="268438753" symbol="getHeartRate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="52" lineNum="205" parent="globals/WorkoutView" pc="268438756" symbol="getHeartRate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="52" lineNum="206" parent="globals/WorkoutView" pc="268438768" symbol="getHeartRate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="52" lineNum="207" parent="globals/WorkoutView" pc="268438785" symbol="getHeartRate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="52" lineNum="209" parent="globals/WorkoutView" pc="268438793" symbol="getHeartRate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="53" lineNum="175" parent="globals/WorkoutView" pc="268438795" symbol="playEndSignal"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="53" lineNum="176" parent="globals/WorkoutView" pc="268438798" symbol="playEndSignal"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="53" lineNum="177" parent="globals/WorkoutView" pc="268438822" symbol="playEndSignal"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="53" lineNum="180" parent="globals/WorkoutView" pc="268438838" symbol="playEndSignal"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="53" lineNum="182" parent="globals/WorkoutView" pc="268438853" symbol="playEndSignal"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="53" lineNum="183" parent="globals/WorkoutView" pc="268438869" symbol="playEndSignal"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="53" lineNum="186" parent="globals/WorkoutView" pc="268438870" symbol="playEndSignal"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="53" lineNum="187" parent="globals/WorkoutView" pc="268438877" symbol="playEndSignal"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="53" lineNum="189" parent="globals/WorkoutView" pc="268438916" symbol="playEndSignal"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="53" lineNum="195" parent="globals/WorkoutView" pc="268439011" symbol="playEndSignal"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="54" lineNum="123" parent="globals/WorkoutView" pc="268439027" symbol="beginRest"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="54" lineNum="124" parent="globals/WorkoutView" pc="268439029" symbol="beginRest"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="54" lineNum="125" parent="globals/WorkoutView" pc="268439038" symbol="beginRest"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="55" lineNum="118" parent="globals/WorkoutView" pc="268439051" symbol="beginExercise"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="55" lineNum="119" parent="globals/WorkoutView" pc="268439053" symbol="beginExercise"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="55" lineNum="120" parent="globals/WorkoutView" pc="268439061" symbol="beginExercise"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="56" lineNum="71" parent="globals/WorkoutView" pc="268439074" symbol="startTimer"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="56" lineNum="72" parent="globals/WorkoutView" pc="268439076" symbol="startTimer"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="56" lineNum="73" parent="globals/WorkoutView" pc="268439085" symbol="startTimer"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="56" lineNum="74" parent="globals/WorkoutView" pc="268439114" symbol="startTimer"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="57" lineNum="59" parent="globals/WorkoutView" pc="268439146" symbol="startSession"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="57" lineNum="60" parent="globals/WorkoutView" pc="268439148" symbol="startSession"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="57" lineNum="61" parent="globals/WorkoutView" pc="268439157" symbol="startSession"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="57" lineNum="63" parent="globals/WorkoutView" pc="268439158" symbol="startSession"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="57" lineNum="68" parent="globals/WorkoutView" pc="268439209" symbol="startSession"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="58" lineNum="128" parent="globals/WorkoutView" pc="268439222" symbol="finish"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="58" lineNum="129" parent="globals/WorkoutView" pc="268439224" symbol="finish"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="58" lineNum="130" parent="globals/WorkoutView" pc="268439233" symbol="finish"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="58" lineNum="131" parent="globals/WorkoutView" pc="268439240" symbol="finish"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="58" lineNum="132" parent="globals/WorkoutView" pc="268439249" symbol="finish"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="58" lineNum="133" parent="globals/WorkoutView" pc="268439263" symbol="finish"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="58" lineNum="135" parent="globals/WorkoutView" pc="268439275" symbol="finish"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="58" lineNum="136" parent="globals/WorkoutView" pc="268439287" symbol="finish"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="58" lineNum="138" parent="globals/WorkoutView" pc="268439295" symbol="finish"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="58" lineNum="139" parent="globals/WorkoutView" pc="268439319" symbol="finish"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="59" lineNum="40" parent="globals/WorkoutView" pc="268439335" symbol="onHide"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="59" lineNum="41" parent="globals/WorkoutView" pc="268439337" symbol="onHide"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="59" lineNum="42" parent="globals/WorkoutView" pc="268439344" symbol="onHide"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="59" lineNum="43" parent="globals/WorkoutView" pc="268439353" symbol="onHide"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="59" lineNum="44" parent="globals/WorkoutView" pc="268439367" symbol="onHide"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="59" lineNum="46" parent="globals/WorkoutView" pc="268439379" symbol="onHide"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="59" lineNum="47" parent="globals/WorkoutView" pc="268439391" symbol="onHide"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="60" lineNum="34" parent="globals/WorkoutView" pc="268439400" symbol="onShow"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="60" lineNum="35" parent="globals/WorkoutView" pc="268439402" symbol="onShow"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="60" lineNum="36" parent="globals/WorkoutView" pc="268439443" symbol="onShow"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="61" lineNum="98" parent="globals/WorkoutView" pc="268439451" symbol="togglePause"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="61" lineNum="99" parent="globals/WorkoutView" pc="268439453" symbol="togglePause"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="61" lineNum="100" parent="globals/WorkoutView" pc="268439464" symbol="togglePause"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="61" lineNum="102" parent="globals/WorkoutView" pc="268439465" symbol="togglePause"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="61" lineNum="103" parent="globals/WorkoutView" pc="268439473" symbol="togglePause"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="61" lineNum="104" parent="globals/WorkoutView" pc="268439481" symbol="togglePause"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="61" lineNum="105" parent="globals/WorkoutView" pc="268439488" symbol="togglePause"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="61" lineNum="106" parent="globals/WorkoutView" pc="268439512" symbol="togglePause"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="61" lineNum="109" parent="globals/WorkoutView" pc="268439527" symbol="togglePause"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="61" lineNum="110" parent="globals/WorkoutView" pc="268439535" symbol="togglePause"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="61" lineNum="111" parent="globals/WorkoutView" pc="268439542" symbol="togglePause"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="61" lineNum="112" parent="globals/WorkoutView" pc="268439565" symbol="togglePause"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="61" lineNum="115" parent="globals/WorkoutView" pc="268439577" symbol="togglePause"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="62" lineNum="78" parent="globals/WorkoutView" pc="268439589" symbol="stopTimer"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="62" lineNum="79" parent="globals/WorkoutView" pc="268439591" symbol="stopTimer"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="62" lineNum="80" parent="globals/WorkoutView" pc="268439600" symbol="stopTimer"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="62" lineNum="81" parent="globals/WorkoutView" pc="268439612" symbol="stopTimer"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="63" lineNum="198" parent="globals/WorkoutView" pc="268439621" symbol="playCountdownBeep"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="63" lineNum="199" parent="globals/WorkoutView" pc="268439623" symbol="playCountdownBeep"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="63" lineNum="200" parent="globals/WorkoutView" pc="268439647" symbol="playCountdownBeep"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="64" lineNum="85" parent="globals/WorkoutView" pc="268439663" symbol="isDone"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="64" lineNum="86" parent="globals/WorkoutView" pc="268439665" symbol="isDone"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="65" lineNum="162" parent="globals/WorkoutView" pc="268439674" symbol="advancePhase"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="65" lineNum="163" parent="globals/WorkoutView" pc="268439676" symbol="advancePhase"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="65" lineNum="164" parent="globals/WorkoutView" pc="268439686" symbol="advancePhase"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="65" lineNum="165" parent="globals/WorkoutView" pc="268439700" symbol="advancePhase"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="65" lineNum="167" parent="globals/WorkoutView" pc="268439708" symbol="advancePhase"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="65" lineNum="169" parent="globals/WorkoutView" pc="268439716" symbol="advancePhase"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="65" lineNum="170" parent="globals/WorkoutView" pc="268439727" symbol="advancePhase"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="65" lineNum="171" parent="globals/WorkoutView" pc="268439742" symbol="advancePhase"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="66" lineNum="27" parent="globals/WorkoutView" pc="268439750" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="66" lineNum="28" parent="globals/WorkoutView" pc="268439752" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="66" lineNum="29" parent="globals/WorkoutView" pc="268439764" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="66" lineNum="30" parent="globals/WorkoutView" pc="268439777" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="66" lineNum="31" parent="globals/WorkoutView" pc="268439790" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="67" lineNum="89" parent="globals/WorkoutView" pc="268439804" symbol="skipPhase"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="67" lineNum="90" parent="globals/WorkoutView" pc="268439806" symbol="skipPhase"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="67" lineNum="91" parent="globals/WorkoutView" pc="268439817" symbol="skipPhase"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="67" lineNum="93" parent="globals/WorkoutView" pc="268439818" symbol="skipPhase"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="67" lineNum="94" parent="globals/WorkoutView" pc="268439832" symbol="skipPhase"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="67" lineNum="95" parent="globals/WorkoutView" pc="268439839" symbol="skipPhase"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="212" parent="globals/WorkoutView" pc="268439851" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="213" parent="globals/WorkoutView" pc="268439854" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="214" parent="globals/WorkoutView" pc="268439857" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="215" parent="globals/WorkoutView" pc="268439864" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="216" parent="globals/WorkoutView" pc="268439874" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="217" parent="globals/WorkoutView" pc="268439883" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="218" parent="globals/WorkoutView" pc="268439894" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="220" parent="globals/WorkoutView" pc="268439899" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="221" parent="globals/WorkoutView" pc="268439907" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="224" parent="globals/WorkoutView" pc="268439913" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="225" parent="globals/WorkoutView" pc="268439927" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="227" parent="globals/WorkoutView" pc="268439935" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="228" parent="globals/WorkoutView" pc="268439944" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="229" parent="globals/WorkoutView" pc="268439953" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="232" parent="globals/WorkoutView" pc="268439960" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="233" parent="globals/WorkoutView" pc="268439970" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="234" parent="globals/WorkoutView" pc="268440006" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="235" parent="globals/WorkoutView" pc="268440017" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="237" parent="globals/WorkoutView" pc="268440053" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="239" parent="globals/WorkoutView" pc="268440086" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="240" parent="globals/WorkoutView" pc="268440094" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="243" parent="globals/WorkoutView" pc="268440101" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="246" parent="globals/WorkoutView" pc="268440127" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="247" parent="globals/WorkoutView" pc="268440138" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="251" parent="globals/WorkoutView" pc="268440173" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="252" parent="globals/WorkoutView" pc="268440181" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="253" parent="globals/WorkoutView" pc="268440205" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="256" parent="globals/WorkoutView" pc="268440231" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="257" parent="globals/WorkoutView" pc="268440250" symbol="onUpdate"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="69" lineNum="51" parent="globals/WorkoutView" pc="268440276" symbol="startWorkout"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="69" lineNum="52" parent="globals/WorkoutView" pc="268440278" symbol="startWorkout"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="69" lineNum="53" parent="globals/WorkoutView" pc="268440287" symbol="startWorkout"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="69" lineNum="54" parent="globals/WorkoutView" pc="268440295" symbol="startWorkout"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="69" lineNum="55" parent="globals/WorkoutView" pc="268440302" symbol="startWorkout"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="69" lineNum="56" parent="globals/WorkoutView" pc="268440309" symbol="startWorkout"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="70" lineNum="75" parent="globals/NumberPickerDelegate" pc="268440317" symbol="onCancel"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="70" lineNum="76" parent="globals/NumberPickerDelegate" pc="268440319" symbol="onCancel"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="70" lineNum="77" parent="globals/NumberPickerDelegate" pc="268440334" symbol="onCancel"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="71" lineNum="69" parent="globals/NumberPickerDelegate" pc="268440336" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="71" lineNum="70" parent="globals/NumberPickerDelegate" pc="268440338" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="71" lineNum="71" parent="globals/NumberPickerDelegate" pc="268440350" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="71" lineNum="72" parent="globals/NumberPickerDelegate" pc="268440359" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="72" lineNum="80" parent="globals/NumberPickerDelegate" pc="268440369" symbol="onAccept"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="72" lineNum="81" parent="globals/NumberPickerDelegate" pc="268440372" symbol="onAccept"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="72" lineNum="82" parent="globals/NumberPickerDelegate" pc="268440378" symbol="onAccept"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="72" lineNum="83" parent="globals/NumberPickerDelegate" pc="268440398" symbol="onAccept"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="72" lineNum="84" parent="globals/NumberPickerDelegate" pc="268440420" symbol="onAccept"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="72" lineNum="85" parent="globals/NumberPickerDelegate" pc="268440435" symbol="onAccept"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="73" lineNum="18" parent="globals/MainDelegate" pc="268440437" symbol="onMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="73" lineNum="19" parent="globals/MainDelegate" pc="268440439" symbol="onMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="73" lineNum="20" parent="globals/MainDelegate" pc="268440453" symbol="onMenu"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="74" lineNum="7" parent="globals/MainDelegate" pc="268440455" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="74" lineNum="8" parent="globals/MainDelegate" pc="268440457" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="74" lineNum="9" parent="globals/MainDelegate" pc="268440469" symbol="initialize"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="75" lineNum="12" parent="globals/MainDelegate" pc="268440479" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="75" lineNum="13" parent="globals/MainDelegate" pc="268440482" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="75" lineNum="14" parent="globals/MainDelegate" pc="268440502" symbol="onSelect"/>
-        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="75" lineNum="15" parent="globals/MainDelegate" pc="268440539" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/gen/006-B4024-00/source/Rez.mcgen" id="1" lineNum="7" parent="globals/Rez" pc="268435457" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="2" lineNum="130" parent="globals" pc="268435477" symbol="loadPreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="2" lineNum="131" parent="globals" pc="268435488" symbol="loadPreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="2" lineNum="132" parent="globals" pc="268435496" symbol="loadPreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="2" lineNum="133" parent="globals" pc="268435512" symbol="loadPreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="2" lineNum="134" parent="globals" pc="268435536" symbol="loadPreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="2" lineNum="135" parent="globals" pc="268435565" symbol="loadPreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="2" lineNum="136" parent="globals" pc="268435594" symbol="loadPreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="2" lineNum="137" parent="globals" pc="268435623" symbol="loadPreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="2" lineNum="138" parent="globals" pc="268435634" symbol="loadPreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="3" lineNum="5" parent="globals" pc="268435646" symbol="showConfigMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="3" lineNum="6" parent="globals" pc="268435657" symbol="showConfigMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="3" lineNum="7" parent="globals" pc="268435697" symbol="showConfigMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="3" lineNum="8" parent="globals" pc="268435742" symbol="showConfigMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="3" lineNum="9" parent="globals" pc="268435787" symbol="showConfigMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="3" lineNum="10" parent="globals" pc="268435832" symbol="showConfigMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="3" lineNum="11" parent="globals" pc="268435883" symbol="showConfigMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="3" lineNum="12" parent="globals" pc="268435934" symbol="showConfigMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="3" lineNum="13" parent="globals" pc="268435979" symbol="showConfigMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="3" lineNum="14" parent="globals" pc="268435987" symbol="showConfigMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="3" lineNum="15" parent="globals" pc="268435993" symbol="showConfigMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="3" lineNum="17" parent="globals" pc="268436039" symbol="showConfigMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="3" lineNum="18" parent="globals" pc="268436084" symbol="showConfigMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="3" lineNum="19" parent="globals" pc="268436129" symbol="showConfigMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="3" lineNum="20" parent="globals" pc="268436174" symbol="showConfigMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="4" lineNum="30" parent="globals" pc="268436212" symbol="getRestSec"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="4" lineNum="31" parent="globals" pc="268436223" symbol="getRestSec"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="4" lineNum="32" parent="globals" pc="268436242" symbol="getRestSec"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="5" lineNum="135" parent="globals/PresetListDelegate" pc="268436256" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="6" lineNum="97" parent="globals" pc="268436268" symbol="deletePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="6" lineNum="98" parent="globals" pc="268436279" symbol="deletePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="6" lineNum="99" parent="globals" pc="268436287" symbol="deletePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="6" lineNum="100" parent="globals" pc="268436291" symbol="deletePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="6" lineNum="101" parent="globals" pc="268436307" symbol="deletePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="6" lineNum="102" parent="globals" pc="268436332" symbol="deletePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="6" lineNum="105" parent="globals" pc="268436357" symbol="deletePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="6" lineNum="106" parent="globals" pc="268436377" symbol="deletePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="6" lineNum="107" parent="globals" pc="268436385" symbol="deletePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="6" lineNum="108" parent="globals" pc="268436406" symbol="deletePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="7" lineNum="185" parent="globals/SavePresetDelegate" pc="268436417" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="8" lineNum="40" parent="globals" pc="268436429" symbol="getSoundsEnabled"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="8" lineNum="41" parent="globals" pc="268436440" symbol="getSoundsEnabled"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="8" lineNum="42" parent="globals" pc="268436459" symbol="getSoundsEnabled"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="9" lineNum="112" parent="globals" pc="268436472" symbol="showPresetListMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="9" lineNum="113" parent="globals" pc="268436483" symbol="showPresetListMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="9" lineNum="115" parent="globals" pc="268436491" symbol="showPresetListMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="9" lineNum="115" parent="globals" pc="268436508" symbol="showPresetListMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="9" lineNum="116" parent="globals" pc="268436518" symbol="showPresetListMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="9" lineNum="116" parent="globals" pc="268436535" symbol="showPresetListMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="9" lineNum="117" parent="globals" pc="268436545" symbol="showPresetListMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="9" lineNum="119" parent="globals" pc="268436552" symbol="showPresetListMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="9" lineNum="121" parent="globals" pc="268436589" symbol="showPresetListMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="9" lineNum="122" parent="globals" pc="268436601" symbol="showPresetListMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="9" lineNum="124" parent="globals" pc="268436649" symbol="showPresetListMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="9" lineNum="125" parent="globals" pc="268436665" symbol="showPresetListMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="9" lineNum="126" parent="globals" pc="268436672" symbol="showPresetListMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="9" lineNum="127" parent="globals" pc="268436682" symbol="showPresetListMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="9" lineNum="128" parent="globals" pc="268436722" symbol="showPresetListMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="9" lineNum="132" parent="globals" pc="268436772" symbol="showPresetListMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="10" lineNum="4" parent="globals/MainDelegate" pc="268436810" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="11" lineNum="49" parent="globals" pc="268436822" symbol="getRecordEnabled"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="11" lineNum="50" parent="globals" pc="268436833" symbol="getRecordEnabled"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="11" lineNum="51" parent="globals" pc="268436852" symbol="getRecordEnabled"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="12" lineNum="76" parent="globals" pc="268436865" symbol="savePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="12" lineNum="77" parent="globals" pc="268436876" symbol="savePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="12" lineNum="78" parent="globals" pc="268436884" symbol="savePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="12" lineNum="84" parent="globals" pc="268436935" symbol="savePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="12" lineNum="85" parent="globals" pc="268436951" symbol="savePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="12" lineNum="86" parent="globals" pc="268436975" symbol="savePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="12" lineNum="87" parent="globals" pc="268436982" symbol="savePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="12" lineNum="88" parent="globals" pc="268437002" symbol="savePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="12" lineNum="89" parent="globals" pc="268437013" symbol="savePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="12" lineNum="92" parent="globals" pc="268437024" symbol="savePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="12" lineNum="93" parent="globals" pc="268437036" symbol="savePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="12" lineNum="94" parent="globals" pc="268437056" symbol="savePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="13" lineNum="112" parent="globals" pc="268437068" symbol="renamePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="13" lineNum="113" parent="globals" pc="268437079" symbol="renamePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="13" lineNum="114" parent="globals" pc="268437105" symbol="renamePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="13" lineNum="116" parent="globals" pc="268437106" symbol="renamePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="13" lineNum="117" parent="globals" pc="268437114" symbol="renamePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="13" lineNum="118" parent="globals" pc="268437130" symbol="renamePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="13" lineNum="119" parent="globals" pc="268437154" symbol="renamePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="13" lineNum="120" parent="globals" pc="268437167" symbol="renamePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="13" lineNum="121" parent="globals" pc="268437187" symbol="renamePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="13" lineNum="122" parent="globals" pc="268437195" symbol="renamePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="13" lineNum="123" parent="globals" pc="268437216" symbol="renamePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="13" lineNum="125" parent="globals" pc="268437227" symbol="renamePreset"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="14" lineNum="5" parent="globals/MainView" pc="268437239" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="15" lineNum="42" parent="globals/NumberPickerView" pc="268437251" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="16" lineNum="62" parent="globals" pc="268437263" symbol="setLoadedPresetName"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="16" lineNum="63" parent="globals" pc="268437273" symbol="setLoadedPresetName"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="16" lineNum="64" parent="globals" pc="268437279" symbol="setLoadedPresetName"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="16" lineNum="66" parent="globals" pc="268437298" symbol="setLoadedPresetName"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="17" lineNum="31" parent="globals/ConfigMenuDelegate" pc="268437319" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="18" lineNum="54" parent="globals" pc="268437331" symbol="setRecordEnabled"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="18" lineNum="55" parent="globals" pc="268437341" symbol="setRecordEnabled"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="19" lineNum="45" parent="globals" pc="268437362" symbol="setSoundsEnabled"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="19" lineNum="46" parent="globals" pc="268437372" symbol="setSoundsEnabled"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="20" lineNum="143" parent="globals/IntervalsApp" pc="268437393" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="21" lineNum="23" parent="globals" pc="268437405" symbol="buildItem"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="21" lineNum="24" parent="globals" pc="268437415" symbol="buildItem"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="22" lineNum="25" parent="globals" pc="268437464" symbol="getExerciseSec"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="22" lineNum="26" parent="globals" pc="268437475" symbol="getExerciseSec"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="22" lineNum="27" parent="globals" pc="268437494" symbol="getExerciseSec"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="23" lineNum="58" parent="globals" pc="268437508" symbol="getLoadedPresetName"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="23" lineNum="59" parent="globals" pc="268437518" symbol="getLoadedPresetName"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="24" lineNum="6" parent="globals/NumberFactory" pc="268437536" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="25" lineNum="5" parent="globals/WorkoutDelegate" pc="268437548" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="26" lineNum="35" parent="globals" pc="268437560" symbol="getReps"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="26" lineNum="36" parent="globals" pc="268437571" symbol="getReps"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="26" lineNum="37" parent="globals" pc="268437590" symbol="getReps"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="27" lineNum="70" parent="globals" pc="268437604" symbol="getPresets"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="27" lineNum="71" parent="globals" pc="268437615" symbol="getPresets"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="27" lineNum="72" parent="globals" pc="268437634" symbol="getPresets"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="27" lineNum="72" parent="globals" pc="268437640" symbol="getPresets"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="27" lineNum="73" parent="globals" pc="268437643" symbol="getPresets"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="28" lineNum="164" parent="globals/RenamePresetDelegate" pc="268437646" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="29" lineNum="16" parent="globals/WorkoutView" pc="268437658" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="30" lineNum="65" parent="globals/NumberPickerDelegate" pc="268437670" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="138" parent="globals/PresetListDelegate" pc="268437682" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="139" parent="globals/PresetListDelegate" pc="268437684" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="31" lineNum="140" parent="globals/PresetListDelegate" pc="268437696" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="143" parent="globals/PresetListDelegate" pc="268437706" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="144" parent="globals/PresetListDelegate" pc="268437709" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="145" parent="globals/PresetListDelegate" pc="268437718" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="146" parent="globals/PresetListDelegate" pc="268437735" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="148" parent="globals/PresetListDelegate" pc="268437736" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="149" parent="globals/PresetListDelegate" pc="268437757" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="150" parent="globals/PresetListDelegate" pc="268437768" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="151" parent="globals/PresetListDelegate" pc="268437784" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="152" parent="globals/PresetListDelegate" pc="268437805" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="157" parent="globals/PresetListDelegate" pc="268437865" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="158" parent="globals/PresetListDelegate" pc="268437876" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="32" lineNum="159" parent="globals/PresetListDelegate" pc="268437891" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="33" lineNum="190" parent="globals/SavePresetDelegate" pc="268437907" symbol="onTextEntered"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="33" lineNum="191" parent="globals/SavePresetDelegate" pc="268437909" symbol="onTextEntered"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="33" lineNum="192" parent="globals/SavePresetDelegate" pc="268437928" symbol="onTextEntered"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="33" lineNum="194" parent="globals/SavePresetDelegate" pc="268437939" symbol="onTextEntered"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="34" lineNum="197" parent="globals/SavePresetDelegate" pc="268437941" symbol="onCancel"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="34" lineNum="198" parent="globals/SavePresetDelegate" pc="268437943" symbol="onCancel"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="35" lineNum="186" parent="globals/SavePresetDelegate" pc="268437945" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="35" lineNum="187" parent="globals/SavePresetDelegate" pc="268437947" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="36" lineNum="18" parent="globals/MainDelegate" pc="268437960" symbol="onMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="36" lineNum="19" parent="globals/MainDelegate" pc="268437962" symbol="onMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="36" lineNum="20" parent="globals/MainDelegate" pc="268437976" symbol="onMenu"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="37" lineNum="7" parent="globals/MainDelegate" pc="268437978" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="37" lineNum="8" parent="globals/MainDelegate" pc="268437980" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="37" lineNum="9" parent="globals/MainDelegate" pc="268437992" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="38" lineNum="12" parent="globals/MainDelegate" pc="268438002" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="38" lineNum="13" parent="globals/MainDelegate" pc="268438005" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="38" lineNum="14" parent="globals/MainDelegate" pc="268438025" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainDelegate.mc" id="38" lineNum="15" parent="globals/MainDelegate" pc="268438062" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="39" lineNum="6" parent="globals/MainView" pc="268438064" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="39" lineNum="7" parent="globals/MainView" pc="268438066" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="40" lineNum="10" parent="globals/MainView" pc="268438079" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="40" lineNum="11" parent="globals/MainView" pc="268438082" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="40" lineNum="12" parent="globals/MainView" pc="268438098" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="40" lineNum="14" parent="globals/MainView" pc="268438106" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="40" lineNum="15" parent="globals/MainView" pc="268438115" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="40" lineNum="16" parent="globals/MainView" pc="268438124" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="40" lineNum="18" parent="globals/MainView" pc="268438131" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="40" lineNum="22" parent="globals/MainView" pc="268438186" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="40" lineNum="23" parent="globals/MainView" pc="268438194" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="40" lineNum="24" parent="globals/MainView" pc="268438200" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="40" lineNum="25" parent="globals/MainView" pc="268438216" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="40" lineNum="27" parent="globals/MainView" pc="268438242" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="40" lineNum="30" parent="globals/MainView" pc="268438258" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="40" lineNum="31" parent="globals/MainView" pc="268438266" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="40" lineNum="32" parent="globals/MainView" pc="268438274" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="40" lineNum="34" parent="globals/MainView" pc="268438282" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="40" lineNum="35" parent="globals/MainView" pc="268438304" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="40" lineNum="38" parent="globals/MainView" pc="268438330" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="40" lineNum="39" parent="globals/MainView" pc="268438346" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/MainView.mc" id="40" lineNum="42" parent="globals/MainView" pc="268438400" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="41" lineNum="43" parent="globals/NumberPickerView" pc="268438455" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="41" lineNum="44" parent="globals/NumberPickerView" pc="268438458" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="41" lineNum="50" parent="globals/NumberPickerView" pc="268438528" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="41" lineNum="51" parent="globals/NumberPickerView" pc="268438552" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="42" lineNum="58" parent="globals/NumberPickerView" pc="268438619" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="42" lineNum="59" parent="globals/NumberPickerView" pc="268438621" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="42" lineNum="60" parent="globals/NumberPickerView" pc="268438633" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="42" lineNum="61" parent="globals/NumberPickerView" pc="268438641" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="43" lineNum="79" parent="globals/ConfigMenuDelegate" pc="268438658" symbol="onBack"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="43" lineNum="80" parent="globals/ConfigMenuDelegate" pc="268438660" symbol="onBack"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="43" lineNum="81" parent="globals/ConfigMenuDelegate" pc="268438671" symbol="onBack"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="44" lineNum="32" parent="globals/ConfigMenuDelegate" pc="268438684" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="44" lineNum="33" parent="globals/ConfigMenuDelegate" pc="268438686" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="45" lineNum="84" parent="globals/ConfigMenuDelegate" pc="268438699" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="45" lineNum="91" parent="globals/ConfigMenuDelegate" pc="268438702" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="45" lineNum="92" parent="globals/ConfigMenuDelegate" pc="268438719" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="45" lineNum="93" parent="globals/ConfigMenuDelegate" pc="268438726" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="45" lineNum="93" parent="globals/ConfigMenuDelegate" pc="268438730" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="45" lineNum="94" parent="globals/ConfigMenuDelegate" pc="268438734" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="45" lineNum="94" parent="globals/ConfigMenuDelegate" pc="268438742" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="45" lineNum="95" parent="globals/ConfigMenuDelegate" pc="268438752" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="45" lineNum="96" parent="globals/ConfigMenuDelegate" pc="268438769" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="45" lineNum="97" parent="globals/ConfigMenuDelegate" pc="268438776" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="45" lineNum="97" parent="globals/ConfigMenuDelegate" pc="268438780" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="45" lineNum="98" parent="globals/ConfigMenuDelegate" pc="268438784" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="45" lineNum="98" parent="globals/ConfigMenuDelegate" pc="268438792" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="45" lineNum="100" parent="globals/ConfigMenuDelegate" pc="268438802" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="45" lineNum="101" parent="globals/ConfigMenuDelegate" pc="268438809" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="45" lineNum="101" parent="globals/ConfigMenuDelegate" pc="268438813" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="45" lineNum="102" parent="globals/ConfigMenuDelegate" pc="268438817" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="45" lineNum="102" parent="globals/ConfigMenuDelegate" pc="268438825" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="45" lineNum="105" parent="globals/ConfigMenuDelegate" pc="268438832" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="36" parent="globals/ConfigMenuDelegate" pc="268438896" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="37" parent="globals/ConfigMenuDelegate" pc="268438899" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="39" parent="globals/ConfigMenuDelegate" pc="268438908" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="40" parent="globals/ConfigMenuDelegate" pc="268438959" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="41" parent="globals/ConfigMenuDelegate" pc="268438972" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="44" parent="globals/ConfigMenuDelegate" pc="268438973" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="45" parent="globals/ConfigMenuDelegate" pc="268438990" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="46" parent="globals/ConfigMenuDelegate" pc="268438994" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="47" parent="globals/ConfigMenuDelegate" pc="268439010" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="50" parent="globals/ConfigMenuDelegate" pc="268439011" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="51" parent="globals/ConfigMenuDelegate" pc="268439028" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="52" parent="globals/ConfigMenuDelegate" pc="268439032" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="53" parent="globals/ConfigMenuDelegate" pc="268439048" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="56" parent="globals/ConfigMenuDelegate" pc="268439049" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="57" parent="globals/ConfigMenuDelegate" pc="268439066" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="61" parent="globals/ConfigMenuDelegate" pc="268439126" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="64" parent="globals/ConfigMenuDelegate" pc="268439127" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="65" parent="globals/ConfigMenuDelegate" pc="268439144" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="66" parent="globals/ConfigMenuDelegate" pc="268439152" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="67" parent="globals/ConfigMenuDelegate" pc="268439158" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="69" parent="globals/ConfigMenuDelegate" pc="268439169" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="70" parent="globals/ConfigMenuDelegate" pc="268439184" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="73" parent="globals/ConfigMenuDelegate" pc="268439185" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="74" parent="globals/ConfigMenuDelegate" pc="268439236" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="46" lineNum="75" parent="globals/ConfigMenuDelegate" pc="268439247" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="48" lineNum="151" parent="globals/IntervalsApp" pc="268439249" symbol="getInitialView"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="48" lineNum="152" parent="globals/IntervalsApp" pc="268439252" symbol="getInitialView"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="48" lineNum="153" parent="globals/IntervalsApp" pc="268439272" symbol="getInitialView"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="48" lineNum="154" parent="globals/IntervalsApp" pc="268439294" symbol="getInitialView"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="49" lineNum="144" parent="globals/IntervalsApp" pc="268439309" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/IntervalsApp.mc" id="49" lineNum="145" parent="globals/IntervalsApp" pc="268439311" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="51" lineNum="20" parent="globals/NumberFactory" pc="268439324" symbol="getValue"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="51" lineNum="21" parent="globals/NumberFactory" pc="268439326" symbol="getValue"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="52" lineNum="16" parent="globals/NumberFactory" pc="268439335" symbol="getSize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="52" lineNum="17" parent="globals/NumberFactory" pc="268439337" symbol="getSize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="53" lineNum="31" parent="globals/NumberFactory" pc="268439352" symbol="getDrawable"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="53" lineNum="32" parent="globals/NumberFactory" pc="268439354" symbol="getDrawable"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="54" lineNum="24" parent="globals/NumberFactory" pc="268439445" symbol="getIndex"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="54" lineNum="25" parent="globals/NumberFactory" pc="268439448" symbol="getIndex"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="54" lineNum="26" parent="globals/NumberFactory" pc="268439458" symbol="getIndex"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="54" lineNum="26" parent="globals/NumberFactory" pc="268439465" symbol="getIndex"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="54" lineNum="27" parent="globals/NumberFactory" pc="268439467" symbol="getIndex"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="54" lineNum="27" parent="globals/NumberFactory" pc="268439479" symbol="getIndex"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="54" lineNum="28" parent="globals/NumberFactory" pc="268439489" symbol="getIndex"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="55" lineNum="10" parent="globals/NumberFactory" pc="268439492" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="55" lineNum="11" parent="globals/NumberFactory" pc="268439494" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="55" lineNum="12" parent="globals/NumberFactory" pc="268439506" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="55" lineNum="13" parent="globals/NumberFactory" pc="268439515" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="56" lineNum="13" parent="globals/WorkoutDelegate" pc="268439525" symbol="onBack"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="56" lineNum="14" parent="globals/WorkoutDelegate" pc="268439527" symbol="onBack"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="56" lineNum="15" parent="globals/WorkoutDelegate" pc="268439542" symbol="onBack"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="57" lineNum="8" parent="globals/WorkoutDelegate" pc="268439544" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="57" lineNum="9" parent="globals/WorkoutDelegate" pc="268439546" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="57" lineNum="10" parent="globals/WorkoutDelegate" pc="268439558" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="58" lineNum="18" parent="globals/WorkoutDelegate" pc="268439568" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="58" lineNum="19" parent="globals/WorkoutDelegate" pc="268439570" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="58" lineNum="20" parent="globals/WorkoutDelegate" pc="268439584" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="58" lineNum="22" parent="globals/WorkoutDelegate" pc="268439595" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="58" lineNum="23" parent="globals/WorkoutDelegate" pc="268439607" symbol="onSelect"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="59" lineNum="26" parent="globals/WorkoutDelegate" pc="268439609" symbol="onNextPage"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="59" lineNum="27" parent="globals/WorkoutDelegate" pc="268439611" symbol="onNextPage"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutDelegate.mc" id="59" lineNum="28" parent="globals/WorkoutDelegate" pc="268439623" symbol="onNextPage"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="60" lineNum="172" parent="globals/RenamePresetDelegate" pc="268439625" symbol="onTextEntered"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="60" lineNum="173" parent="globals/RenamePresetDelegate" pc="268439627" symbol="onTextEntered"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="60" lineNum="174" parent="globals/RenamePresetDelegate" pc="268439646" symbol="onTextEntered"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="60" lineNum="176" parent="globals/RenamePresetDelegate" pc="268439662" symbol="onTextEntered"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="60" lineNum="177" parent="globals/RenamePresetDelegate" pc="268439677" symbol="onTextEntered"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="61" lineNum="180" parent="globals/RenamePresetDelegate" pc="268439679" symbol="onCancel"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="61" lineNum="181" parent="globals/RenamePresetDelegate" pc="268439681" symbol="onCancel"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="62" lineNum="167" parent="globals/RenamePresetDelegate" pc="268439683" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="62" lineNum="168" parent="globals/RenamePresetDelegate" pc="268439685" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/ConfigMenu.mc" id="62" lineNum="169" parent="globals/RenamePresetDelegate" pc="268439697" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="63" lineNum="143" parent="globals/WorkoutView" pc="268439707" symbol="onTick"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="63" lineNum="144" parent="globals/WorkoutView" pc="268439709" symbol="onTick"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="63" lineNum="145" parent="globals/WorkoutView" pc="268439720" symbol="onTick"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="63" lineNum="148" parent="globals/WorkoutView" pc="268439721" symbol="onTick"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="63" lineNum="150" parent="globals/WorkoutView" pc="268439736" symbol="onTick"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="63" lineNum="151" parent="globals/WorkoutView" pc="268439768" symbol="onTick"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="63" lineNum="154" parent="globals/WorkoutView" pc="268439775" symbol="onTick"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="63" lineNum="155" parent="globals/WorkoutView" pc="268439785" symbol="onTick"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="63" lineNum="156" parent="globals/WorkoutView" pc="268439799" symbol="onTick"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="63" lineNum="159" parent="globals/WorkoutView" pc="268439806" symbol="onTick"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="64" lineNum="204" parent="globals/WorkoutView" pc="268439818" symbol="getHeartRate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="64" lineNum="205" parent="globals/WorkoutView" pc="268439821" symbol="getHeartRate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="64" lineNum="206" parent="globals/WorkoutView" pc="268439833" symbol="getHeartRate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="64" lineNum="207" parent="globals/WorkoutView" pc="268439850" symbol="getHeartRate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="64" lineNum="209" parent="globals/WorkoutView" pc="268439858" symbol="getHeartRate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="65" lineNum="175" parent="globals/WorkoutView" pc="268439860" symbol="playEndSignal"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="65" lineNum="176" parent="globals/WorkoutView" pc="268439863" symbol="playEndSignal"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="65" lineNum="177" parent="globals/WorkoutView" pc="268439887" symbol="playEndSignal"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="65" lineNum="180" parent="globals/WorkoutView" pc="268439903" symbol="playEndSignal"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="65" lineNum="182" parent="globals/WorkoutView" pc="268439918" symbol="playEndSignal"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="65" lineNum="183" parent="globals/WorkoutView" pc="268439934" symbol="playEndSignal"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="65" lineNum="186" parent="globals/WorkoutView" pc="268439935" symbol="playEndSignal"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="65" lineNum="187" parent="globals/WorkoutView" pc="268439942" symbol="playEndSignal"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="65" lineNum="189" parent="globals/WorkoutView" pc="268439981" symbol="playEndSignal"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="65" lineNum="195" parent="globals/WorkoutView" pc="268440076" symbol="playEndSignal"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="66" lineNum="123" parent="globals/WorkoutView" pc="268440092" symbol="beginRest"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="66" lineNum="124" parent="globals/WorkoutView" pc="268440094" symbol="beginRest"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="66" lineNum="125" parent="globals/WorkoutView" pc="268440103" symbol="beginRest"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="67" lineNum="118" parent="globals/WorkoutView" pc="268440116" symbol="beginExercise"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="67" lineNum="119" parent="globals/WorkoutView" pc="268440118" symbol="beginExercise"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="67" lineNum="120" parent="globals/WorkoutView" pc="268440126" symbol="beginExercise"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="71" parent="globals/WorkoutView" pc="268440139" symbol="startTimer"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="72" parent="globals/WorkoutView" pc="268440141" symbol="startTimer"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="73" parent="globals/WorkoutView" pc="268440150" symbol="startTimer"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="68" lineNum="74" parent="globals/WorkoutView" pc="268440179" symbol="startTimer"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="69" lineNum="59" parent="globals/WorkoutView" pc="268440211" symbol="startSession"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="69" lineNum="60" parent="globals/WorkoutView" pc="268440213" symbol="startSession"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="69" lineNum="61" parent="globals/WorkoutView" pc="268440232" symbol="startSession"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="69" lineNum="63" parent="globals/WorkoutView" pc="268440233" symbol="startSession"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="69" lineNum="68" parent="globals/WorkoutView" pc="268440284" symbol="startSession"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="70" lineNum="128" parent="globals/WorkoutView" pc="268440297" symbol="finish"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="70" lineNum="129" parent="globals/WorkoutView" pc="268440299" symbol="finish"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="70" lineNum="130" parent="globals/WorkoutView" pc="268440308" symbol="finish"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="70" lineNum="131" parent="globals/WorkoutView" pc="268440315" symbol="finish"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="70" lineNum="132" parent="globals/WorkoutView" pc="268440324" symbol="finish"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="70" lineNum="133" parent="globals/WorkoutView" pc="268440338" symbol="finish"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="70" lineNum="135" parent="globals/WorkoutView" pc="268440350" symbol="finish"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="70" lineNum="136" parent="globals/WorkoutView" pc="268440362" symbol="finish"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="70" lineNum="138" parent="globals/WorkoutView" pc="268440370" symbol="finish"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="70" lineNum="139" parent="globals/WorkoutView" pc="268440394" symbol="finish"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="71" lineNum="40" parent="globals/WorkoutView" pc="268440410" symbol="onHide"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="71" lineNum="41" parent="globals/WorkoutView" pc="268440412" symbol="onHide"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="71" lineNum="42" parent="globals/WorkoutView" pc="268440419" symbol="onHide"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="71" lineNum="43" parent="globals/WorkoutView" pc="268440428" symbol="onHide"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="71" lineNum="44" parent="globals/WorkoutView" pc="268440442" symbol="onHide"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="71" lineNum="46" parent="globals/WorkoutView" pc="268440454" symbol="onHide"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="71" lineNum="47" parent="globals/WorkoutView" pc="268440466" symbol="onHide"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="72" lineNum="34" parent="globals/WorkoutView" pc="268440475" symbol="onShow"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="72" lineNum="35" parent="globals/WorkoutView" pc="268440477" symbol="onShow"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="72" lineNum="36" parent="globals/WorkoutView" pc="268440518" symbol="onShow"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="73" lineNum="98" parent="globals/WorkoutView" pc="268440526" symbol="togglePause"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="73" lineNum="99" parent="globals/WorkoutView" pc="268440528" symbol="togglePause"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="73" lineNum="100" parent="globals/WorkoutView" pc="268440539" symbol="togglePause"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="73" lineNum="102" parent="globals/WorkoutView" pc="268440540" symbol="togglePause"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="73" lineNum="103" parent="globals/WorkoutView" pc="268440548" symbol="togglePause"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="73" lineNum="104" parent="globals/WorkoutView" pc="268440556" symbol="togglePause"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="73" lineNum="105" parent="globals/WorkoutView" pc="268440563" symbol="togglePause"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="73" lineNum="106" parent="globals/WorkoutView" pc="268440587" symbol="togglePause"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="73" lineNum="109" parent="globals/WorkoutView" pc="268440602" symbol="togglePause"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="73" lineNum="110" parent="globals/WorkoutView" pc="268440610" symbol="togglePause"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="73" lineNum="111" parent="globals/WorkoutView" pc="268440617" symbol="togglePause"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="73" lineNum="112" parent="globals/WorkoutView" pc="268440640" symbol="togglePause"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="73" lineNum="115" parent="globals/WorkoutView" pc="268440652" symbol="togglePause"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="74" lineNum="78" parent="globals/WorkoutView" pc="268440664" symbol="stopTimer"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="74" lineNum="79" parent="globals/WorkoutView" pc="268440666" symbol="stopTimer"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="74" lineNum="80" parent="globals/WorkoutView" pc="268440675" symbol="stopTimer"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="74" lineNum="81" parent="globals/WorkoutView" pc="268440687" symbol="stopTimer"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="75" lineNum="198" parent="globals/WorkoutView" pc="268440696" symbol="playCountdownBeep"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="75" lineNum="199" parent="globals/WorkoutView" pc="268440698" symbol="playCountdownBeep"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="75" lineNum="200" parent="globals/WorkoutView" pc="268440722" symbol="playCountdownBeep"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="76" lineNum="85" parent="globals/WorkoutView" pc="268440738" symbol="isDone"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="76" lineNum="86" parent="globals/WorkoutView" pc="268440740" symbol="isDone"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="77" lineNum="162" parent="globals/WorkoutView" pc="268440749" symbol="advancePhase"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="77" lineNum="163" parent="globals/WorkoutView" pc="268440751" symbol="advancePhase"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="77" lineNum="164" parent="globals/WorkoutView" pc="268440761" symbol="advancePhase"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="77" lineNum="165" parent="globals/WorkoutView" pc="268440775" symbol="advancePhase"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="77" lineNum="167" parent="globals/WorkoutView" pc="268440783" symbol="advancePhase"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="77" lineNum="169" parent="globals/WorkoutView" pc="268440791" symbol="advancePhase"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="77" lineNum="170" parent="globals/WorkoutView" pc="268440802" symbol="advancePhase"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="77" lineNum="171" parent="globals/WorkoutView" pc="268440817" symbol="advancePhase"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="78" lineNum="27" parent="globals/WorkoutView" pc="268440825" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="78" lineNum="28" parent="globals/WorkoutView" pc="268440827" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="78" lineNum="29" parent="globals/WorkoutView" pc="268440839" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="78" lineNum="30" parent="globals/WorkoutView" pc="268440852" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="78" lineNum="31" parent="globals/WorkoutView" pc="268440865" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="79" lineNum="89" parent="globals/WorkoutView" pc="268440879" symbol="skipPhase"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="79" lineNum="90" parent="globals/WorkoutView" pc="268440881" symbol="skipPhase"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="79" lineNum="91" parent="globals/WorkoutView" pc="268440892" symbol="skipPhase"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="79" lineNum="93" parent="globals/WorkoutView" pc="268440893" symbol="skipPhase"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="79" lineNum="94" parent="globals/WorkoutView" pc="268440907" symbol="skipPhase"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="79" lineNum="95" parent="globals/WorkoutView" pc="268440914" symbol="skipPhase"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="212" parent="globals/WorkoutView" pc="268440926" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="213" parent="globals/WorkoutView" pc="268440929" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="214" parent="globals/WorkoutView" pc="268440932" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="215" parent="globals/WorkoutView" pc="268440939" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="216" parent="globals/WorkoutView" pc="268440949" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="217" parent="globals/WorkoutView" pc="268440958" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="218" parent="globals/WorkoutView" pc="268440969" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="220" parent="globals/WorkoutView" pc="268440974" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="221" parent="globals/WorkoutView" pc="268440982" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="224" parent="globals/WorkoutView" pc="268440988" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="225" parent="globals/WorkoutView" pc="268441002" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="227" parent="globals/WorkoutView" pc="268441010" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="228" parent="globals/WorkoutView" pc="268441019" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="229" parent="globals/WorkoutView" pc="268441028" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="232" parent="globals/WorkoutView" pc="268441035" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="233" parent="globals/WorkoutView" pc="268441045" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="234" parent="globals/WorkoutView" pc="268441081" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="235" parent="globals/WorkoutView" pc="268441092" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="237" parent="globals/WorkoutView" pc="268441128" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="239" parent="globals/WorkoutView" pc="268441161" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="240" parent="globals/WorkoutView" pc="268441169" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="243" parent="globals/WorkoutView" pc="268441176" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="246" parent="globals/WorkoutView" pc="268441202" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="247" parent="globals/WorkoutView" pc="268441213" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="251" parent="globals/WorkoutView" pc="268441248" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="252" parent="globals/WorkoutView" pc="268441256" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="253" parent="globals/WorkoutView" pc="268441280" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="256" parent="globals/WorkoutView" pc="268441306" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="80" lineNum="257" parent="globals/WorkoutView" pc="268441325" symbol="onUpdate"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="81" lineNum="51" parent="globals/WorkoutView" pc="268441351" symbol="startWorkout"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="81" lineNum="52" parent="globals/WorkoutView" pc="268441353" symbol="startWorkout"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="81" lineNum="53" parent="globals/WorkoutView" pc="268441362" symbol="startWorkout"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="81" lineNum="54" parent="globals/WorkoutView" pc="268441370" symbol="startWorkout"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="81" lineNum="55" parent="globals/WorkoutView" pc="268441377" symbol="startWorkout"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" id="81" lineNum="56" parent="globals/WorkoutView" pc="268441384" symbol="startWorkout"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="82" lineNum="75" parent="globals/NumberPickerDelegate" pc="268441392" symbol="onCancel"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="82" lineNum="76" parent="globals/NumberPickerDelegate" pc="268441394" symbol="onCancel"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="82" lineNum="77" parent="globals/NumberPickerDelegate" pc="268441409" symbol="onCancel"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="83" lineNum="69" parent="globals/NumberPickerDelegate" pc="268441411" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="83" lineNum="70" parent="globals/NumberPickerDelegate" pc="268441413" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="83" lineNum="71" parent="globals/NumberPickerDelegate" pc="268441425" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="83" lineNum="72" parent="globals/NumberPickerDelegate" pc="268441434" symbol="initialize"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="84" lineNum="80" parent="globals/NumberPickerDelegate" pc="268441444" symbol="onAccept"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="84" lineNum="81" parent="globals/NumberPickerDelegate" pc="268441447" symbol="onAccept"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="84" lineNum="82" parent="globals/NumberPickerDelegate" pc="268441453" symbol="onAccept"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="84" lineNum="83" parent="globals/NumberPickerDelegate" pc="268441473" symbol="onAccept"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="84" lineNum="84" parent="globals/NumberPickerDelegate" pc="268441495" symbol="onAccept"/>
+        <entry filename="/Users/lukaszilka/devel/garmin_intervals/source/NumberPicker.mc" id="84" lineNum="85" parent="globals/NumberPickerDelegate" pc="268441510" symbol="onAccept"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry id="8389626" method="true" symbol="onAccept"/>
         <entry field="true" id="8389346" symbol="text"/>
         <entry id="6" object="true" symbol="IntervalsApp"/>
-        <entry id="21" method="true" symbol="getSoundsEnabled"/>
-        <entry field="true" id="56" symbol="&lt;globals/NumberPickerDelegate/&lt;&gt;_item&gt;"/>
+        <entry id="24" method="true" symbol="getSoundsEnabled"/>
+        <entry field="true" id="64" symbol="&lt;globals/NumberPickerDelegate/&lt;&gt;_item&gt;"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="5" object="true" symbol="ConfigMenuDelegate"/>
-        <entry field="true" id="31" symbol="&lt;globals/WorkoutDelegate/&lt;&gt;_view&gt;"/>
-        <entry id="18" method="true" symbol="getPresets"/>
-        <entry field="true" id="40" symbol="&lt;globals/WorkoutView/&lt;&gt;_totalReps&gt;"/>
+        <entry field="true" id="38" symbol="&lt;globals/WorkoutDelegate/&lt;&gt;_view&gt;"/>
+        <entry id="20" method="true" symbol="getPresets"/>
+        <entry field="true" id="48" symbol="&lt;globals/WorkoutView/&lt;&gt;_totalReps&gt;"/>
         <entry id="7" object="true" symbol="MainDelegate"/>
-        <entry field="true" id="57" symbol="&lt;globals/NumberPickerDelegate/&lt;&gt;_key&gt;"/>
+        <entry field="true" id="65" symbol="&lt;globals/NumberPickerDelegate/&lt;&gt;_key&gt;"/>
         <entry id="8388638" module="true" symbol="ActivityRecording"/>
         <entry field="true" id="8388890" symbol="sport"/>
-        <entry id="51" method="true" symbol="startSession"/>
-        <entry field="true" id="34" symbol="&lt;globals/WorkoutView/&lt;&gt;_paused&gt;"/>
-        <entry field="true" id="29" symbol="&lt;globals/NumberFactory/&lt;&gt;_max&gt;"/>
-        <entry field="true" id="68" symbol="RestPhase"/>
+        <entry id="59" method="true" symbol="startSession"/>
+        <entry field="true" id="42" symbol="&lt;globals/WorkoutView/&lt;&gt;_paused&gt;"/>
+        <entry field="true" id="36" symbol="&lt;globals/NumberFactory/&lt;&gt;_max&gt;"/>
+        <entry field="true" id="75" symbol="RestPhase"/>
         <entry id="8390424" module="true" symbol="Storage"/>
-        <entry id="26" method="true" symbol="showPresetListMenu"/>
-        <entry id="49" method="true" symbol="playEndSignal"/>
-        <entry id="22" method="true" symbol="loadPreset"/>
+        <entry id="32" method="true" symbol="showPresetListMenu"/>
+        <entry id="57" method="true" symbol="playEndSignal"/>
+        <entry id="21" method="true" symbol="getRecordEnabled"/>
+        <entry id="25" method="true" symbol="loadPreset"/>
+        <entry id="19" method="true" symbol="getLoadedPresetName"/>
         <entry id="8389629" method="true" symbol="getValue"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="32" symbol="&lt;globals/WorkoutView/&lt;&gt;_currentRep&gt;"/>
-        <entry id="14" object="true" symbol="WorkoutView"/>
+        <entry field="true" id="40" symbol="&lt;globals/WorkoutView/&lt;&gt;_currentRep&gt;"/>
+        <entry field="true" id="39" symbol="&lt;globals/RenamePresetDelegate/&lt;&gt;_oldName&gt;"/>
+        <entry id="15" object="true" symbol="WorkoutView"/>
         <entry id="8389042" object="true" symbol="NumberPickerDelegate"/>
-        <entry id="17" method="true" symbol="getExerciseSec"/>
-        <entry id="48" method="true" symbol="playCountdownBeep"/>
-        <entry field="true" id="60" symbol="AppName"/>
-        <entry field="true" id="28" symbol="&lt;globals/PresetListDelegate/&lt;&gt;_isDelete&gt;"/>
+        <entry id="18" method="true" symbol="getExerciseSec"/>
+        <entry id="56" method="true" symbol="playCountdownBeep"/>
+        <entry field="true" id="67" symbol="AppName"/>
         <entry id="4" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8389080" method="true" symbol="onMenu"/>
-        <entry id="45" method="true" symbol="getHeartRate"/>
-        <entry id="20" method="true" symbol="getRestSec"/>
+        <entry id="53" method="true" symbol="getHeartRate"/>
+        <entry id="23" method="true" symbol="getRestSec"/>
         <entry id="8388631" module="true" symbol="Activity"/>
-        <entry field="true" id="66" symbol="RepsLabel"/>
+        <entry field="true" id="73" symbol="RepsLabel"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="8389081" method="true" symbol="onBack"/>
-        <entry id="53" method="true" symbol="startWorkout"/>
+        <entry id="61" method="true" symbol="startWorkout"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="37" symbol="&lt;globals/WorkoutView/&lt;&gt;_restSec&gt;"/>
+        <entry id="26" method="true" symbol="renamePreset"/>
+        <entry field="true" id="45" symbol="&lt;globals/WorkoutView/&lt;&gt;_restSec&gt;"/>
         <entry id="8" object="true" symbol="MainView"/>
-        <entry field="true" id="58" symbol="&lt;globals/MainDelegate/&lt;&gt;_view&gt;"/>
-        <entry id="44" method="true" symbol="finish"/>
-        <entry id="43" method="true" symbol="beginRest"/>
-        <entry field="true" id="67" symbol="RestLabel"/>
+        <entry field="true" id="34" symbol="&lt;globals/MainDelegate/&lt;&gt;_view&gt;"/>
+        <entry id="52" method="true" symbol="finish"/>
+        <entry id="51" method="true" symbol="beginRest"/>
+        <entry field="true" id="74" symbol="RestLabel"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
         <entry id="9" object="true" symbol="NumberFactory"/>
-        <entry id="46" method="true" symbol="isDone"/>
+        <entry id="54" method="true" symbol="isDone"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
         <entry id="8389630" method="true" symbol="getSize"/>
-        <entry field="true" id="39" symbol="&lt;globals/WorkoutView/&lt;&gt;_timer&gt;"/>
+        <entry field="true" id="47" symbol="&lt;globals/WorkoutView/&lt;&gt;_timer&gt;"/>
         <entry id="8388987" method="true" symbol="vibrate"/>
-        <entry field="true" id="69" symbol="Seconds"/>
+        <entry field="true" id="76" symbol="Seconds"/>
         <entry id="8389644" symbol="defaults"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="16" method="true" symbol="deletePreset"/>
+        <entry id="17" method="true" symbol="deletePreset"/>
+        <entry id="12" object="true" symbol="RenamePresetDelegate"/>
         <entry id="8389628" method="true" symbol="getDrawable"/>
-        <entry id="12" object="true" symbol="SavePresetDelegate"/>
+        <entry id="13" object="true" symbol="SavePresetDelegate"/>
         <entry id="8388985" method="true" symbol="playTone"/>
-        <entry field="true" id="33" symbol="&lt;globals/WorkoutView/&lt;&gt;_exerciseSec&gt;"/>
-        <entry id="15" method="true" symbol="buildItem"/>
-        <entry field="true" id="62" symbol="DonePhase"/>
+        <entry field="true" id="33" symbol="&lt;globals/PresetListDelegate/&lt;&gt;_action&gt;"/>
+        <entry field="true" id="41" symbol="&lt;globals/WorkoutView/&lt;&gt;_exerciseSec&gt;"/>
+        <entry id="16" method="true" symbol="buildItem"/>
+        <entry field="true" id="69" symbol="DonePhase"/>
         <entry id="8388644" module="true" symbol="System"/>
         <entry id="8389619" method="true" symbol="onSelect"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="28" method="true" symbol="setLoadedPresetName"/>
         <entry id="8389540" method="true" symbol="onTextEntered"/>
-        <entry field="true" id="35" symbol="&lt;globals/WorkoutView/&lt;&gt;_phase&gt;"/>
+        <entry field="true" id="43" symbol="&lt;globals/WorkoutView/&lt;&gt;_phase&gt;"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry id="13" object="true" symbol="WorkoutDelegate"/>
-        <entry field="true" id="36" symbol="&lt;globals/WorkoutView/&lt;&gt;_remaining&gt;"/>
-        <entry id="23" method="true" symbol="savePreset"/>
-        <entry field="true" id="59" symbol="LauncherIcon"/>
+        <entry id="14" object="true" symbol="WorkoutDelegate"/>
+        <entry field="true" id="44" symbol="&lt;globals/WorkoutView/&lt;&gt;_remaining&gt;"/>
+        <entry id="27" method="true" symbol="savePreset"/>
+        <entry field="true" id="66" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
-        <entry id="24" method="true" symbol="setSoundsEnabled"/>
-        <entry id="52" method="true" symbol="startTimer"/>
-        <entry id="54" method="true" symbol="stopTimer"/>
+        <entry id="30" method="true" symbol="setSoundsEnabled"/>
+        <entry id="60" method="true" symbol="startTimer"/>
+        <entry id="62" method="true" symbol="stopTimer"/>
         <entry id="8389350" module="true" symbol="globals"/>
-        <entry id="50" method="true" symbol="skipPhase"/>
-        <entry field="true" id="64" symbol="ExercisePhase"/>
+        <entry id="58" method="true" symbol="skipPhase"/>
+        <entry field="true" id="71" symbol="ExercisePhase"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="11" object="true" symbol="PresetListDelegate"/>
         <entry id="10" object="true" symbol="NumberPickerView"/>
-        <entry id="47" method="true" symbol="onTick"/>
+        <entry id="55" method="true" symbol="onTick"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
         <entry field="true" id="8388891" symbol="subSport"/>
@@ -465,107 +534,120 @@
         <entry id="8389541" method="true" symbol="onCancel"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
-        <entry id="41" method="true" symbol="advancePhase"/>
+        <entry id="49" method="true" symbol="advancePhase"/>
         <entry field="true" id="8389347" symbol="color"/>
-        <entry id="25" method="true" symbol="showConfigMenu"/>
-        <entry field="true" id="61" symbol="ConfigPrompt"/>
+        <entry id="29" method="true" symbol="setRecordEnabled"/>
+        <entry id="31" method="true" symbol="showConfigMenu"/>
+        <entry field="true" id="68" symbol="ConfigPrompt"/>
         <entry id="8392011" method="true" symbol="getIndex"/>
-        <entry field="true" id="65" symbol="ReadyPrompt"/>
-        <entry field="true" id="38" symbol="&lt;globals/WorkoutView/&lt;&gt;_session&gt;"/>
-        <entry id="42" method="true" symbol="beginExercise"/>
+        <entry field="true" id="72" symbol="ReadyPrompt"/>
+        <entry field="true" id="46" symbol="&lt;globals/WorkoutView/&lt;&gt;_session&gt;"/>
+        <entry id="50" method="true" symbol="beginExercise"/>
         <entry id="8388646" module="true" object="true" symbol="Timer"/>
         <entry id="8388636" module="true" symbol="Attention"/>
         <entry id="8389643" symbol="pattern"/>
-        <entry id="19" method="true" symbol="getReps"/>
-        <entry field="true" id="30" symbol="&lt;globals/NumberFactory/&lt;&gt;_min&gt;"/>
-        <entry field="true" id="63" symbol="ExerciseLabel"/>
+        <entry id="22" method="true" symbol="getReps"/>
+        <entry field="true" id="37" symbol="&lt;globals/NumberFactory/&lt;&gt;_min&gt;"/>
+        <entry field="true" id="70" symbol="ExerciseLabel"/>
         <entry id="8389125" method="true" symbol="onHide"/>
-        <entry id="55" method="true" symbol="togglePause"/>
+        <entry id="63" method="true" symbol="togglePause"/>
         <entry id="8389078" method="true" symbol="onNextPage"/>
         <entry id="8388635" module="true" symbol="Application"/>
         <entry field="true" id="8389642" symbol="title"/>
-        <entry id="27" method="true" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
+        <entry id="35" method="true" symbol="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268435658" name="name" stackId="1" startPc="268435501"/>
-        <entry endPc="268435657" name="list" stackId="2" startPc="268435512"/>
-        <entry endPc="268435657" name="i" stackId="3" startPc="268435536"/>
-        <entry arg="true" endPc="268435701" name="enabled" stackId="1" startPc="268435671"/>
-        <entry arg="true" endPc="268436111" name="parent" stackId="1" startPc="268435702"/>
-        <entry endPc="268436110" name="menu" stackId="2" startPc="268435713"/>
-        <entry arg="true" endPc="268436238" name="labelRes" stackId="1" startPc="268436180"/>
-        <entry arg="true" endPc="268436238" name="value" stackId="2" startPc="268436180"/>
-        <entry arg="true" endPc="268436238" name="id" stackId="3" startPc="268436180"/>
-        <entry arg="true" endPc="268436348" name="name" stackId="1" startPc="268436239"/>
-        <entry endPc="268436347" name="list" stackId="2" startPc="268436250"/>
-        <entry endPc="268436347" name="newList" stackId="3" startPc="268436250"/>
-        <entry endPc="268436327" name="i" stackId="4" startPc="268436278"/>
-        <entry arg="true" endPc="268436878" name="isDelete" stackId="1" startPc="268436582"/>
-        <entry endPc="268436877" name="presets" stackId="2" startPc="268436593"/>
-        <entry endPc="268436877" name="title" stackId="3" startPc="268436593"/>
-        <entry endPc="268436877" name="menu" stackId="4" startPc="268436593"/>
-        <entry endPc="268436840" name="i" stackId="5" startPc="268436734"/>
-        <entry endPc="268436830" name="p" stackId="6" startPc="268436734"/>
-        <entry endPc="268436830" name="name" stackId="7" startPc="268436734"/>
-        <entry endPc="268436830" name="subLabel" stackId="8" startPc="268436734"/>
-        <entry arg="true" endPc="268437071" name="name" stackId="1" startPc="268436891"/>
-        <entry endPc="268437070" name="list" stackId="2" startPc="268436902"/>
-        <entry endPc="268437070" name="preset" stackId="3" startPc="268436902"/>
-        <entry endPc="268437038" name="i" stackId="4" startPc="268436977"/>
-        <entry arg="true" endPc="268437390" name="dc" stackId="1" startPc="268437087"/>
-        <entry endPc="268437389" name="w" stackId="2" startPc="268437090"/>
-        <entry endPc="268437389" name="h" stackId="3" startPc="268437090"/>
-        <entry endPc="268437389" name="cx" stackId="4" startPc="268437090"/>
-        <entry endPc="268437389" name="ex" stackId="5" startPc="268437090"/>
-        <entry endPc="268437389" name="rest" stackId="6" startPc="268437090"/>
-        <entry endPc="268437389" name="reps" stackId="7" startPc="268437090"/>
-        <entry endPc="268437389" name="line" stackId="8" startPc="268437090"/>
-        <entry arg="true" endPc="268437554" name="title" stackId="1" startPc="268437391"/>
-        <entry arg="true" endPc="268437554" name="min" stackId="2" startPc="268437391"/>
-        <entry arg="true" endPc="268437554" name="max" stackId="3" startPc="268437391"/>
-        <entry arg="true" endPc="268437554" name="current" stackId="4" startPc="268437391"/>
-        <entry endPc="268437553" name="titleText" stackId="5" startPc="268437394"/>
-        <entry endPc="268437553" name="factory" stackId="6" startPc="268437394"/>
-        <entry arg="true" endPc="268437593" name="dc" stackId="1" startPc="268437555"/>
-        <entry arg="true" endPc="268437634" name="parent" stackId="1" startPc="268437620"/>
-        <entry arg="true" endPc="268437831" name="id" stackId="1" startPc="268437635"/>
-        <entry arg="true" endPc="268437831" name="item" stackId="2" startPc="268437635"/>
-        <entry endPc="268437830" name="title" stackId="3" startPc="268437638"/>
-        <entry endPc="268437830" name="min" stackId="4" startPc="268437638"/>
-        <entry endPc="268437830" name="max" stackId="5" startPc="268437638"/>
-        <entry endPc="268437830" name="current" stackId="6" startPc="268437638"/>
-        <entry endPc="268437830" name="key" stackId="7" startPc="268437638"/>
-        <entry arg="true" endPc="268438081" name="item" stackId="1" startPc="268437832"/>
-        <entry endPc="268438080" name="id" stackId="2" startPc="268437835"/>
-        <entry arg="true" endPc="268438105" name="isDelete" stackId="1" startPc="268438082"/>
-        <entry arg="true" endPc="268438212" name="item" stackId="1" startPc="268438106"/>
-        <entry endPc="268438211" name="id" stackId="2" startPc="268438109"/>
-        <entry arg="true" endPc="268438321" name="text" stackId="1" startPc="268438288"/>
-        <entry arg="true" endPc="268438321" name="changed" stackId="2" startPc="268438288"/>
-        <entry arg="true" endPc="268438351" name="index" stackId="1" startPc="268438341"/>
-        <entry arg="true" endPc="268438461" name="index" stackId="1" startPc="268438369"/>
-        <entry arg="true" endPc="268438461" name="selected" stackId="2" startPc="268438369"/>
-        <entry arg="true" endPc="268438508" name="value" stackId="1" startPc="268438462"/>
-        <entry arg="true" endPc="268438541" name="min" stackId="1" startPc="268438509"/>
-        <entry arg="true" endPc="268438541" name="max" stackId="2" startPc="268438509"/>
-        <entry arg="true" endPc="268438584" name="view" stackId="1" startPc="268438561"/>
-        <entry arg="true" endPc="268439026" name="endingPhase" stackId="1" startPc="268438795"/>
-        <entry endPc="268438852" name="tone" stackId="2" startPc="268438822"/>
-        <entry endPc="268439025" name="profile" stackId="3" startPc="268438798"/>
-        <entry arg="true" endPc="268440275" name="dc" stackId="1" startPc="268439851"/>
-        <entry endPc="268440274" name="bg" stackId="2" startPc="268439854"/>
-        <entry endPc="268440274" name="fg" stackId="3" startPc="268439854"/>
-        <entry endPc="268440274" name="w" stackId="4" startPc="268439854"/>
-        <entry endPc="268440274" name="h" stackId="5" startPc="268439854"/>
-        <entry endPc="268440274" name="cx" stackId="6" startPc="268439854"/>
-        <entry endPc="268440274" name="phaseStr" stackId="7" startPc="268439854"/>
-        <entry endPc="268440274" name="hr" stackId="8" startPc="268440138"/>
-        <entry endPc="268440274" name="hrStr" stackId="9" startPc="268440138"/>
-        <entry endPc="268440274" name="repStr" stackId="10" startPc="268440138"/>
-        <entry arg="true" endPc="268440368" name="key" stackId="1" startPc="268440336"/>
-        <entry arg="true" endPc="268440368" name="item" stackId="2" startPc="268440336"/>
-        <entry arg="true" endPc="268440436" name="values" stackId="1" startPc="268440369"/>
-        <entry arg="true" endPc="268440478" name="view" stackId="1" startPc="268440455"/>
+        <entry arg="true" endPc="268435645" name="name" stackId="1" startPc="268435477"/>
+        <entry endPc="268435644" name="list" stackId="2" startPc="268435488"/>
+        <entry endPc="268435644" name="i" stackId="3" startPc="268435512"/>
+        <entry arg="true" endPc="268436211" name="parent" stackId="1" startPc="268435646"/>
+        <entry endPc="268436210" name="menu" stackId="2" startPc="268435657"/>
+        <entry endPc="268436210" name="loaded" stackId="3" startPc="268435657"/>
+        <entry arg="true" endPc="268436416" name="name" stackId="1" startPc="268436268"/>
+        <entry endPc="268436415" name="list" stackId="2" startPc="268436279"/>
+        <entry endPc="268436415" name="newList" stackId="3" startPc="268436279"/>
+        <entry endPc="268436356" name="i" stackId="4" startPc="268436307"/>
+        <entry endPc="268436415" name="loaded" stackId="5" startPc="268436279"/>
+        <entry arg="true" endPc="268436809" name="action" stackId="1" startPc="268436472"/>
+        <entry endPc="268436808" name="presets" stackId="2" startPc="268436483"/>
+        <entry endPc="268436808" name="title" stackId="3" startPc="268436483"/>
+        <entry endPc="268436808" name="menu" stackId="4" startPc="268436483"/>
+        <entry endPc="268436771" name="i" stackId="5" startPc="268436665"/>
+        <entry endPc="268436761" name="p" stackId="6" startPc="268436665"/>
+        <entry endPc="268436761" name="name" stackId="7" startPc="268436665"/>
+        <entry endPc="268436761" name="subLabel" stackId="8" startPc="268436665"/>
+        <entry arg="true" endPc="268437067" name="name" stackId="1" startPc="268436865"/>
+        <entry endPc="268437066" name="list" stackId="2" startPc="268436876"/>
+        <entry endPc="268437066" name="preset" stackId="3" startPc="268436876"/>
+        <entry endPc="268437023" name="i" stackId="4" startPc="268436951"/>
+        <entry arg="true" endPc="268437238" name="oldName" stackId="1" startPc="268437068"/>
+        <entry arg="true" endPc="268437238" name="newName" stackId="2" startPc="268437068"/>
+        <entry endPc="268437237" name="list" stackId="3" startPc="268437079"/>
+        <entry endPc="268437237" name="i" stackId="4" startPc="268437130"/>
+        <entry arg="true" endPc="268437318" name="name" stackId="1" startPc="268437263"/>
+        <entry arg="true" endPc="268437361" name="enabled" stackId="1" startPc="268437331"/>
+        <entry arg="true" endPc="268437392" name="enabled" stackId="1" startPc="268437362"/>
+        <entry arg="true" endPc="268437463" name="labelRes" stackId="1" startPc="268437405"/>
+        <entry arg="true" endPc="268437463" name="value" stackId="2" startPc="268437405"/>
+        <entry arg="true" endPc="268437463" name="id" stackId="3" startPc="268437405"/>
+        <entry arg="true" endPc="268437705" name="action" stackId="1" startPc="268437682"/>
+        <entry arg="true" endPc="268437906" name="item" stackId="1" startPc="268437706"/>
+        <entry endPc="268437905" name="id" stackId="2" startPc="268437709"/>
+        <entry arg="true" endPc="268437940" name="text" stackId="1" startPc="268437907"/>
+        <entry arg="true" endPc="268437940" name="changed" stackId="2" startPc="268437907"/>
+        <entry arg="true" endPc="268438001" name="view" stackId="1" startPc="268437978"/>
+        <entry arg="true" endPc="268438454" name="dc" stackId="1" startPc="268438079"/>
+        <entry endPc="268438453" name="w" stackId="2" startPc="268438082"/>
+        <entry endPc="268438453" name="h" stackId="3" startPc="268438082"/>
+        <entry endPc="268438453" name="cx" stackId="4" startPc="268438082"/>
+        <entry endPc="268438453" name="loaded" stackId="5" startPc="268438082"/>
+        <entry endPc="268438453" name="ex" stackId="6" startPc="268438082"/>
+        <entry endPc="268438453" name="rest" stackId="7" startPc="268438082"/>
+        <entry endPc="268438453" name="reps" stackId="8" startPc="268438082"/>
+        <entry endPc="268438453" name="line" stackId="9" startPc="268438082"/>
+        <entry arg="true" endPc="268438618" name="title" stackId="1" startPc="268438455"/>
+        <entry arg="true" endPc="268438618" name="min" stackId="2" startPc="268438455"/>
+        <entry arg="true" endPc="268438618" name="max" stackId="3" startPc="268438455"/>
+        <entry arg="true" endPc="268438618" name="current" stackId="4" startPc="268438455"/>
+        <entry endPc="268438617" name="titleText" stackId="5" startPc="268438458"/>
+        <entry endPc="268438617" name="factory" stackId="6" startPc="268438458"/>
+        <entry arg="true" endPc="268438657" name="dc" stackId="1" startPc="268438619"/>
+        <entry arg="true" endPc="268438698" name="parent" stackId="1" startPc="268438684"/>
+        <entry arg="true" endPc="268438895" name="id" stackId="1" startPc="268438699"/>
+        <entry arg="true" endPc="268438895" name="item" stackId="2" startPc="268438699"/>
+        <entry endPc="268438894" name="title" stackId="3" startPc="268438702"/>
+        <entry endPc="268438894" name="min" stackId="4" startPc="268438702"/>
+        <entry endPc="268438894" name="max" stackId="5" startPc="268438702"/>
+        <entry endPc="268438894" name="current" stackId="6" startPc="268438702"/>
+        <entry endPc="268438894" name="key" stackId="7" startPc="268438702"/>
+        <entry arg="true" endPc="268439248" name="item" stackId="1" startPc="268438896"/>
+        <entry endPc="268439247" name="id" stackId="2" startPc="268438899"/>
+        <entry arg="true" endPc="268439334" name="index" stackId="1" startPc="268439324"/>
+        <entry arg="true" endPc="268439444" name="index" stackId="1" startPc="268439352"/>
+        <entry arg="true" endPc="268439444" name="selected" stackId="2" startPc="268439352"/>
+        <entry arg="true" endPc="268439491" name="value" stackId="1" startPc="268439445"/>
+        <entry arg="true" endPc="268439524" name="min" stackId="1" startPc="268439492"/>
+        <entry arg="true" endPc="268439524" name="max" stackId="2" startPc="268439492"/>
+        <entry arg="true" endPc="268439567" name="view" stackId="1" startPc="268439544"/>
+        <entry arg="true" endPc="268439678" name="text" stackId="1" startPc="268439625"/>
+        <entry arg="true" endPc="268439678" name="changed" stackId="2" startPc="268439625"/>
+        <entry arg="true" endPc="268439706" name="oldName" stackId="1" startPc="268439683"/>
+        <entry arg="true" endPc="268440091" name="endingPhase" stackId="1" startPc="268439860"/>
+        <entry endPc="268439917" name="tone" stackId="2" startPc="268439887"/>
+        <entry endPc="268440090" name="profile" stackId="3" startPc="268439863"/>
+        <entry arg="true" endPc="268441350" name="dc" stackId="1" startPc="268440926"/>
+        <entry endPc="268441349" name="bg" stackId="2" startPc="268440929"/>
+        <entry endPc="268441349" name="fg" stackId="3" startPc="268440929"/>
+        <entry endPc="268441349" name="w" stackId="4" startPc="268440929"/>
+        <entry endPc="268441349" name="h" stackId="5" startPc="268440929"/>
+        <entry endPc="268441349" name="cx" stackId="6" startPc="268440929"/>
+        <entry endPc="268441349" name="phaseStr" stackId="7" startPc="268440929"/>
+        <entry endPc="268441349" name="hr" stackId="8" startPc="268441213"/>
+        <entry endPc="268441349" name="hrStr" stackId="9" startPc="268441213"/>
+        <entry endPc="268441349" name="repStr" stackId="10" startPc="268441213"/>
+        <entry arg="true" endPc="268441443" name="key" stackId="1" startPc="268441411"/>
+        <entry arg="true" endPc="268441443" name="item" stackId="2" startPc="268441411"/>
+        <entry arg="true" endPc="268441511" name="values" stackId="1" startPc="268441444"/>
     </localVars>
     <deviceInfo deviceVersion="45fe3cbb0de8ea0a70e12628d2697915f1272301" partNumber="006-B4024-00"/>
     <annotations>
@@ -583,119 +665,124 @@
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="49" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/MainView" offset="296" parentId="globals" symbolId="MainView" type="class"/>
-        <dataEntry label="globals/NumberPickerView" offset="349" parentId="globals" symbolId="NumberPickerView" type="class"/>
-        <dataEntry label="globals/Rez" offset="402" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/ConfigMenuDelegate" offset="446" parentId="globals" symbolId="ConfigMenuDelegate" type="class"/>
-        <dataEntry label="globals/PresetListDelegate" offset="517" parentId="globals" symbolId="PresetListDelegate" type="class"/>
-        <dataEntry label="globals/IntervalsApp" offset="579" parentId="globals" symbolId="IntervalsApp" type="class"/>
-        <dataEntry label="globals/SavePresetDelegate" offset="650" parentId="globals" symbolId="SavePresetDelegate" type="class"/>
-        <dataEntry label="globals/NumberFactory" offset="712" parentId="globals" symbolId="NumberFactory" type="class"/>
-        <dataEntry label="globals/WorkoutDelegate" offset="810" parentId="globals" symbolId="WorkoutDelegate" type="class"/>
-        <dataEntry label="globals/WorkoutView" offset="890" parentId="globals" symbolId="WorkoutView" type="class"/>
-        <dataEntry label="globals/NumberPickerDelegate" offset="1177" parentId="globals" symbolId="NumberPickerDelegate" type="class"/>
-        <dataEntry label="globals/MainDelegate" offset="1257" parentId="globals" symbolId="MainDelegate" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="1328" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="1363" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez" offset="350" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/PresetListDelegate" offset="394" parentId="globals" symbolId="PresetListDelegate" type="class"/>
+        <dataEntry label="globals/SavePresetDelegate" offset="456" parentId="globals" symbolId="SavePresetDelegate" type="class"/>
+        <dataEntry label="globals/MainDelegate" offset="518" parentId="globals" symbolId="MainDelegate" type="class"/>
+        <dataEntry label="globals/MainView" offset="589" parentId="globals" symbolId="MainView" type="class"/>
+        <dataEntry label="globals/NumberPickerView" offset="642" parentId="globals" symbolId="NumberPickerView" type="class"/>
+        <dataEntry label="globals/ConfigMenuDelegate" offset="695" parentId="globals" symbolId="ConfigMenuDelegate" type="class"/>
+        <dataEntry label="globals/IntervalsApp" offset="766" parentId="globals" symbolId="IntervalsApp" type="class"/>
+        <dataEntry label="globals/NumberFactory" offset="837" parentId="globals" symbolId="NumberFactory" type="class"/>
+        <dataEntry label="globals/WorkoutDelegate" offset="935" parentId="globals" symbolId="WorkoutDelegate" type="class"/>
+        <dataEntry label="globals/RenamePresetDelegate" offset="1015" parentId="globals" symbolId="RenamePresetDelegate" type="class"/>
+        <dataEntry label="globals/WorkoutView" offset="1086" parentId="globals" symbolId="WorkoutView" type="class"/>
+        <dataEntry label="globals/NumberPickerDelegate" offset="1373" parentId="globals" symbolId="NumberPickerDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1453" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1488" parentId="Rez" symbolId="Strings" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
-        <functionEntry accessMode="public" endPc="268435468" name="&lt;init&gt;" parent="MainView" startPc="268435457">
+        <functionEntry accessMode="public" endPc="268435476" name="&lt;init&gt;" parent="Rez" startPc="268435457">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435480" name="&lt;init&gt;" parent="NumberPickerView" startPc="268435469">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435500" name="&lt;init&gt;" parent="Rez" startPc="268435481">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435658" name="loadPreset" startPc="268435501">
+        <functionEntry accessMode="public" endPc="268435645" name="loadPreset" startPc="268435477">
             <param id="name"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435670" name="&lt;init&gt;" parent="ConfigMenuDelegate" startPc="268435659">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435701" name="setSoundsEnabled" startPc="268435671">
-            <param id="enabled"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436111" name="showConfigMenu" startPc="268435702">
+        <functionEntry accessMode="public" endPc="268436211" name="showConfigMenu" startPc="268435646">
             <param id="parent"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436155" name="getRestSec" startPc="268436112">
+        <functionEntry accessMode="public" endPc="268436255" name="getRestSec" startPc="268436212">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436167" name="&lt;init&gt;" parent="PresetListDelegate" startPc="268436156">
+        <functionEntry accessMode="public" endPc="268436267" name="&lt;init&gt;" parent="PresetListDelegate" startPc="268436256">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436179" name="&lt;init&gt;" parent="IntervalsApp" startPc="268436168">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436238" name="buildItem" startPc="268436180">
-            <param id="labelRes"/>
-            <param id="value"/>
-            <param id="id"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436348" name="deletePreset" startPc="268436239">
+        <functionEntry accessMode="public" endPc="268436416" name="deletePreset" startPc="268436268">
             <param id="name"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436360" name="&lt;init&gt;" parent="SavePresetDelegate" startPc="268436349">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436404" name="getExerciseSec" startPc="268436361">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436416" name="&lt;init&gt;" parent="NumberFactory" startPc="268436405">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436428" name="&lt;init&gt;" parent="WorkoutDelegate" startPc="268436417">
+        <functionEntry accessMode="public" endPc="268436428" name="&lt;init&gt;" parent="SavePresetDelegate" startPc="268436417">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268436471" name="getSoundsEnabled" startPc="268436429">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436515" name="getReps" startPc="268436472">
+        <functionEntry accessMode="public" endPc="268436809" name="showPresetListMenu" startPc="268436472">
+            <param id="action"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436557" name="getPresets" startPc="268436516">
+        <functionEntry accessMode="public" endPc="268436821" name="&lt;init&gt;" parent="MainDelegate" startPc="268436810">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436569" name="&lt;init&gt;" parent="WorkoutView" startPc="268436558">
+        <functionEntry accessMode="public" endPc="268436864" name="getRecordEnabled" startPc="268436822">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436581" name="&lt;init&gt;" parent="NumberPickerDelegate" startPc="268436570">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436878" name="showPresetListMenu" startPc="268436582">
-            <param id="isDelete"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436890" name="&lt;init&gt;" parent="MainDelegate" startPc="268436879">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268437071" name="savePreset" startPc="268436891">
+        <functionEntry accessMode="public" endPc="268437067" name="savePreset" startPc="268436865">
             <param id="name"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437086" name="initialize" parent="MainView" startPc="268437072">
+        <functionEntry accessMode="public" endPc="268437238" name="renamePreset" startPc="268437068">
+            <param id="oldName"/>
+            <param id="newName"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437390" name="onUpdate" parent="MainView" startPc="268437087">
-            <param id="dc"/>
+        <functionEntry accessMode="public" endPc="268437250" name="&lt;init&gt;" parent="MainView" startPc="268437239">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437554" name="initialize" parent="NumberPickerView" startPc="268437391">
-            <param id="title"/>
-            <param id="min"/>
-            <param id="max"/>
-            <param id="current"/>
+        <functionEntry accessMode="public" endPc="268437262" name="&lt;init&gt;" parent="NumberPickerView" startPc="268437251">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437593" name="onUpdate" parent="NumberPickerView" startPc="268437555">
-            <param id="dc"/>
+        <functionEntry accessMode="public" endPc="268437318" name="setLoadedPresetName" startPc="268437263">
+            <param id="name"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437330" name="&lt;init&gt;" parent="ConfigMenuDelegate" startPc="268437319">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437361" name="setRecordEnabled" startPc="268437331">
+            <param id="enabled"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437392" name="setSoundsEnabled" startPc="268437362">
+            <param id="enabled"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437404" name="&lt;init&gt;" parent="IntervalsApp" startPc="268437393">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437463" name="buildItem" startPc="268437405">
+            <param id="labelRes"/>
+            <param id="value"/>
+            <param id="id"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437507" name="getExerciseSec" startPc="268437464">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437535" name="getLoadedPresetName" startPc="268437508">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437547" name="&lt;init&gt;" parent="NumberFactory" startPc="268437536">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437559" name="&lt;init&gt;" parent="WorkoutDelegate" startPc="268437548">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437603" name="getReps" startPc="268437560">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437645" name="getPresets" startPc="268437604">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437657" name="&lt;init&gt;" parent="RenamePresetDelegate" startPc="268437646">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437669" name="&lt;init&gt;" parent="WorkoutView" startPc="268437658">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437681" name="&lt;init&gt;" parent="NumberPickerDelegate" startPc="268437670">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -704,27 +791,66 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437619" name="onBack" parent="ConfigMenuDelegate" startPc="268437594">
+        <functionEntry accessMode="public" endPc="268437705" name="initialize" parent="PresetListDelegate" startPc="268437682">
+            <param id="action"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437634" name="initialize" parent="ConfigMenuDelegate" startPc="268437620">
+        <functionEntry accessMode="public" endPc="268437906" name="onSelect" parent="PresetListDelegate" startPc="268437706">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437940" name="onTextEntered" parent="SavePresetDelegate" startPc="268437907">
+            <param id="text"/>
+            <param id="changed"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437944" name="onCancel" parent="SavePresetDelegate" startPc="268437941">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437959" name="initialize" parent="SavePresetDelegate" startPc="268437945">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437977" name="onMenu" parent="MainDelegate" startPc="268437960">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438001" name="initialize" parent="MainDelegate" startPc="268437978">
+            <param id="view"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438063" name="onSelect" parent="MainDelegate" startPc="268438002">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438078" name="initialize" parent="MainView" startPc="268438064">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438454" name="onUpdate" parent="MainView" startPc="268438079">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438618" name="initialize" parent="NumberPickerView" startPc="268438455">
+            <param id="title"/>
+            <param id="min"/>
+            <param id="max"/>
+            <param id="current"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438657" name="onUpdate" parent="NumberPickerView" startPc="268438619">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438683" name="onBack" parent="ConfigMenuDelegate" startPc="268438658">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438698" name="initialize" parent="ConfigMenuDelegate" startPc="268438684">
             <param id="parent"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268437831" name="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;" parent="ConfigMenuDelegate" startPc="268437635">
+        <functionEntry accessMode="private" endPc="268438895" name="&lt;globals/ConfigMenuDelegate/&lt;&gt;openNumberPicker&gt;" parent="ConfigMenuDelegate" startPc="268438699">
             <param id="id"/>
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438081" name="onSelect" parent="ConfigMenuDelegate" startPc="268437832">
-            <param id="item"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268438105" name="initialize" parent="PresetListDelegate" startPc="268438082">
-            <param id="isDelete"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268438212" name="onSelect" parent="PresetListDelegate" startPc="268438106">
+        <functionEntry accessMode="public" endPc="268439248" name="onSelect" parent="ConfigMenuDelegate" startPc="268438896">
             <param id="item"/>
             <documentation/>
         </functionEntry>
@@ -732,140 +858,131 @@
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438272" name="getInitialView" parent="IntervalsApp" startPc="268438213">
+        <functionEntry accessMode="public" endPc="268439308" name="getInitialView" parent="IntervalsApp" startPc="268439249">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438287" name="initialize" parent="IntervalsApp" startPc="268438273">
+        <functionEntry accessMode="public" endPc="268439323" name="initialize" parent="IntervalsApp" startPc="268439309">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onStop" parent="IntervalsApp">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438321" name="onTextEntered" parent="SavePresetDelegate" startPc="268438288">
-            <param id="text"/>
-            <param id="changed"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268438325" name="onCancel" parent="SavePresetDelegate" startPc="268438322">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268438340" name="initialize" parent="SavePresetDelegate" startPc="268438326">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268438351" name="getValue" parent="NumberFactory" startPc="268438341">
+        <functionEntry accessMode="public" endPc="268439334" name="getValue" parent="NumberFactory" startPc="268439324">
             <param id="index"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438368" name="getSize" parent="NumberFactory" startPc="268438352">
+        <functionEntry accessMode="public" endPc="268439351" name="getSize" parent="NumberFactory" startPc="268439335">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438461" name="getDrawable" parent="NumberFactory" startPc="268438369">
+        <functionEntry accessMode="public" endPc="268439444" name="getDrawable" parent="NumberFactory" startPc="268439352">
             <param id="index"/>
             <param id="selected"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438508" name="getIndex" parent="NumberFactory" startPc="268438462">
+        <functionEntry accessMode="public" endPc="268439491" name="getIndex" parent="NumberFactory" startPc="268439445">
             <param id="value"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438541" name="initialize" parent="NumberFactory" startPc="268438509">
+        <functionEntry accessMode="public" endPc="268439524" name="initialize" parent="NumberFactory" startPc="268439492">
             <param id="min"/>
             <param id="max"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438560" name="onBack" parent="WorkoutDelegate" startPc="268438542">
+        <functionEntry accessMode="public" endPc="268439543" name="onBack" parent="WorkoutDelegate" startPc="268439525">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438584" name="initialize" parent="WorkoutDelegate" startPc="268438561">
+        <functionEntry accessMode="public" endPc="268439567" name="initialize" parent="WorkoutDelegate" startPc="268439544">
             <param id="view"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438625" name="onSelect" parent="WorkoutDelegate" startPc="268438585">
+        <functionEntry accessMode="public" endPc="268439608" name="onSelect" parent="WorkoutDelegate" startPc="268439568">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438641" name="onNextPage" parent="WorkoutDelegate" startPc="268438626">
+        <functionEntry accessMode="public" endPc="268439624" name="onNextPage" parent="WorkoutDelegate" startPc="268439609">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438752" name="onTick" parent="WorkoutView" startPc="268438642">
+        <functionEntry accessMode="public" endPc="268439678" name="onTextEntered" parent="RenamePresetDelegate" startPc="268439625">
+            <param id="text"/>
+            <param id="changed"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438794" name="getHeartRate" parent="WorkoutView" startPc="268438753">
+        <functionEntry accessMode="public" endPc="268439682" name="onCancel" parent="RenamePresetDelegate" startPc="268439679">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439026" name="playEndSignal" parent="WorkoutView" startPc="268438795">
+        <functionEntry accessMode="public" endPc="268439706" name="initialize" parent="RenamePresetDelegate" startPc="268439683">
+            <param id="oldName"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439817" name="onTick" parent="WorkoutView" startPc="268439707">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439859" name="getHeartRate" parent="WorkoutView" startPc="268439818">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440091" name="playEndSignal" parent="WorkoutView" startPc="268439860">
             <param id="endingPhase"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439050" name="beginRest" parent="WorkoutView" startPc="268439027">
+        <functionEntry accessMode="public" endPc="268440115" name="beginRest" parent="WorkoutView" startPc="268440092">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439073" name="beginExercise" parent="WorkoutView" startPc="268439051">
+        <functionEntry accessMode="public" endPc="268440138" name="beginExercise" parent="WorkoutView" startPc="268440116">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439145" name="startTimer" parent="WorkoutView" startPc="268439074">
+        <functionEntry accessMode="public" endPc="268440210" name="startTimer" parent="WorkoutView" startPc="268440139">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439221" name="startSession" parent="WorkoutView" startPc="268439146">
+        <functionEntry accessMode="public" endPc="268440296" name="startSession" parent="WorkoutView" startPc="268440211">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439334" name="finish" parent="WorkoutView" startPc="268439222">
+        <functionEntry accessMode="public" endPc="268440409" name="finish" parent="WorkoutView" startPc="268440297">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439399" name="onHide" parent="WorkoutView" startPc="268439335">
+        <functionEntry accessMode="public" endPc="268440474" name="onHide" parent="WorkoutView" startPc="268440410">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439450" name="onShow" parent="WorkoutView" startPc="268439400">
+        <functionEntry accessMode="public" endPc="268440525" name="onShow" parent="WorkoutView" startPc="268440475">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439588" name="togglePause" parent="WorkoutView" startPc="268439451">
+        <functionEntry accessMode="public" endPc="268440663" name="togglePause" parent="WorkoutView" startPc="268440526">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439620" name="stopTimer" parent="WorkoutView" startPc="268439589">
+        <functionEntry accessMode="public" endPc="268440695" name="stopTimer" parent="WorkoutView" startPc="268440664">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439662" name="playCountdownBeep" parent="WorkoutView" startPc="268439621">
+        <functionEntry accessMode="public" endPc="268440737" name="playCountdownBeep" parent="WorkoutView" startPc="268440696">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439673" name="isDone" parent="WorkoutView" startPc="268439663">
+        <functionEntry accessMode="public" endPc="268440748" name="isDone" parent="WorkoutView" startPc="268440738">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439749" name="advancePhase" parent="WorkoutView" startPc="268439674">
+        <functionEntry accessMode="public" endPc="268440824" name="advancePhase" parent="WorkoutView" startPc="268440749">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439803" name="initialize" parent="WorkoutView" startPc="268439750">
+        <functionEntry accessMode="public" endPc="268440878" name="initialize" parent="WorkoutView" startPc="268440825">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439850" name="skipPhase" parent="WorkoutView" startPc="268439804">
+        <functionEntry accessMode="public" endPc="268440925" name="skipPhase" parent="WorkoutView" startPc="268440879">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440275" name="onUpdate" parent="WorkoutView" startPc="268439851">
+        <functionEntry accessMode="public" endPc="268441350" name="onUpdate" parent="WorkoutView" startPc="268440926">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440316" name="startWorkout" parent="WorkoutView" startPc="268440276">
+        <functionEntry accessMode="public" endPc="268441391" name="startWorkout" parent="WorkoutView" startPc="268441351">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440335" name="onCancel" parent="NumberPickerDelegate" startPc="268440317">
+        <functionEntry accessMode="public" endPc="268441410" name="onCancel" parent="NumberPickerDelegate" startPc="268441392">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440368" name="initialize" parent="NumberPickerDelegate" startPc="268440336">
+        <functionEntry accessMode="public" endPc="268441443" name="initialize" parent="NumberPickerDelegate" startPc="268441411">
             <param id="key"/>
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440436" name="onAccept" parent="NumberPickerDelegate" startPc="268440369">
+        <functionEntry accessMode="public" endPc="268441511" name="onAccept" parent="NumberPickerDelegate" startPc="268441444">
             <param id="values"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268440454" name="onMenu" parent="MainDelegate" startPc="268440437">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268440478" name="initialize" parent="MainDelegate" startPc="268440455">
-            <param id="view"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268440540" name="onSelect" parent="MainDelegate" startPc="268440479">
             <documentation/>
         </functionEntry>
     </functions>

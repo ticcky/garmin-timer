@@ -57,7 +57,7 @@ class WorkoutView extends WatchUi.View {
     }
 
     function startSession() as Void {
-        if (_session != null) {
+        if (_session != null || !getRecordEnabled()) {
             return;
         }
         _session = ActivityRecording.createSession({

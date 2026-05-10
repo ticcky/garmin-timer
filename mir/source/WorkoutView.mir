@@ -233,54 +233,65 @@ _Users_lukaszilka_devel_garmin_intervals_source_WorkoutView_mc_51_36_57_4_stop:
 _Users_lukaszilka_devel_garmin_intervals_source_WorkoutView_mc_59_36_69_4_start:
 [ "/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" 60 8 ]
 _Users_lukaszilka_devel_garmin_intervals_source_WorkoutView_mc_60_8_62_8_if_stmt:
+_Users_lukaszilka_devel_garmin_intervals_source_WorkoutView_mc_60_12_60_50_begin:
         symbol [ _session %tmp.2 60 12 20 ];
         %tmp.2 = getv ? :_session;
         %tmp.3 = null;
         %tmp.4 = ne %tmp.2 %tmp.3;
-        bf %tmp.4 @_Users_lukaszilka_devel_garmin_intervals_source_WorkoutView_mc_60_8_62_8_if_end;
+        bt %tmp.4 @_Users_lukaszilka_devel_garmin_intervals_source_WorkoutView_mc_60_8_62_8_if_true;
+_Users_lukaszilka_devel_garmin_intervals_source_WorkoutView_mc_60_32_60_50_false:
+        %tmp.5 = self;
+        symbol [ getRecordEnabled %tmp.6 60 33 49 ];
+        %tmp.6 = getv function %tmp.5 :getRecordEnabled;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        %tmp.8 = not %tmp.7;
+        push %tmp.8;
+_Users_lukaszilka_devel_garmin_intervals_source_WorkoutView_mc_60_32_60_50_end:
+        %tmp.9 = phi [%tmp.4 @_Users_lukaszilka_devel_garmin_intervals_source_WorkoutView_mc_60_12_60_50_begin] [%tmp.8 @_Users_lukaszilka_devel_garmin_intervals_source_WorkoutView_mc_60_32_60_50_false] [%tmp.9 @_Users_lukaszilka_devel_garmin_intervals_source_WorkoutView_mc_60_32_60_50_end];
+        bf %tmp.9 @_Users_lukaszilka_devel_garmin_intervals_source_WorkoutView_mc_60_8_62_8_if_end;
 _Users_lukaszilka_devel_garmin_intervals_source_WorkoutView_mc_60_8_62_8_if_true:
-_Users_lukaszilka_devel_garmin_intervals_source_WorkoutView_mc_60_30_62_8_start:
+_Users_lukaszilka_devel_garmin_intervals_source_WorkoutView_mc_60_53_62_8_start:
 [ "/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" 61 12 ]
         ret ?;
-_Users_lukaszilka_devel_garmin_intervals_source_WorkoutView_mc_60_30_62_8_stop:
+_Users_lukaszilka_devel_garmin_intervals_source_WorkoutView_mc_60_53_62_8_stop:
         goto @_Users_lukaszilka_devel_garmin_intervals_source_WorkoutView_mc_60_8_62_8_if_end;
 _Users_lukaszilka_devel_garmin_intervals_source_WorkoutView_mc_60_8_62_8_if_end:
 [ "/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" 63 8 ]
-        symbol [ ActivityRecording %tmp.5 63 19 36 ];
-        %tmp.5 = getm $.Toybox.ActivityRecording;
-        symbol [ createSession %tmp.6 63 37 50 ];
-        %tmp.6 = getv function %tmp.5 :createSession;
-        %tmp.7 = newd 3;
-        %tmp.9 = const :name;
-        symbol [ name %tmp.9 64 13 17 const ];
-        %tmp.10 = "Intervals";
-        %tmp.11 = dup %tmp.7;
-        %tmp.12 = aputv %tmp.11 %tmp.9 %tmp.10;
-        %tmp.14 = const :sport;
-        symbol [ sport %tmp.14 65 13 18 const ];
-        symbol [ Activity %tmp.15 65 22 30 ];
-        %tmp.15 = getm $.Toybox.Activity;
-        symbol [ SPORT_TRAINING %tmp.16 65 31 45 ];
-        %tmp.16 = getv %tmp.15 :SPORT_TRAINING;
-        %tmp.17 = dup %tmp.12;
-        %tmp.18 = aputv %tmp.17 %tmp.14 %tmp.16;
-        %tmp.20 = const :subSport;
-        symbol [ subSport %tmp.20 66 13 21 const ];
-        symbol [ Activity %tmp.21 66 25 33 ];
-        %tmp.21 = getm $.Toybox.Activity;
-        symbol [ SUB_SPORT_CARDIO_TRAINING %tmp.22 66 34 59 ];
-        %tmp.22 = getv %tmp.21 :SUB_SPORT_CARDIO_TRAINING;
-        %tmp.23 = dup %tmp.18;
-        %tmp.24 = aputv %tmp.23 %tmp.20 %tmp.22;
-        %tmp.25 = invoke %tmp.5 %tmp.6(%tmp.24);
+        symbol [ ActivityRecording %tmp.10 63 19 36 ];
+        %tmp.10 = getm $.Toybox.ActivityRecording;
+        symbol [ createSession %tmp.11 63 37 50 ];
+        %tmp.11 = getv function %tmp.10 :createSession;
+        %tmp.12 = newd 3;
+        %tmp.14 = const :name;
+        symbol [ name %tmp.14 64 13 17 const ];
+        %tmp.15 = "Intervals";
+        %tmp.16 = dup %tmp.12;
+        %tmp.17 = aputv %tmp.16 %tmp.14 %tmp.15;
+        %tmp.19 = const :sport;
+        symbol [ sport %tmp.19 65 13 18 const ];
+        symbol [ Activity %tmp.20 65 22 30 ];
+        %tmp.20 = getm $.Toybox.Activity;
+        symbol [ SPORT_TRAINING %tmp.21 65 31 45 ];
+        %tmp.21 = getv %tmp.20 :SPORT_TRAINING;
+        %tmp.22 = dup %tmp.17;
+        %tmp.23 = aputv %tmp.22 %tmp.19 %tmp.21;
+        %tmp.25 = const :subSport;
+        symbol [ subSport %tmp.25 66 13 21 const ];
+        symbol [ Activity %tmp.26 66 25 33 ];
+        %tmp.26 = getm $.Toybox.Activity;
+        symbol [ SUB_SPORT_CARDIO_TRAINING %tmp.27 66 34 59 ];
+        %tmp.27 = getv %tmp.26 :SUB_SPORT_CARDIO_TRAINING;
+        %tmp.28 = dup %tmp.23;
+        %tmp.29 = aputv %tmp.28 %tmp.25 %tmp.27;
+        %tmp.30 = invoke %tmp.10 %tmp.11(%tmp.29);
         symbol [ _session ? 63 8 16 ];
-        putv self :_session %tmp.25;
+        putv self :_session %tmp.30;
 [ "/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc" 68 8 ]
-        symbol [ _session %tmp.27 68 8 16 ];
-        %tmp.27 = getv ? :_session;
-        symbol [ start %tmp.28 68 17 22 ];
-        %tmp.28 = getv function %tmp.27 :start;
-        invoke %tmp.27 %tmp.28();
+        symbol [ _session %tmp.32 68 8 16 ];
+        %tmp.32 = getv ? :_session;
+        symbol [ start %tmp.33 68 17 22 ];
+        %tmp.33 = getv function %tmp.32 :start;
+        invoke %tmp.32 %tmp.33();
 _Users_lukaszilka_devel_garmin_intervals_source_WorkoutView_mc_59_36_69_4_stop:
     }
     [ @file = "/Users/lukaszilka/devel/garmin_intervals/source/WorkoutView.mc"; @line = 71; @symbol_functiondef = [startTimer,71,13,23]; ]
